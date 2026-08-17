@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-17T14:13:34.676Z",
+  "generatedAt": "2026-08-17T16:01:49.083Z",
   "stage": "Subscribe",
   "optins": {
     "status": "live",
-    "asOf": "2026-08-17T14:13:34.676Z",
-    "cumulative": 2224,
-    "last30": 1404,
+    "asOf": "2026-08-17T16:01:49.083Z",
+    "cumulative": 2228,
+    "last30": 1406,
     "prev30": 96,
-    "velocityWk": 178,
-    "prevWk": 732,
+    "velocityWk": 176,
+    "prevWk": 733,
     "velocityTrend": {
       "pct": -76,
       "dir": "down",
       "sentiment": "bad"
     },
     "optin30Trend": {
-      "pct": 1363,
+      "pct": 1365,
       "dir": "up",
       "sentiment": "good"
     },
-    "listSize": 40351,
-    "listNew30": 1624,
-    "listPrev30": 1551,
+    "listSize": 40353,
+    "listNew30": 1622,
+    "listPrev30": 1553,
     "listGrowthTrend": {
-      "pct": 5,
+      "pct": 4,
       "dir": "up",
       "sentiment": "good"
     },
     "listGrowthPct": 4,
-    "hasEmail": 40113,
+    "hasEmail": 40115,
     "unsub": 3,
     "dnd": 3,
-    "ghlHasEmail": 40113,
-    "emailableTotal": 40351,
+    "ghlHasEmail": 40115,
+    "emailableTotal": 40353,
     "emailableDeliverable": 27107,
     "emailableActive": 14173,
     "emailableStatus": "verified",
-    "emailableNote": "ACTUAL MAILABLE LIST ≈14,173 — VERIFIED from the most recent full broadcast (Aug 6, Mailgun delivered count), which independently confirms Camilla's ~14K. That's who a real send reaches today. Ceiling was ~27,107 deliverable (an OLDER full-send) → the list has contracted to its engaged core. 40,351 total on file (~1/3 dead). GHL can't see this (suppressions don't sync from Mailgun).",
+    "emailableNote": "ACTUAL MAILABLE LIST ≈14,173 — VERIFIED from the most recent full broadcast (Aug 6, Mailgun delivered count), which independently confirms Camilla's ~14K. That's who a real send reaches today. Ceiling was ~27,107 deliverable (an OLDER full-send) → the list has contracted to its engaged core. 40,353 total on file (~1/3 dead). GHL can't see this (suppressions don't sync from Mailgun).",
     "note": "Clean opt-in = deduped manifesto gated opt-in (tag \"manifesto bonus vids\"). List size = ALL contacts (buyers/unsubs incl.), not opt-ins."
   },
   "conversion": {
     "status": "live",
-    "manifestoSessions30d": 36549,
-    "optins30d": 1404,
-    "ratePct": 3.84,
+    "manifestoSessions30d": 36544,
+    "optins30d": 1406,
+    "ratePct": 3.85,
     "note": "Clean manifesto opt-in rate = deduped manifesto opt-ins ÷ manifesto-page sessions (30d). Manifesto is GATELESS (Rich red line), which caps the rate."
   },
   "deliverability": {
     "status": "live",
-    "delivered": 184970,
+    "delivered": 184985,
     "failed": 1930,
     "ratePct": 99,
     "note": "Mailgun 30d delivered ÷ (delivered+failed)."

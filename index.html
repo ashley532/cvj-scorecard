@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SP CVJ — Scorecard</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--line:#232a34;--ink:#e6edf3;--muted:#8b949e;--red:#f4564f;--amber:#e3a008;--green:#3fb950;--blue:#58a6ff}
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;padding:28px}
+  .wrap{max-width:1080px;margin:0 auto}
+  h1{font-size:22px;margin:0 0 12px}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:18px}
+  /* tabs */
+  .tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);margin-bottom:20px}
+  .tab{font-size:13px;font-weight:600;padding:8px 13px;border-radius:8px 8px 0 0;color:var(--muted);background:transparent;border:none;cursor:pointer;border-bottom:2px solid transparent}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--ink);background:var(--card);border-bottom:2px solid var(--blue)}
+  .tab.soon{opacity:.45;cursor:not-allowed}
+  .tab .n{font-size:10px;color:var(--muted);display:block;font-weight:400}
+  .panel[hidden]{display:none}
+  .strip{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:22px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .kpi .n{font-size:20px;font-weight:700} .kpi .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+  .goal{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;position:relative;overflow:hidden}
+  .goal::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px}
+  .g-red::before{background:var(--red)}.g-amber::before{background:var(--amber)}.g-green::before{background:var(--green)}.g-grey::before{background:#484f58}
+  .goal h3{margin:0 0 8px;font-size:15px}
+  .badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px;float:right;letter-spacing:.03em}
+  .live{background:rgba(63,185,80,.15);color:var(--green)}.periodic{background:rgba(88,166,255,.15);color:var(--blue)}.partial{background:rgba(227,160,8,.15);color:var(--amber)}.pending,.gated{background:rgba(139,148,158,.15);color:var(--muted)}.error{background:rgba(244,86,79,.15);color:var(--red)}.needsaudit,.needswork{background:rgba(227,160,8,.15);color:var(--amber)}.assessment{background:rgba(88,166,255,.15);color:var(--blue)}
+  .now{font-size:26px;font-weight:800;margin:4px 0} .tgt{font-size:12px;color:var(--muted)} .note{font-size:12px;color:var(--muted);margin-top:8px;border-top:1px solid var(--line);padding-top:8px}
+  .pstamp{color:var(--muted);font-size:13px;margin-bottom:16px} .pstamp b{color:var(--ink)}
+  h3.sec{margin:24px 0 10px;font-size:15px}
+  .cov{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px;margin-bottom:8px}
+  .c{font-size:12px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);border-left:4px solid var(--line);background:var(--card)}
+  .c.ok{border-left-color:var(--green)}.c.am{border-left-color:var(--amber)}.c.bad{border-left-color:var(--red)}.c.gap{border-left-color:#8b5cf6}
+  .defs{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:6px;margin-bottom:8px}
+  .d{font-size:12px;color:var(--muted);padding:7px 11px;border-left:2px solid var(--line);background:var(--card);border-radius:6px} .d b{color:var(--ink)}
+  .soonbox{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:28px;text-align:center;color:var(--muted)}
+  footer{color:var(--muted);font-size:12px;margin-top:24px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SP CVJ — Scorecard</h1>
+  <div class="sub">The Customer Value Journey, stage by stage · target $4M revenue + 10M manifesto opt-ins · <i>grounded in Ryan Deiss's 8-stage model</i></div>
+  <div class="tabs" id="tabs"></div>
+
+  <section class="panel" data-stage="aware">
+    <div class="pstamp">Stage 1 of 8 · Awareness · <span class="stamp">loading…</span> · composite grade <b>~C</b> · <i>organic ~B (active) — real gaps: AEO 0/8, measurement, whitespace</i></div>
+    <div class="strip s-strip"></div>
+    <div class="grid s-grid"></div>
+    <h3 class="sec">Awareness surface coverage — the full map</h3>
+    <div class="cov">
+      <div class="c ok">✅ Paid ads — active (~$6K/30d)</div>
+      <div class="c am">🟠 Retargeting — intermittent · verify always-on</div>
+      <div class="c bad">🔴 AEO / GEO — 0/8</div>
+      <div class="c ok">✅ Owned social (FB·IG·LI·YT·X) — active</div>
+      <div class="c am">🟠 Content engine (daily-live + SOW → podcast/repurpose) — build</div>
+      <div class="c am">🟠 PR / earned media — build (strategy ready)</div>
+      <div class="c gap">🟣 JV / partner co-marketing — gap · verify</div>
+      <div class="c gap">🟣 Strategic sponsorships (land Anthropic) — new</div>
+      <div class="c gap">🟣 Reddit / Quora / forums — gap · verify (+AEO)</div>
+      <div class="c bad">🔴 SEO — blog dead since 2021</div>
+      <div class="c ok">✅ Events / challenges — active</div>
+      <div class="c gap">🟣 Awareness attribution — gap</div>
+    </div>
+    <h3 class="sec">📖 What these mean</h3>
+    <div class="defs">
+      <div class="d"><b>Opt-ins / week ★ (North-Star)</b> — new gated manifesto opt-ins captured in the last 7 days (rolling). Leading indicator of awareness → captured lead. GHL.</div>
+      <div class="d"><b>Ad spend /30d</b> — total paid ad spend across the Meta ad account, last 30 days.</div>
+      <div class="d"><b>Cold-manifesto CPL</b> — Cost Per Lead on the cold manifesto campaign = spend ÷ new leads (deduplicated). Meta.</div>
+      <div class="d"><b>Retargeting CPL</b> — Cost Per Lead on warm/retargeting campaigns. Usually your cheapest. Meta.</div>
+      <div class="d"><b>Challenge ROAS</b> — Return On Ad Spend for the paid Imprint Challenge = revenue ÷ spend. Above 1× = profitable before the Day-3 pitch. Meta.</div>
+      <div class="d"><b>Active ads</b> — ads currently ACTIVE account-wide. Goal 20+ for creative volume. Meta.</div>
+      <div class="d"><b>Brand & Offer Awareness (AEO)</b> — of 8 AI-discovery queries, how many cite Rich as an AI-for-business authority. 0/8 = invisible to AI.</div>
+      <div class="d"><b>PR / Earned Media</b> — earned placements per month: podcast guest spots, speaking, bylines, expert quotes, "top expert" lists.</div>
+      <div class="d"><b>Reach & Impressions</b> — Impressions = total times shown; Reach = unique people who saw them (30d, paid). Organic not yet tracked.</div>
+      <div class="d"><b>Engagement (organic)</b> — cross-channel shares/comments/likes, prioritized shares &gt; comments &gt; views. Now tracked via GHL (IG+FB real); LinkedIn/YouTube not syncing = a floor.</div>
+      <div class="d"><b>Time Commitment</b> — avg on-page time + manifesto read-depth: how long people stay and consume.</div>
+      <div class="d"><b>Grow Retargeting Lists</b> — the pixel/engagement audiences that feed retargeting; CPL + list size.</div>
+    </div>
+  </section>
+
+  <section class="panel" data-stage="engage" hidden>
+    <div class="pstamp">Stage 2 of 8 · Engage · <span class="stamp">loading…</span> · <i>Deiss: turn awareness into engagement — "the difference between a glance and a stare"</i></div>
+    <div class="strip s-strip"></div>
+    <div class="grid s-grid"></div>
+    <h3 class="sec">📖 What these mean</h3>
+    <div class="defs">
+      <div class="d"><b>Return-visitor rate</b> — % of sessions from people who've visited before. GA4.</div>
+      <div class="d"><b>Site engagement rate</b> — % of <b>website</b> sessions (GA4) that were "engaged": lasted &gt;10s, converted, or viewed 2+ pages. On-site behavior — NOT social.</div>
+      <div class="d"><b>Avg engagement</b> — average session duration (time on site per visit). GA4.</div>
+      <div class="d"><b>Pages / session</b> — avg pages per visit. Higher = they go deeper (the "stare"). GA4.</div>
+      <div class="d"><b>Nurture engagement</b> — click-through on the nurture series (GHL workflow emails, ~182K sent/30d, via Mailgun). Opens omitted (MPP-junk). Broadcasts run ~1.2% for contrast. <i>(The raw count of active workflows — 333 — is a sprawl flag on the Nurture-health card, not a KPI.)</i></div>
+      <div class="d"><b>Engaged → Front-end ★</b> — % of engaged people who take the next step toward the paid front-end. Engage's output (not yet instrumented).</div>
+      <div class="d"><b>ICP (Ideal Client Profile)</b> — how clearly + accurately the target buyer is defined and documented.</div>
+      <div class="d"><b>Core Messaging</b> — whether the core message + a named "only-through" mechanism are dialed to that buyer.</div>
+      <div class="d"><b>Consumption depth</b> — how deeply people actually consume: manifesto read-depth, video watch-time, scroll depth.</div>
+      <div class="d"><b>Email → routed</b> — of email clickers (the engaged), the % routed into an ascension nurture — not just opens/clicks.</div>
+      <div class="d"><b>Retargeting re-touch</b> — paid reach + frequency against people who already engaged. Meta.</div>
+      <div class="d"><b>Nurture health</b> — whether the active workflows actually route engaged non-buyers → offer (vs. sprawl).</div>
+      <div class="d"><b>Community engagement</b> — active participation in the GHL community groups.</div>
+      <div class="d"><b>Conversation rate</b> — Deiss's "actual conversation": replies, DMs, comments (two-way).</div>
+    </div>
+  </section>
+
+  <section class="panel" data-stage="subscribe" hidden>
+    <div class="pstamp">Stage 3 of 8 · Subscribe · <span class="stamp">loading…</span> · <i>Deiss: get permission to follow up — the lead-capture / opt-in machine · SCOPE: the manifesto is the ONE standing lead magnet today</i></div>
+    <div class="strip s-strip"></div>
+    <div class="grid s-grid"></div>
+    <h3 class="sec">📖 What these mean</h3>
+    <div class="defs">
+      <div class="d"><b>Opt-in conversion ★</b> — clean manifesto opt-in rate = deduped manifesto opt-ins ÷ manifesto-page sessions (30d). The manifesto is gateless (Rich's red line), which caps it.</div>
+      <div class="d"><b>Opt-in velocity</b> — deduped manifesto opt-ins in the last 7 days + trend. Event-driven (spikes on challenges, falls off after).</div>
+      <div class="d"><b>Opt-ins /30d</b> — deduped manifesto gated opt-ins, last 30 days. The clean number — NOT total contacts, NOT GA4 lead-events.</div>
+      <div class="d"><b>List size</b> — ALL GHL contacts (buyers, unsubscribes, years of history) — a base number, not clean opt-ins.</div>
+      <div class="d"><b>Mailable list ✓</b> — the actually-reachable audience: <b>14,173</b>, VERIFIED from the last full broadcast (Aug 6 Mailgun delivered) = confirms Camilla. Funnel: 40,346 total → ~27,107 deliverable (older) → 14,173 mailable. GHL can't see this (suppressions don't sync).</div>
+      <div class="d"><b>List growth /mo</b> — net-new contacts as a % of the list, per month.</div>
+      <div class="d"><b>Deliverability</b> — Mailgun: delivered ÷ (delivered + failed), 30d. Are opt-ins actually reachable?</div>
+      <div class="d"><b>Lead magnets</b> — count of STANDING (evergreen) lead opt-ins. Today = 1 (the manifesto). Single point of capture = the #1 Subscribe gap.</div>
+      <div class="d"><b>Opt-in → Front-end</b> — of people who opt in, how many become buyers (real leads or dead?). ≈7.5% adjacent; needs the bridge instrument.</div>
+    </div>
+  </section>
+
+  <footer>Live pull: Meta + GHL + GA4, refreshed 3×/day and on every load. Each stage's data feeds this one page. Sources: Meta Marketing API · GHL v2 · GA4 386828924 · AEO grade.</footer>
+</div>
+
+<script>
+const STAGES=[
+  {k:'aware',t:'1 · Awareness',n:'live'},{k:'engage',t:'2 · Engage',n:'live'},
+  {k:'subscribe',t:'3 · Subscribe',n:'live'},{k:'convert',t:'4 · Convert',n:'soon'},
+  {k:'excite',t:'5 · Excite',n:'soon'},{k:'ascend',t:'6 · Ascend',n:'soon'},
+  {k:'advocate',t:'7 · Advocate',n:'soon'},{k:'promote',t:'8 · Promote',n:'soon'},
+];
+const SOON={subscribe:'Lead capture & the opt-in offer',convert:'Front-end offer + funnel (the $4M feeder rock)',excite:'Onboarding & first win',ascend:'CTD + ZenithMind ascension — where $4M is won',advocate:'Testimonials & referrals',promote:'Affiliates / JV partners promoting'};
+const $=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;};
+const badge=s=>{const k=(s||'pending').replace('-','');return `<span class="badge ${k}">${(s||'pending').toUpperCase()}</span>`;};
+const money=n=>n==null?'—':'$'+(+n).toLocaleString(undefined,{maximumFractionDigits:2});
+const K=n=>n==null?'—':(n>=1000?(n/1000).toFixed(0)+'K':n);
+const trendHTML=t=>{if(!t)return '';const c=t.sentiment==='good'?'green':t.sentiment==='bad'?'red':'muted';const a=t.dir==='up'?'▲':t.dir==='down'?'▼':'▬';return ` <span style="font-size:12px;font-weight:700;color:var(--${c})">${a} ${t.pct>0?'+':''}${t.pct}%</span>`;};
+
+// ---- FALLBACKS (render on file://; live fetch overrides) ----
+const FB_AWARE={"generatedAt":"2026-08-14","paid":{"status":"live","spend30d":5972,"impressions":271675,"reach":133796,"coldManifestoCPL":11.71,"retargetingCPL":8.28,"challengeRoas":2.09,"challengeRev":3370,"activeAds":12,"trends":{"spend":{"pct":-19,"dir":"down","sentiment":"neutral"},"impressions":{"pct":-22,"dir":"down","sentiment":"bad"},"reach":{"pct":-23,"dir":"down","sentiment":"bad"},"coldManifestoCPL":{"pct":114,"dir":"up","sentiment":"bad"},"retargetingCPL":{"pct":-31,"dir":"down","sentiment":"good"},"challengeRoas":null}},"optins":{"value":2151,"status":"live","velocityWk":460,"trendPct":-14},"goals":{"brandAwareness":{"score":0,"of":8,"status":"periodic","competitors":["Bernard Marr","Neil Patel","Clara Shih"],"uncontestedLane":"\"who teaches building an AI version of yourself\" returned no names — open lane for Rich"},"impressions":{"paidImpressions30d":271675,"paidReach30d":133796,"manifestoSessions30d":38274,"status":"live"},"applause":{"status":"partial","igFollowers":12700},"timeCommitment":{"status":"live","avgEngagementSec":70,"scroll90Events":0,"manifestoPageviews30d":44791},"retargeting":{"cpl":8.28,"status":"live"}}};
+const FB_ENGAGE={"generatedAt":"2026-08-14T20:31:32.254Z","stage":"Engage","ga4":{"status":"live","asOf":"2026-08-14T20:31:32.254Z","sessions":51398,"engagedSessions":21689,"engagementRatePct":42.2,"avgEngagementSec":86,"pagesPerSession":1.29,"returnRatePct":23.4,"manifestoLanding":[{"path":"/manifesto/bridge/","sessions":23513,"dwellSec":17},{"path":"/manifesto/","sessions":15303,"dwellSec":20},{"path":"/manifesto/training.html","sessions":962,"dwellSec":30},{"path":"/manifesto/ai-calibration-prompts/","sessions":592,"dwellSec":5},{"path":"/manifesto/affiliate-kit/","sessions":502,"dwellSec":12}],"trends":{"engagementRate":{"pct":56,"dir":"up","sentiment":"good"},"avgEngagement":{"pct":-31,"dir":"down","sentiment":"bad"},"pagesPerSession":{"pct":-13,"dir":"down","sentiment":"bad"}}},"nurture":{"status":"needs-audit","total":455,"active":333,"note":"count only \u2014 which route engaged\u2192offer is UNAUDITED (to-do)"},"nurtureEngagement":{"status":"live","window":"30d","delivered":183407,"clicked":9666,"ctrPct":5.27,"broadcastCtrPct":1.17,"note":"Click-through on the nurture series (workflow emails, 183,407 sent/30d). Opens omitted \u2014 MPP-inflated. Broadcasts run ~1.17% for contrast."},"retargeting":{"status":"live","reach":4791,"frequency":4.64,"campaigns":1,"note":"warm/retargeting reach 30d; intermittent \u2014 verify always-on"},"gated":{"manifestoReadDepth":{"status":"gated","dep":"Microsoft Clarity scroll-depth on the web manifesto page (Ben/Donnie) \u2014 NOT FlippingBook"},"videoWatchTime":{"status":"gated","dep":"YouTube Data API key \u2014 zero video events tracked today"},"scrollDepth":{"status":"gated","dep":"GA4 Enhanced Measurement \u2192 Scrolls (Ben) \u2014 currently OFF"},"emailClickRouting":{"status":"partial","clickPct":3,"dep":"route clickers into ascension nurture (Camilla/Thomas)"},"communityParticipation":{"status":"gated","groups":30,"dep":"GHL community analytics"},"conversationRate":{"status":"gated","dep":"email-reply / DM / comment tracking \u2014 Deiss\u2019s \"actual conversation\""},"engagedToFrontend":{"status":"pending","dep":"instrument the bridge (Ben) \u2014 Engage\u2019s output metric"}},"assessment":{"icp":{"grade":"A\u2212","status":"assessment","title":"Ideal Client Profile (DM-additive)","finding":"STRONG \u2014 documented, source-grounded avatar: \"Marcus\" (cold ascendable operator) + warm core \"Lance\"; full desires/fears/believe-vs-distrust radar/verbatim. GAP (Engage): two skins (Marcus vs \"The Aspirant\") need DIFFERENT nurture \u2014 today they get the same 333-workflow soup."},"coreMessaging":{"grade":"B","status":"needs-work","title":"Core Messaging (DM-additive)","finding":"BIG IDEA = Todd Brown (Aug 11, the big-idea authority): own \"The Judgment Age\" + the proprietary \"Imprint Layer\" (captured judgment = the moat, pros vs amateurs) \u2014 plant that flag FRONT-AND-CENTER in the manifesto; STOP leading with \"are you using AI right?\" (commoditized). Nested UNDER it: the front-end product mechanism = the \"Hook Layer\" (Aug 12 gate-filter, files\u2192OS via hooks; kept judgment-free at $97 so it can't cannibalize ZenithMind). REMAINING (execution, not invention): align ALL messaging to LEAD with the Judgment Age / Imprint Layer (Todd says it's not yet front-and-center) + Rich sign-off + translate \"hook\" to a plain word."}}};
+
+function stamp(panel,d){panel.querySelector('.stamp').textContent='data as of '+new Date(d.generatedAt).toLocaleString();}
+
+function renderAware(panel,d){
+  stamp(panel,d);
+  const p=d.paid||{},o=d.optins||{},g=d.goals||{},T=p.trends||{};
+  const tp=o.trendPct,arrow=(tp==null)?'':(tp>0?`▲ +${tp}%`:(tp<0?`▼ ${tp}%`:`▬ 0%`)),aC=(tp==null)?'muted':(tp>0?'green':(tp<0?'red':'muted'));
+  const nsNum=(o.velocityWk!=null)?`${o.velocityWk} <span style="font-size:12px;font-weight:700;color:var(--${aC})">${arrow}</span>`:'—';
+  const strip=[
+    [`Opt-ins / week ★ · ${o.value!=null?(+o.value).toLocaleString():'—'} total`,nsNum,''],
+    ['Ad spend /30d',money(p.spend30d),trendHTML(T.spend)],
+    ['Cold-manifesto CPL',money(p.coldManifestoCPL),trendHTML(T.coldManifestoCPL)],
+    ['Retargeting CPL',money(p.retargetingCPL),trendHTML(T.retargetingCPL)],
+    ['Challenge ROAS'+(p.challengeRev!=null?` · $${(p.challengeRev).toLocaleString()} rev`:''),(p.challengeRoas!=null?p.challengeRoas+'×':'—'),trendHTML(T.challengeRoas)],
+    ['Active ads (need 20+)',p.activeAds??'—',''],
+  ];
+  const S=panel.querySelector('.s-strip');S.innerHTML='';
+  strip.forEach(([l,n,tr])=>S.appendChild($('div','kpi',`<div class="n">${n}${tr||''}</div><div class="l">${l}</div>`)));
+  const ba=g.brandAwareness||{},im=g.impressions||{},ap=g.applause||{},tc=g.timeCommitment||{},rt=g.retargeting||{};
+  const cards=[
+    {cl:'g-red',s:ba.status,h:`1 · Brand & Offer Awareness (AEO)`,now:`${ba.score??'—'} / ${ba.of??8}`,tgt:`AI-discovery citations · target ≥4/8 by Oct 1`,note:`Absent when AI is asked who leads AI-for-business — surfaces instead: ${(ba.competitors||[]).join(', ')}. ⭐ ${ba.uncontestedLane||''}`},
+    {cl:'g-grey',s:'pending',h:`⭐ PR / Earned Media`,now:`0 <span style="font-size:14px;color:var(--muted)">tracked · named lines ↓</span>`,tgt:`podcast guesting = P0 (pitches ready)`,note:`🎙️ Podcast guest spots · 🎤 Speaking · ✍️ Bylines · 💬 HARO/Qwoted quotes · 📋 "Top expert" lists — each /mo. This IS the direct fix for AEO 0/8.`},
+    {cl:'g-amber',s:im.status,h:`2 · Reach & Impressions (paid + organic)`,now:`${K(im.paidImpressions30d)}${trendHTML(T.impressions)} <span style="font-size:14px;color:var(--muted)">impr /30d · ${K(im.paidReach30d)}${trendHTML(T.reach)} reached</span>`,tgt:`${(im.manifestoSessions30d||0).toLocaleString()} manifesto sessions (GA4) · organic social reach wire-pending`,note:`Paid live. ⚠️ ORGANIC is untracked and it's the bigger number — Rich publishes daily. YouTube views + watch-time need a YouTube Data API key; cross-channel organic reach unlocks with GHL social analytics.`},
+    {cl:'g-amber',s:(ap.eng?.status||'gated'),h:`3 · Engagement (organic, 30d)`,now:`${(ap.eng&&ap.eng.shares!=null)?`${ap.eng.shares} <span style="font-size:13px;color:var(--muted)">shares</span> · ${ap.eng.comments} <span style="font-size:13px;color:var(--muted)">comments</span> · ${ap.eng.likes} <span style="font-size:13px;color:var(--muted)">likes</span>`:'gated'}`,tgt:`priority: shares > comments > views > likes`,note:`${ap.eng?.note||'Cross-channel engagement gated.'} IG followers ${ap.igFollowers?ap.igFollowers.toLocaleString():'—'} = audience size only.`},
+    {cl:'g-amber',s:tc.status,h:`4 · Time Commitment`,now:`${tc.avgEngagementSec!=null?tc.avgEngagementSec+'s':'—'} <span style="font-size:14px;color:var(--muted)">avg on-page</span>`,tgt:`${(tc.manifestoPageviews30d||0).toLocaleString()} manifesto views/30d`,note:`Scroll-depth: ${tc.scroll90Events>0?'live':'GA4 scroll event OFF — Ben toggles it'}. Deeper read-depth = Microsoft Clarity on the web manifesto page (Ben/Donnie), not FlippingBook.`},
+    {cl:'g-amber',s:rt.status,h:`5 · Grow Retargeting Lists`,now:`${money(rt.cpl)} CPL`,tgt:`still cheapest ($8.28 vs cold $11.71) · but intermittent`,note:`Your cheapest leads but not always-on. Fix: turn always-on + verify CAPI. (List SIZE via Meta custom-audiences — to-do.)`},
+    {cl:'g-green',s:'live',h:`Content / POV (anchor)`,now:`A–`,tgt:`Manifesto = real category POV`,note:`The asset the whole engine amplifies — mill into short-form, Substack, AEO articles.`},
+  ];
+  const G=panel.querySelector('.s-grid');G.innerHTML='';
+  cards.forEach(c=>G.appendChild($('div','goal '+c.cl,`${badge(c.s)}<h3>${c.h}</h3><div class="now">${c.now}</div><div class="tgt">${c.tgt}</div><div class="note">${c.note}</div>`)));
+}
+
+function renderEngage(panel,d){
+  stamp(panel,d);
+  const g=d.ga4||{},T=g.trends||{},n=d.nurture||{},rt=d.retargeting||{},x=d.gated||{},asmt=d.assessment||{},land=g.manifestoLanding||[],ne=d.nurtureEngagement||{};
+  const strip=[
+    ['Return-visitor rate ★',(g.returnRatePct!=null?g.returnRatePct+'%':'—'),''],
+    ['Site engagement rate',(g.engagementRatePct!=null?g.engagementRatePct+'%':'—'),trendHTML(T.engagementRate)],
+    ['Avg engagement',(g.avgEngagementSec!=null?g.avgEngagementSec+'s':'—'),trendHTML(T.avgEngagement)],
+    ['Pages / session',(g.pagesPerSession!=null?g.pagesPerSession:'—'),trendHTML(T.pagesPerSession)],
+    ['Nurture engagement',(ne.ctrPct!=null?ne.ctrPct+'%':'—'),''],
+    ['Engaged→Front-end ★','—',''],
+  ];
+  const S=panel.querySelector('.s-strip');S.innerHTML='';
+  strip.forEach(([l,v,tr])=>S.appendChild($('div','kpi',`<div class="n">${v}${tr||''}</div><div class="l">${l}</div>`)));
+  const cards=[
+    {cl:'g-green',s:'assessment',h:`⭐ ICP — ${asmt.icp?.title||'Ideal Client Profile'}`,now:`${asmt.icp?.grade||'—'} <span style="font-size:13px;color:var(--muted)">documented</span>`,tgt:`who we engage — STRONG (avatar built)`,note:asmt.icp?.finding||'—'},
+    {cl:'g-amber',s:'needs-work',h:`⭐ Core Messaging`,now:`${asmt.coreMessaging?.grade||'—'} <span style="font-size:13px;color:var(--muted)">mechanism gap</span>`,tgt:`the "only-through" slot is EMPTY`,note:asmt.coreMessaging?.finding||'—'},
+    {cl:'g-red',s:'partial',h:`⭐ 1 · Consumption depth (the core — mostly DARK)`,now:`${land.map(l=>l.dwellSec+'s').join(' · ')||'—'} <span style="font-size:13px;color:var(--muted)">manifesto LANDING dwell</span>`,tgt:`glance, not stare — and the real read isn't even measured`,note:`⚠️ That's landing-page dwell, NOT the read. Gated: <b>read-depth</b> — ${x.manifestoReadDepth?.dep||''}; <b>watch-time</b> — ${x.videoWatchTime?.dep||''}; <b>scroll</b> — ${x.scrollDepth?.dep||''}.`},
+    {cl:'g-amber',s:g.status,h:`2 · Return & repeat visitors`,now:`${g.returnRatePct!=null?g.returnRatePct+'%':'—'} <span style="font-size:13px;color:var(--muted)">return</span>`,tgt:`~1 in 4 come back (the "stare")`,note:`${(g.sessions||0).toLocaleString()} sessions/30d.`},
+    {cl:'g-green',s:g.status,h:`3 · Engagement rate`,now:`${g.engagementRatePct!=null?g.engagementRatePct+'%':'—'}${trendHTML(T.engagementRate)}`,tgt:`engaged vs bounce`,note:`${(g.engagedSessions||0).toLocaleString()} engaged of ${(g.sessions||0).toLocaleString()}. ⚠️ Rate ▲ but time${trendHTML(T.avgEngagement)} & depth${trendHTML(T.pagesPerSession)} — more cross the line, each shallower.`},
+    {cl:'g-amber',s:'partial',h:`4 · Email → routed`,now:`~${x.emailClickRouting?.clickPct||'?'}% <span style="font-size:13px;color:var(--muted)">click</span>`,tgt:`clickers = the engaged`,note:`The lever is ROUTING: ${x.emailClickRouting?.dep||''}. Opens are MPP-junk — don't score them.`},
+    {cl:'g-amber',s:rt.status,h:`5 · Retargeting re-touch`,now:`${rt.reach!=null?rt.reach.toLocaleString():'—'} <span style="font-size:13px;color:var(--muted)">reached · ${rt.frequency||'?'}x freq</span>`,tgt:`re-touch the engaged · intermittent`,note:`Warm reach 30d (${rt.campaigns||0} campaign). Turn always-on + verify CAPI.`},
+    {cl:'g-grey',s:'needs-audit',h:`6 · Nurture health`,now:`${n.active??'—'} <span style="font-size:13px;color:var(--muted)">active / ${n.total??'—'} total</span>`,tgt:`sprawl — which route engaged→offer?`,note:`Not "no nurture" — the opposite. ${n.total} workflows, ${n.active} active. AUDIT which route engaged non-buyers → offer; kill dead/dupes.`},
+    {cl:'g-grey',s:'gated',h:`7 · Community engagement`,now:`${x.communityParticipation?.groups||'—'} <span style="font-size:13px;color:var(--muted)">groups</span>`,tgt:`participation unmeasured`,note:`${x.communityParticipation?.dep||''}.`},
+    {cl:'g-grey',s:'gated',h:`8 · Conversation rate (Deiss)`,now:`—`,tgt:`"actual conversation"`,note:`Replies, DMs, comments. ${x.conversationRate?.dep||''}.`},
+    {cl:'g-grey',s:'pending',h:`⭐ 9 · Engaged → Front-end (OUTCOME)`,now:`—`,tgt:`Engage's whole job = route to the offer`,note:`The bridge to $4M. ${x.engagedToFrontend?.dep||''}. Adjacent measured rate: opt-in→front-end ≈7.5%.`},
+  ];
+  const G=panel.querySelector('.s-grid');G.innerHTML='';
+  cards.forEach(c=>G.appendChild($('div','goal '+c.cl,`${badge(c.s)}<h3>${c.h}</h3><div class="now">${c.now}</div><div class="tgt">${c.tgt}</div><div class="note">${c.note}</div>`)));
+}
+
+const FB_SUBSCRIBE={"generatedAt":"2026-08-17T13:13:15.530Z","stage":"Subscribe","optins":{"status":"live","asOf":"2026-08-17T13:13:15.530Z","cumulative":2222,"last30":1402,"prev30":96,"velocityWk":178,"prevWk":730,"velocityTrend":{"pct":-76,"dir":"down","sentiment":"bad"},"optin30Trend":{"pct":1360,"dir":"up","sentiment":"good"},"listSize":40347,"listNew30":1621,"listPrev30":1553,"listGrowthTrend":{"pct":4,"dir":"up","sentiment":"good"},"listGrowthPct":4,"hasEmail":40109,"unsub":3,"dnd":3,"ghlHasEmail":40109,"emailableTotal":40347,"emailableDeliverable":27107,"emailableActive":14173,"emailableStatus":"verified","emailableNote":"ACTUAL MAILABLE LIST \u224814,173 \u2014 VERIFIED from the most recent full broadcast (Aug 6, Mailgun delivered count), which independently confirms Camilla's ~14K. That's who a real send reaches today. Ceiling was ~27,107 deliverable (an OLDER full-send) \u2192 the list has contracted to its engaged core. 40,347 total on file (~1/3 dead). GHL can't see this (suppressions don't sync from Mailgun).","note":"Clean opt-in = deduped manifesto gated opt-in (tag \"manifesto bonus vids\"). List size = ALL contacts (buyers/unsubs incl.), not opt-ins."},"conversion":{"status":"live","manifestoSessions30d":36549,"optins30d":1402,"ratePct":3.84,"note":"Clean manifesto opt-in rate = deduped manifesto opt-ins \u00f7 manifesto-page sessions (30d). Manifesto is GATELESS (Rich red line), which caps the rate."},"deliverability":{"status":"live","delivered":184764,"failed":1924,"ratePct":99,"note":"Mailgun 30d delivered \u00f7 (delivered+failed)."},"leadMagnets":{"count":1,"status":"needs-work","note":"ONLY the manifesto is a standing lead magnet today. Single point of capture = the #1 Subscribe constraint. v3.1 blueprints more (Content Factory, App, E3 tiers) \u2014 future. Challenges/webinars are periodic events, not evergreen opt-ins."},"optinToFrontend":{"status":"pending","note":"opt-in \u2192 front-end quality (do opt-ins become buyers or die?). Adjacent measured: opt-in\u2192front-end \u22487.5%. Instrument the bridge (Ben)."}};
+function renderSubscribe(panel,d){
+  stamp(panel,d);
+  const o=d.optins||{},c=d.conversion||{},dl=d.deliverability||{},lm=d.leadMagnets||{},b=d.optinToFrontend||{};
+  const strip=[
+    ['Opt-in conversion ★',(c.ratePct!=null?c.ratePct+'%':'—'),''],
+    ['Opt-in velocity /wk',(o.velocityWk!=null?o.velocityWk:'—'),trendHTML(o.velocityTrend)],
+    ['Opt-ins /30d',(o.last30!=null?(+o.last30).toLocaleString():'—'),''],
+    ['Mailable list ✓',(o.emailableActive!=null?(+o.emailableActive).toLocaleString():'—'),''],
+    ['List growth /mo',(o.listGrowthPct!=null?'+'+o.listGrowthPct+'%':'—'),''],
+    ['Deliverability',(dl.ratePct!=null?dl.ratePct+'%':'—'),''],
+  ];
+  const S=panel.querySelector('.s-strip');S.innerHTML='';
+  strip.forEach(([l,v,tr])=>S.appendChild($('div','kpi',`<div class="n">${v}${tr||''}</div><div class="l">${l}</div>`)));
+  const cards=[
+    {cl:'g-red',s:'needs-work',h:`⭐ Lead magnets (the constraint)`,now:`${lm.count??'—'} <span style="font-size:13px;color:var(--muted)">standing opt-in</span>`,tgt:`single point of capture`,note:lm.note||''},
+    {cl:'g-amber',s:c.status,h:`⭐ Opt-in conversion rate`,now:`${c.ratePct!=null?c.ratePct+'%':'—'}`,tgt:`${c.optins30d!=null?(+c.optins30d).toLocaleString():'—'} opt-ins ÷ ${c.manifestoSessions30d!=null?(+c.manifestoSessions30d).toLocaleString():'—'} manifesto sessions`,note:c.note||''},
+    {cl:'g-red',s:o.status,h:`Opt-in velocity`,now:`${o.velocityWk??'—'}<span style="font-size:13px;color:var(--muted)">/wk</span>${trendHTML(o.velocityTrend)}`,tgt:`event-driven — post-challenge falloff`,note:`Spiked during the Aug 11–13 challenge, collapsing after. ${o.note||''}`},
+    {cl:'g-red',s:'needs-work',h:`⭐ Mailable list (VERIFIED)`,now:`${o.emailableActive!=null?(+o.emailableActive).toLocaleString():'—'} <span style="font-size:13px;color:var(--muted)">actually reachable</span>`,tgt:`${o.emailableTotal!=null?(+o.emailableTotal).toLocaleString():'—'} total → ${o.emailableDeliverable!=null?(+o.emailableDeliverable).toLocaleString():'—'} deliverable → ${o.emailableActive!=null?(+o.emailableActive).toLocaleString():'—'} mailable`,note:o.emailableNote||''},
+    {cl:'g-amber',s:o.status,h:`List size + growth`,now:`${o.listSize!=null?(+o.listSize).toLocaleString():'—'} <span style="font-size:13px;color:var(--muted)">+${o.listNew30??'—'}/30d</span>`,tgt:`~${o.listGrowthPct??'?'}%/mo — modest for a 10M goal`,note:`Total contacts (buyers/unsubs incl.), not clean opt-ins.`},
+    {cl:'g-green',s:dl.status,h:`Deliverability`,now:`${dl.ratePct!=null?dl.ratePct+'%':'—'}`,tgt:`${dl.delivered!=null?(+dl.delivered).toLocaleString():'—'} delivered/30d`,note:dl.note||''},
+    {cl:'g-grey',s:'pending',h:`⭐ Opt-in → Front-end (quality)`,now:`—`,tgt:`do opt-ins become buyers?`,note:b.note||''},
+  ];
+  const G=panel.querySelector('.s-grid');G.innerHTML='';
+  cards.forEach(c=>G.appendChild($('div','goal '+c.cl,`${badge(c.s)}<h3>${c.h}</h3><div class="now">${c.now}</div><div class="tgt">${c.tgt}</div><div class="note">${c.note}</div>`)));
+}
+async function load(file,fb){ try{const r=await fetch(file+'?t='+Date.now());if(r.ok)return await r.json();}catch(e){} return fb; }
+
+// build tabs
+const tabsEl=document.getElementById('tabs');
+STAGES.forEach((st,i)=>{
+  const b=$('button','tab'+(st.n==='soon'?' soon':'')+(i===0?' active':''),`${st.t}${st.n==='soon'?'<span class="n">soon</span>':''}`);
+  b.dataset.k=st.k;
+  if(st.n!=='soon') b.onclick=()=>select(st.k);
+  tabsEl.appendChild(b);
+});
+function select(k){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.k===k));
+  document.querySelectorAll('.panel').forEach(p=>p.hidden=(p.dataset.stage!==k));
+  // build a soon-panel on the fly if needed
+  if(!document.querySelector(`.panel[data-stage="${k}"]`)){
+    const sec=$('section','panel');sec.dataset.stage=k;
+    sec.appendChild($('div','soonbox',`<b>Stage not built yet.</b><br>${SOON[k]||''}<br><span style="font-size:12px">Built stage-by-stage with the same rigor — Awareness + Engage are live.</span>`));
+    document.getElementById('panels'); document.querySelector('footer').before(sec);
+  }
+}
+// soon tabs → show placeholder
+STAGES.filter(s=>s.n==='soon').forEach(s=>{
+  const sec=$('section','panel');sec.dataset.stage=s.k;sec.hidden=true;
+  sec.appendChild($('div','soonbox',`<b>Stage ${s.t.split(' · ')[0]} — not built yet.</b><br>${SOON[s.k]||''}<br><span style="font-size:12px">Built stage-by-stage with the same rigor — Awareness + Engage are live now.</span>`));
+  document.querySelector('footer').before(sec);
+  document.querySelectorAll('.tab').forEach(t=>{if(t.dataset.k===s.k)t.onclick=()=>select(s.k);});
+});
+
+(async()=>{
+  renderAware(document.querySelector('.panel[data-stage="aware"]'), await load('aware-data.json',FB_AWARE));
+  renderEngage(document.querySelector('.panel[data-stage="engage"]'), await load('engage-data.json',FB_ENGAGE));
+  renderSubscribe(document.querySelector('.panel[data-stage="subscribe"]'), await load('subscribe-data.json',FB_SUBSCRIBE));
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-08-17T00:00:49.506Z",
+  "stage": "Aware",
+  "paid": {
+    "status": "live",
+    "asOf": "2026-08-17T00:00:49.506Z",
+    "window": "2026-07-18..2026-08-17",
+    "priorWindow": "2026-06-18..2026-07-18",
+    "spend30d": 5993,
+    "impressions": 258928,
+    "reach": 129930,
+    "coldManifestoCPL": 14.75,
+    "retargetingCPL": 12.92,
+    "blendedCPL": 24.17,
+    "challengeRoas": 2.09,
+    "challengeRev": 3370,
+    "challengeSpend": 1612,
+    "challengePurch": 21,
+    "challengeCPP": 76.78,
+    "activeAds": 12,
+    "trends": {
+      "spend": {
+        "pct": -5,
+        "dir": "down",
+        "sentiment": "neutral"
+      },
+      "impressions": {
+        "pct": -16,
+        "dir": "down",
+        "sentiment": "bad"
+      },
+      "reach": {
+        "pct": -15,
+        "dir": "down",
+        "sentiment": "bad"
+      },
+      "coldManifestoCPL": {
+        "pct": 174,
+        "dir": "up",
+        "sentiment": "bad"
+      },
+      "retargetingCPL": {
+        "pct": 43,
+        "dir": "up",
+        "sentiment": "bad"
+      },
+      "blendedCPL": {
+        "pct": 121,
+        "dir": "up",
+        "sentiment": "bad"
+      },
+      "challengeRoas": null
+    }
+  },
+  "optins": {
+    "value": 2210,
+    "status": "live",
+    "asOf": "2026-08-17T00:00:49.506Z",
+    "source": "GHL tag: manifesto bonus vids",
+    "velocityWk": 194,
+    "prevWk": 711,
+    "trendPct": -73,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 2210 = lifetime on this tag (deduped North-Star ≈2,281)."
+  },
+  "goals": {
+    "brandAwareness": {
+      "score": 0,
+      "of": 8,
+      "asOf": "2026-08-13",
+      "competitors": [
+        "Bernard Marr",
+        "Neil Patel",
+        "Clara Shih"
+      ],
+      "note": "Generative-answer gap on the AI-business positioning; legacy SEO survives on the old coaching positioning.",
+      "uncontestedLane": "\"who teaches building an AI version of yourself\" returned no names — open lane for Rich",
+      "source": "8-query Perplexity grade (AEO-Grade-2026-08-13.md)",
+      "status": "periodic",
+      "label": "AI-citation (AEO)"
+    },
+    "impressions": {
+      "paidImpressions30d": 258928,
+      "paidReach30d": 129930,
+      "manifestoSessions30d": 36680,
+      "status": "live",
+      "label": "Reach & Impressions"
+    },
+    "applause": {
+      "status": "partial",
+      "igFollowers": 12703,
+      "igPosts": 647,
+      "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
+      "eng": {
+        "status": "partial",
+        "window": "30d",
+        "shares": 2,
+        "comments": 36,
+        "likes": 131,
+        "posts": 90,
+        "byChannel": {
+          "community": {
+            "shares": 0,
+            "comments": 0,
+            "likes": 0,
+            "posts": 41
+          },
+          "instagram": {
+            "shares": 0,
+            "comments": 18,
+            "likes": 84,
+            "posts": 13
+          },
+          "youtube": {
+            "shares": 0,
+            "comments": 0,
+            "likes": 0,
+            "posts": 3
+          },
+          "linkedin": {
+            "shares": 0,
+            "comments": 0,
+            "likes": 0,
+            "posts": 16
+          },
+          "facebook": {
+            "shares": 2,
+            "comments": 18,
+            "likes": 47,
+            "posts": 17
+          }
+        },
+        "note": "REAL IG+FB engagement (GHL post insights, 30d). ⚠️ FLOOR — LinkedIn (Rich most-active) + YouTube engagement NOT syncing to GHL (show 0); shares reported by FB only. Organic reach/impressions still need page tokens."
+      },
+      "emailClickPct": 3,
+      "label": "Engagement"
+    },
+    "timeCommitment": {
+      "status": "live",
+      "asOf": "2026-08-17T00:00:49.506Z",
+      "avgEngagementSec": 69,
+      "scroll90Events": 0,
+      "scrollDepthPct": 0,
+      "manifestoPageviews30d": 43228,
+      "manifestoSessions30d": 36680,
+      "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
+      "label": "Time commitment"
+    },
+    "retargeting": {
+      "cpl": 12.92,
+      "activeAds": 12,
+      "status": "live",
+      "label": "Grow retargeting lists"
+    }
+  },
+  "history": [
+    {
+      "t": "2026-08-13T20:39:17.347Z",
+      "velocityWk": 463,
+      "spend": 5967,
+      "impressions": 271438,
+      "reach": 133669,
+      "blendedCPL": 5.95,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-13T21:19:42.098Z",
+      "velocityWk": 460,
+      "spend": 5972,
+      "impressions": 271664,
+      "reach": 133796,
+      "blendedCPL": 17.88,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-13T21:23:42.356Z",
+      "velocityWk": 460,
+      "spend": 5972,
+      "impressions": 271675,
+      "reach": 133796,
+      "blendedCPL": 17.88,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-14T00:01:04.043Z",
+      "velocityWk": 455,
+      "spend": 5875,
+      "impressions": 264142,
+      "reach": 131459,
+      "blendedCPL": 20.19,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-14T14:15:01.176Z",
+      "velocityWk": 402,
+      "spend": 5937,
+      "impressions": 267493,
+      "reach": 132279,
+      "blendedCPL": 20.4,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-14T16:12:14.320Z",
+      "velocityWk": 386,
+      "spend": 5947,
+      "impressions": 267887,
+      "reach": 132358,
+      "blendedCPL": 20.44,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-14T16:50:40.711Z",
+      "velocityWk": 382,
+      "spend": 5950,
+      "impressions": 267990,
+      "reach": 132358,
+      "blendedCPL": 20.45,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-14T20:04:07.796Z",
+      "velocityWk": 323,
+      "spend": 5958,
+      "impressions": 268538,
+      "reach": 132903,
+      "blendedCPL": 20.4,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-15T16:01:04.935Z",
+      "velocityWk": 257,
+      "spend": 5964,
+      "impressions": 265510,
+      "reach": 131929,
+      "blendedCPL": 21.69,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-15T20:00:49.046Z",
+      "velocityWk": 236,
+      "spend": 5983,
+      "impressions": 266154,
+      "reach": 132002,
+      "blendedCPL": 21.76,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-16T00:00:51.900Z",
+      "velocityWk": 222,
+      "spend": 5939,
+      "impressions": 260365,
+      "reach": 129883,
+      "blendedCPL": 22.84,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-16T16:00:55.250Z",
+      "velocityWk": 196,
+      "spend": 6010,
+      "impressions": 263435,
+      "reach": 131010,
+      "blendedCPL": 23.03,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-16T20:00:54.764Z",
+      "velocityWk": 195,
+      "spend": 6029,
+      "impressions": 264332,
+      "reach": 131033,
+      "blendedCPL": 23.1,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-17T00:00:49.506Z",
+      "velocityWk": 194,
+      "spend": 5993,
+      "impressions": 258928,
+      "reach": 129930,
+      "blendedCPL": 24.17,
+      "aeo": 0
+    }
+  ]
+}

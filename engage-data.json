@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-08-17T00:02:15.403Z",
+  "stage": "Engage",
+  "ga4": {
+    "status": "live",
+    "asOf": "2026-08-17T00:02:15.403Z",
+    "sessions": 49717,
+    "engagedSessions": 21351,
+    "engagementRatePct": 42.9,
+    "avgEngagementSec": 84,
+    "pagesPerSession": 1.29,
+    "returnRatePct": 22.6,
+    "manifestoLanding": [
+      {
+        "path": "/manifesto/bridge/",
+        "sessions": 23787,
+        "dwellSec": 17
+      },
+      {
+        "path": "/manifesto/",
+        "sessions": 14302,
+        "dwellSec": 20
+      },
+      {
+        "path": "/manifesto/training.html",
+        "sessions": 1002,
+        "dwellSec": 29
+      },
+      {
+        "path": "/manifesto/ai-calibration-prompts/",
+        "sessions": 560,
+        "dwellSec": 4
+      },
+      {
+        "path": "/manifesto/affiliate-kit/",
+        "sessions": 525,
+        "dwellSec": 12
+      }
+    ],
+    "trends": {
+      "engagementRate": {
+        "pct": 49,
+        "dir": "up",
+        "sentiment": "good"
+      },
+      "avgEngagement": {
+        "pct": -34,
+        "dir": "down",
+        "sentiment": "bad"
+      },
+      "pagesPerSession": {
+        "pct": -12,
+        "dir": "down",
+        "sentiment": "bad"
+      }
+    }
+  },
+  "nurture": {
+    "status": "needs-audit",
+    "total": 460,
+    "active": 322,
+    "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
+  },
+  "nurtureEngagement": {
+    "status": "live",
+    "window": "30d",
+    "delivered": 151513,
+    "clicked": 8065,
+    "ctrPct": 5.32,
+    "broadcastCtrPct": 1.09,
+    "note": "Click-through on the nurture series (workflow emails, 151,513 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.09% for contrast."
+  },
+  "retargeting": {
+    "status": "live",
+    "reach": 4555,
+    "frequency": 4.38,
+    "campaigns": 1,
+    "note": "warm/retargeting reach 30d; intermittent — verify always-on"
+  },
+  "gated": {
+    "manifestoReadDepth": {
+      "status": "gated",
+      "dep": "Microsoft Clarity scroll-depth on the web manifesto page (Ben/Donnie) — NOT FlippingBook"
+    },
+    "videoWatchTime": {
+      "status": "gated",
+      "dep": "YouTube Data API key — zero video events tracked today"
+    },
+    "scrollDepth": {
+      "status": "gated",
+      "dep": "GA4 Enhanced Measurement → Scrolls (Ben) — currently OFF"
+    },
+    "emailClickRouting": {
+      "status": "partial",
+      "clickPct": 3,
+      "dep": "route clickers into ascension nurture (Camilla/Thomas)"
+    },
+    "communityParticipation": {
+      "status": "gated",
+      "groups": 30,
+      "dep": "GHL community analytics"
+    },
+    "conversationRate": {
+      "status": "gated",
+      "dep": "email-reply / DM / comment tracking — Deiss’s \"actual conversation\""
+    },
+    "engagedToFrontend": {
+      "status": "pending",
+      "dep": "instrument the bridge (Ben) — Engage’s output metric"
+    }
+  },
+  "assessment": {
+    "icp": {
+      "grade": "A−",
+      "status": "assessment",
+      "title": "Ideal Client Profile (DM-additive)",
+      "finding": "STRONG — documented, source-grounded avatar: \"Marcus\" (cold ascendable operator) + warm core \"Lance\"; full desires/fears/believe-vs-distrust radar/verbatim. GAP (Engage): two skins (Marcus vs \"The Aspirant\") need DIFFERENT nurture — today they get the same 333-workflow soup."
+    },
+    "coreMessaging": {
+      "grade": "B",
+      "status": "needs-work",
+      "title": "Core Messaging (DM-additive)",
+      "finding": "BIG IDEA = Todd Brown (Aug 11, the big-idea authority): own \"The Judgment Age\" + the proprietary \"Imprint Layer\" (captured judgment = the moat, pros vs amateurs) — plant that flag FRONT-AND-CENTER in the manifesto; STOP leading with \"are you using AI right?\" (commoditized). Nested UNDER it: the front-end product mechanism = the \"Hook Layer\" (Aug 12 gate-filter, files→OS via hooks; kept judgment-free at $97 so it can't cannibalize ZenithMind). REMAINING (execution, not invention): align ALL messaging to LEAD with the Judgment Age / Imprint Layer (Todd says it's not yet front-and-center) + Rich sign-off + translate \"hook\" to a plain word."
+    }
+  }
+}

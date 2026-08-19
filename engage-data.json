@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-18T20:21:19.498Z",
+  "generatedAt": "2026-08-19T00:06:54.833Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-18T20:21:19.498Z",
-    "sessions": 49386,
-    "engagedSessions": 21383,
-    "engagementRatePct": 43.3,
+    "asOf": "2026-08-19T00:06:54.833Z",
+    "sessions": 49446,
+    "engagedSessions": 21472,
+    "engagementRatePct": 43.4,
     "avgEngagementSec": 82,
     "pagesPerSession": 1.27,
-    "returnRatePct": 20.8,
+    "returnRatePct": 21,
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 24865,
+        "sessions": 24881,
         "dwellSec": 17
       },
       {
         "path": "/manifesto/",
-        "sessions": 14627,
+        "sessions": 14688,
         "dwellSec": 21
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 1019,
-        "dwellSec": 29
+        "sessions": 1023,
+        "dwellSec": 28
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 542,
+        "sessions": 544,
         "dwellSec": 11
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 489,
+        "sessions": 495,
         "dwellSec": 3
       }
     ],
@@ -64,16 +64,16 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 152620,
-    "clicked": 8054,
-    "ctrPct": 5.28,
+    "delivered": 151014,
+    "clicked": 7825,
+    "ctrPct": 5.18,
     "broadcastCtrPct": 1.09,
-    "note": "Click-through on the nurture series (workflow emails, 152,620 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.09% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 151,014 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.09% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 5748,
-    "frequency": 3.93,
+    "reach": 5644,
+    "frequency": 4.14,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

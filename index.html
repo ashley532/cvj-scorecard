@@ -124,13 +124,28 @@
     </div>
   </section>
 
+  <section class="panel" data-stage="convert" hidden>
+    <div class="pstamp">Stage 4 of 8 · Convert · <span class="stamp">loading…</span> · <i>Deiss: turn a subscriber into a first-time buyer — the front-end · ⚠️ the main $97 front-end isn't built yet</i></div>
+    <div class="strip s-strip"></div>
+    <div class="grid s-grid"></div>
+    <h3 class="sec">📖 What these mean</h3>
+    <div class="defs">
+      <div class="d"><b>Convert rate</b> — of people who join our list, the % who make a first purchase. Currently an estimate (~7.5%) from the $4M model — re-verify once front-end sales are wired.</div>
+      <div class="d"><b>Front-end units</b> — how many first purchases ($27/$97) we get per week. The binding constraint. Needs the sales data wired.</div>
+      <div class="d"><b>Live front-end offers</b> — how many standing (always-on) first-purchase offers exist. Today ≈1 (a periodic challenge) — the main $97 offer isn't built.</div>
+      <div class="d"><b>Challenge → ascension</b> — the AI Imprint challenge's Day-3 pitch turns buyers into $997 ZenithMind customers. Real buyers + cash.</div>
+      <div class="d"><b>MTD revenue</b> — total money in this month (Stripe+Whop). Mostly back-end, shown for context — not a front-end number.</div>
+      <div class="d"><b>Front-end → CTD</b> — do first-time buyers climb to the $12,500 program? Today ≈0 — that bridge isn't built (and the $4M needs it).</div>
+    </div>
+  </section>
+
   <footer>Live pull: Meta + GHL + GA4, refreshed 3×/day and on every load. Each stage's data feeds this one page. Sources: Meta Marketing API · GHL v2 · GA4 386828924 · AEO grade.</footer>
 </div>
 
 <script>
 const STAGES=[
   {k:'aware',t:'1 · Awareness',n:'live'},{k:'engage',t:'2 · Engage',n:'live'},
-  {k:'subscribe',t:'3 · Subscribe',n:'live'},{k:'convert',t:'4 · Convert',n:'soon'},
+  {k:'subscribe',t:'3 · Subscribe',n:'live'},{k:'convert',t:'4 · Convert',n:'live'},
   {k:'excite',t:'5 · Excite',n:'soon'},{k:'ascend',t:'6 · Ascend',n:'soon'},
   {k:'advocate',t:'7 · Advocate',n:'soon'},{k:'promote',t:'8 · Promote',n:'soon'},
 ];
@@ -206,6 +221,31 @@ function renderEngage(panel,d){
   cards.forEach(c=>G.appendChild($('div','goal '+c.cl,`${badge(c.s)}<h3>${c.h}</h3><div class="now">${c.now}</div><div class="tgt">${c.tgt}</div><div class="note">${c.note}</div>`)));
 }
 
+const FB_CONVERT={"generatedAt":"2026-08-19T14:35:12.795Z","stage":"Convert","frontEndOffer":{"name":"$97 PAIOS / Operator OS","status":"not-live","note":"The primary front-end offer is DESIGNED with deploy-ready copy but NOT BUILT / NOT TESTED \u2014 pending Rich sign-off. This is the #1 Convert fix: ship it. (Front-End Suite of 10 offers is also designed, not deployed.)"},"liveOffers":{"count":1,"status":"needs-work","note":"Standing front-end today \u2248 the $27 Imprint Challenge (periodic, not always-on) + memberships (E3 $97/mo, SOW $49, Build Lab $197/mo). No always-on $97 front-end. Single, event-driven \u2014 same shape as the Subscribe lead-magnet gap, one stage worse."},"convertRate":{"pct":7.5,"status":"estimate","note":"Opt-in \u2192 first purchase \u22487.5% \u2014 from the $4M model (MEDIUM confidence). Re-verify against real front-end buyer counts once sales are wired."},"frontEndUnits":{"status":"pending","note":"First-purchase units + revenue ($27/$97) not cleanly pullable yet \u2014 no direct Stripe key here; local data has only MTD totals + a sample. Full breakdown is in the rich-peer collectors. WIRE THIS (Ben)."},"challengeToAscension":{"status":"live","buyers":19,"revenue":34720,"fullPay":10,"twoPay":9,"note":"The AI Imprint challenge \u2192 Day-3 ZenithMind pitch is working: real new buyers + cash (command-center data.json). This is the Convert\u2192Ascend bridge that DOES fire."},"mtdRevenue":{"status":"live","combined":209599.79,"stripe":203980.79,"whop":5619,"note":"TOTAL revenue this month (Stripe+Whop, rich-peer). Mostly back-end/ascension \u2014 NOT front-end. Here for context, not a Convert metric."},"frontEndToCtd":{"status":"pending","note":"Front-end buyer \u2192 CTD \u22480 (measured earlier): front-end buyers do not currently climb to CTD. That bridge is a BUILD, not a live rate \u2014 and it is exactly what the $4M model needs."}};
+function renderConvert(panel,d){
+  stamp(panel,d);
+  const fo=d.frontEndOffer||{},lo=d.liveOffers||{},cr=d.convertRate||{},fu=d.frontEndUnits||{},ca=d.challengeToAscension||{},mr=d.mtdRevenue||{},fc=d.frontEndToCtd||{};
+  const strip=[
+    ['Convert rate (est)',(cr.pct!=null?cr.pct+'%':'—'),''],
+    ['Front-end units',(fu.units!=null?fu.units:'—'),''],
+    ['Live front-end offers',(lo.count??'—'),''],
+    ['MTD revenue (context)',(mr.combined!=null?'$'+Math.round(mr.combined).toLocaleString():'—'),''],
+    ['Challenge→ZM buyers',(ca.buyers!=null?ca.buyers:'—'),''],
+    ['Front-end→CTD','≈0',''],
+  ];
+  const S=panel.querySelector('.s-strip');S.innerHTML='';
+  strip.forEach(([l,v,tr])=>S.appendChild($('div','kpi',`<div class="n">${v}${tr||''}</div><div class="l">${l}</div>`)));
+  const cards=[
+    {cl:'g-red',s:'needs-work',h:`⭐ Ship the $97 front-end (NOT LIVE)`,now:`not built`,tgt:`the #1 Convert fix`,note:fo.note||''},
+    {cl:'g-amber',s:'partial',h:`⭐ Convert rate`,now:`${cr.pct!=null?cr.pct+'%':'—'} <span style="font-size:13px;color:var(--muted)">estimate</span>`,tgt:`opt-in → first purchase`,note:cr.note||''},
+    {cl:'g-red',s:'needs-work',h:`Live front-end offers`,now:`${lo.count??'—'} <span style="font-size:13px;color:var(--muted)">standing</span>`,tgt:`periodic challenge + memberships only`,note:lo.note||''},
+    {cl:'g-grey',s:'pending',h:`Front-end units`,now:`—`,tgt:`the binding constraint`,note:fu.note||''},
+    {cl:'g-green',s:ca.status,h:`Challenge → ascension (works)`,now:`${ca.buyers!=null?ca.buyers:'—'} <span style="font-size:13px;color:var(--muted)">ZM buyers · $${ca.revenue!=null?(+ca.revenue).toLocaleString():'—'}</span>`,tgt:`the Day-3 pitch fires`,note:ca.note||''},
+    {cl:'g-grey',s:'pending',h:`⭐ Front-end → CTD (the $4M bridge)`,now:`≈0`,tgt:`first buyers don't climb to CTD yet`,note:fc.note||''},
+  ];
+  const G=panel.querySelector('.s-grid');G.innerHTML='';
+  cards.forEach(c=>G.appendChild($('div','goal '+c.cl,`${badge(c.s)}<h3>${c.h}</h3><div class="now">${c.now}</div><div class="tgt">${c.tgt}</div><div class="note">${c.note}</div>`)));
+}
 const FB_SUBSCRIBE={"generatedAt":"2026-08-17T14:13:34.676Z","stage":"Subscribe","optins":{"status":"live","asOf":"2026-08-17T14:13:34.676Z","cumulative":2224,"last30":1404,"prev30":96,"velocityWk":178,"prevWk":732,"velocityTrend":{"pct":-76,"dir":"down","sentiment":"bad"},"optin30Trend":{"pct":1363,"dir":"up","sentiment":"good"},"listSize":40351,"listNew30":1624,"listPrev30":1551,"listGrowthTrend":{"pct":5,"dir":"up","sentiment":"good"},"listGrowthPct":4,"hasEmail":40113,"unsub":3,"dnd":3,"ghlHasEmail":40113,"emailableTotal":40351,"emailableDeliverable":27107,"emailableActive":14173,"emailableStatus":"verified","emailableNote":"ACTUAL MAILABLE LIST \u224814,173 \u2014 VERIFIED from the most recent full broadcast (Aug 6, Mailgun delivered count), which independently confirms Camilla's ~14K. That's who a real send reaches today. Ceiling was ~27,107 deliverable (an OLDER full-send) \u2192 the list has contracted to its engaged core. 40,351 total on file (~1/3 dead). GHL can't see this (suppressions don't sync from Mailgun).","note":"Clean opt-in = deduped manifesto gated opt-in (tag \"manifesto bonus vids\"). List size = ALL contacts (buyers/unsubs incl.), not opt-ins."},"conversion":{"status":"live","manifestoSessions30d":36549,"optins30d":1404,"ratePct":3.84,"note":"Clean manifesto opt-in rate = deduped manifesto opt-ins \u00f7 manifesto-page sessions (30d). Manifesto is GATELESS (Rich red line), which caps the rate."},"deliverability":{"status":"live","delivered":184970,"failed":1930,"ratePct":99,"note":"Mailgun 30d delivered \u00f7 (delivered+failed)."},"leadMagnets":{"count":1,"status":"needs-work","note":"ONLY the manifesto is a standing lead magnet today. Single point of capture = the #1 Subscribe constraint. v3.1 blueprints more (Content Factory, App, E3 tiers) \u2014 future. Challenges/webinars are periodic events, not evergreen opt-ins."},"optinToFrontend":{"status":"pending","note":"opt-in \u2192 front-end quality (do opt-ins become buyers or die?). Adjacent measured: opt-in\u2192front-end \u22487.5%. Instrument the bridge (Ben)."}};
 function renderSubscribe(panel,d){
   stamp(panel,d);
@@ -264,6 +304,7 @@ STAGES.filter(s=>s.n==='soon').forEach(s=>{
   renderAware(document.querySelector('.panel[data-stage="aware"]'), await load('aware-data.json',FB_AWARE));
   renderEngage(document.querySelector('.panel[data-stage="engage"]'), await load('engage-data.json',FB_ENGAGE));
   renderSubscribe(document.querySelector('.panel[data-stage="subscribe"]'), await load('subscribe-data.json',FB_SUBSCRIBE));
+  renderConvert(document.querySelector('.panel[data-stage="convert"]'), await load('convert-data.json',FB_CONVERT));
 })();
 </script>
 </body>

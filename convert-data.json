@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-08-19T14:35:12.795Z",
+  "stage": "Convert",
+  "frontEndOffer": {
+    "name": "$97 PAIOS / Operator OS",
+    "status": "not-live",
+    "note": "The primary front-end offer is DESIGNED with deploy-ready copy but NOT BUILT / NOT TESTED — pending Rich sign-off. This is the #1 Convert fix: ship it. (Front-End Suite of 10 offers is also designed, not deployed.)"
+  },
+  "liveOffers": {
+    "count": 1,
+    "status": "needs-work",
+    "note": "Standing front-end today ≈ the $27 Imprint Challenge (periodic, not always-on) + memberships (E3 $97/mo, SOW $49, Build Lab $197/mo). No always-on $97 front-end. Single, event-driven — same shape as the Subscribe lead-magnet gap, one stage worse."
+  },
+  "convertRate": {
+    "pct": 7.5,
+    "status": "estimate",
+    "note": "Opt-in → first purchase ≈7.5% — from the $4M model (MEDIUM confidence). Re-verify against real front-end buyer counts once sales are wired."
+  },
+  "frontEndUnits": {
+    "status": "pending",
+    "note": "First-purchase units + revenue ($27/$97) not cleanly pullable yet — no direct Stripe key here; local data has only MTD totals + a sample. Full breakdown is in the rich-peer collectors. WIRE THIS (Ben)."
+  },
+  "challengeToAscension": {
+    "status": "live",
+    "buyers": 19,
+    "revenue": 34720,
+    "fullPay": 10,
+    "twoPay": 9,
+    "note": "The AI Imprint challenge → Day-3 ZenithMind pitch is working: real new buyers + cash (command-center data.json). This is the Convert→Ascend bridge that DOES fire."
+  },
+  "mtdRevenue": {
+    "status": "live",
+    "combined": 209599.79,
+    "stripe": 203980.79,
+    "whop": 5619,
+    "note": "TOTAL revenue this month (Stripe+Whop, rich-peer). Mostly back-end/ascension — NOT front-end. Here for context, not a Convert metric."
+  },
+  "frontEndToCtd": {
+    "status": "pending",
+    "note": "Front-end buyer → CTD ≈0 (measured earlier): front-end buyers do not currently climb to CTD. That bridge is a BUILD, not a live rate — and it is exactly what the $4M model needs."
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-24T12:57:01.854Z",
+  "generatedAt": "2026-08-24T13:21:28.068Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-08-24T12:57:01.854Z",
+    "asOf": "2026-08-24T13:21:28.068Z",
     "window": "2026-07-25..2026-08-24",
     "priorWindow": "2026-06-25..2026-07-25",
     "spend30d": 6961,
-    "impressions": 256681,
+    "impressions": 256747,
     "reach": 128292,
     "coldManifestoCPL": 14.78,
     "retargetingCPL": 11.14,
@@ -53,14 +53,14 @@
     }
   },
   "optins": {
-    "value": 2649,
+    "value": 2658,
     "status": "live",
-    "asOf": "2026-08-24T12:57:01.854Z",
+    "asOf": "2026-08-24T13:21:28.068Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 343,
-    "prevWk": 180,
-    "trendPct": 91,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 2649 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 349,
+    "prevWk": 179,
+    "trendPct": 95,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 2658 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -79,9 +79,9 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 256681,
+      "paidImpressions30d": 256747,
       "paidReach30d": 128292,
-      "manifestoSessions30d": 36230,
+      "manifestoSessions30d": 36247,
       "status": "live",
       "label": "Reach & Impressions"
     },
@@ -136,12 +136,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-08-24T12:57:01.854Z",
+      "asOf": "2026-08-24T13:21:28.068Z",
       "avgEngagementSec": 71,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 42275,
-      "manifestoSessions30d": 36230,
+      "manifestoPageviews30d": 42316,
+      "manifestoSessions30d": 36247,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -455,6 +455,15 @@
       "velocityWk": 343,
       "spend": 6961,
       "impressions": 256681,
+      "reach": 128292,
+      "blendedCPL": 26.17,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-24T13:21:28.068Z",
+      "velocityWk": 349,
+      "spend": 6961,
+      "impressions": 256747,
       "reach": 128292,
       "blendedCPL": 26.17,
       "aeo": 0

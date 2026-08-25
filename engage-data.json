@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-08-24T22:10:05.217Z",
+  "generatedAt": "2026-08-25T00:17:46.563Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-24T22:10:05.217Z",
-    "sessions": 46424,
-    "engagedSessions": 19824,
-    "engagementRatePct": 42.7,
+    "asOf": "2026-08-25T00:17:46.563Z",
+    "sessions": 46758,
+    "engagedSessions": 19920,
+    "engagementRatePct": 42.6,
     "avgEngagementSec": 82,
     "pagesPerSession": 1.27,
     "returnRatePct": 19.8,
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 23584,
-        "dwellSec": 18
+        "sessions": 23650,
+        "dwellSec": 19
       },
       {
         "path": "/manifesto/",
-        "sessions": 15440,
+        "sessions": 15534,
         "dwellSec": 25
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 1085,
+        "sessions": 1090,
         "dwellSec": 29
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "path": "/manifesto/leaderboard/",
-        "sessions": 358,
+        "sessions": 360,
         "dwellSec": 23
       }
     ],
@@ -64,16 +64,16 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 146956,
-    "clicked": 7098,
-    "ctrPct": 4.83,
-    "broadcastCtrPct": 1.09,
-    "note": "Click-through on the nurture series (workflow emails, 146,956 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.09% for contrast."
+    "delivered": 146971,
+    "clicked": 7033,
+    "ctrPct": 4.79,
+    "broadcastCtrPct": 1.08,
+    "note": "Click-through on the nurture series (workflow emails, 146,971 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.08% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 5395,
-    "frequency": 5.14,
+    "reach": 5286,
+    "frequency": 5.11,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-08-26T01:57:20.902Z",
+  "generatedAt": "2026-08-26T16:02:24.158Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-26T01:57:20.902Z",
-    "sessions": 45964,
-    "engagedSessions": 19473,
-    "engagementRatePct": 42.4,
-    "avgEngagementSec": 83,
+    "asOf": "2026-08-26T16:02:24.158Z",
+    "sessions": 45305,
+    "engagedSessions": 19123,
+    "engagementRatePct": 42.2,
+    "avgEngagementSec": 84,
     "pagesPerSession": 1.26,
-    "returnRatePct": 19.9,
+    "returnRatePct": 20,
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 22872,
+        "sessions": 22332,
         "dwellSec": 19
       },
       {
         "path": "/manifesto/",
-        "sessions": 15404,
+        "sessions": 15461,
         "dwellSec": 26
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 1103,
+        "sessions": 1106,
         "dwellSec": 29
       },
       {
@@ -33,18 +33,18 @@
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 357,
+        "sessions": 350,
         "dwellSec": 5
       }
     ],
     "trends": {
       "engagementRate": {
-        "pct": 25,
+        "pct": 23,
         "dir": "up",
         "sentiment": "good"
       },
       "avgEngagement": {
-        "pct": -26,
+        "pct": -22,
         "dir": "down",
         "sentiment": "bad"
       },
@@ -57,18 +57,18 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 463,
+    "total": 464,
     "active": 325,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 117239,
-    "clicked": 6121,
+    "delivered": 117601,
+    "clicked": 6144,
     "ctrPct": 5.22,
     "broadcastCtrPct": 1.08,
-    "note": "Click-through on the nurture series (workflow emails, 117,239 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.08% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 117,601 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.08% for contrast."
   },
   "retargeting": {
     "status": "live",

@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-26T20:01:54.162Z",
+  "generatedAt": "2026-08-27T00:01:56.884Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-26T20:01:54.162Z",
-    "sessions": 45398,
-    "engagedSessions": 19142,
-    "engagementRatePct": 42.2,
+    "asOf": "2026-08-27T00:01:56.884Z",
+    "sessions": 45457,
+    "engagedSessions": 19154,
+    "engagementRatePct": 42.1,
     "avgEngagementSec": 84,
     "pagesPerSession": 1.26,
     "returnRatePct": 20,
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 22343,
+        "sessions": 22358,
         "dwellSec": 19
       },
       {
         "path": "/manifesto/",
-        "sessions": 15516,
+        "sessions": 15523,
         "dwellSec": 26
       },
       {
@@ -28,12 +28,12 @@
       },
       {
         "path": "/manifesto/leaderboard/",
-        "sessions": 368,
+        "sessions": 371,
         "dwellSec": 23
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 351,
+        "sessions": 352,
         "dwellSec": 5
       }
     ],
@@ -57,23 +57,23 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 465,
+    "total": 466,
     "active": 326,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 118645,
-    "clicked": 6194,
-    "ctrPct": 5.22,
-    "broadcastCtrPct": 1.08,
-    "note": "Click-through on the nurture series (workflow emails, 118,645 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.08% for contrast."
+    "delivered": 95689,
+    "clicked": 5290,
+    "ctrPct": 5.53,
+    "broadcastCtrPct": 1.1,
+    "note": "Click-through on the nurture series (workflow emails, 95,689 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.1% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 5097,
-    "frequency": 5.05,
+    "reach": 4927,
+    "frequency": 4.99,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

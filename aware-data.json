@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-26T20:00:59.262Z",
+  "generatedAt": "2026-08-27T00:01:05.834Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-08-26T20:00:59.262Z",
-    "window": "2026-07-27..2026-08-26",
-    "priorWindow": "2026-06-27..2026-07-27",
-    "spend30d": 6866,
-    "impressions": 250193,
-    "reach": 127060,
-    "coldManifestoCPL": 14.68,
-    "retargetingCPL": 12.16,
-    "blendedCPL": 26.93,
+    "asOf": "2026-08-27T00:01:05.834Z",
+    "window": "2026-07-28..2026-08-27",
+    "priorWindow": "2026-06-28..2026-07-28",
+    "spend30d": 6714,
+    "impressions": 241976,
+    "reach": 123215,
+    "coldManifestoCPL": 14.78,
+    "retargetingCPL": 16.23,
+    "blendedCPL": 28.81,
     "challengeRoas": 2.09,
     "challengeRev": 3370,
     "challengeSpend": 1612,
@@ -20,32 +20,32 @@
     "activeAds": 2,
     "trends": {
       "spend": {
-        "pct": 48,
+        "pct": 42,
         "dir": "up",
         "sentiment": "neutral"
       },
       "impressions": {
-        "pct": -6,
+        "pct": -10,
         "dir": "down",
         "sentiment": "bad"
       },
       "reach": {
-        "pct": 0,
-        "dir": "flat",
-        "sentiment": "flat"
+        "pct": -3,
+        "dir": "down",
+        "sentiment": "bad"
       },
       "coldManifestoCPL": {
-        "pct": 175,
+        "pct": 170,
         "dir": "up",
         "sentiment": "bad"
       },
       "retargetingCPL": {
-        "pct": 36,
+        "pct": 98,
         "dir": "up",
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": 186,
+        "pct": 205,
         "dir": "up",
         "sentiment": "bad"
       },
@@ -53,14 +53,14 @@
     }
   },
   "optins": {
-    "value": 2862,
+    "value": 2873,
     "status": "live",
-    "asOf": "2026-08-26T20:00:59.262Z",
+    "asOf": "2026-08-27T00:01:05.834Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 446,
+    "velocityWk": 455,
     "prevWk": 144,
-    "trendPct": 210,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 2862 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "trendPct": 216,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 2873 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -79,15 +79,15 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 250193,
-      "paidReach30d": 127060,
-      "manifestoSessions30d": 35433,
+      "paidImpressions30d": 241976,
+      "paidReach30d": 123215,
+      "manifestoSessions30d": 35459,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12717,
+      "igFollowers": 12718,
       "igPosts": 648,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
@@ -136,17 +136,17 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-08-26T20:00:59.262Z",
+      "asOf": "2026-08-27T00:01:05.834Z",
       "avgEngagementSec": 77,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 41739,
-      "manifestoSessions30d": 35433,
+      "manifestoPageviews30d": 41795,
+      "manifestoSessions30d": 35459,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
     "retargeting": {
-      "cpl": 12.16,
+      "cpl": 16.23,
       "activeAds": 2,
       "status": "live",
       "label": "Grow retargeting lists"
@@ -520,6 +520,15 @@
       "impressions": 250193,
       "reach": 127060,
       "blendedCPL": 26.93,
+      "aeo": 0
+    },
+    {
+      "t": "2026-08-27T00:01:05.834Z",
+      "velocityWk": 455,
+      "spend": 6714,
+      "impressions": 241976,
+      "reach": 123215,
+      "blendedCPL": 28.81,
       "aeo": 0
     }
   ]

@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-27T00:01:56.884Z",
+  "generatedAt": "2026-08-27T16:01:32.046Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-27T00:01:56.884Z",
-    "sessions": 45457,
-    "engagedSessions": 19154,
-    "engagementRatePct": 42.1,
-    "avgEngagementSec": 84,
-    "pagesPerSession": 1.26,
-    "returnRatePct": 20,
+    "asOf": "2026-08-27T16:01:32.046Z",
+    "sessions": 43759,
+    "engagedSessions": 17909,
+    "engagementRatePct": 40.9,
+    "avgEngagementSec": 83,
+    "pagesPerSession": 1.25,
+    "returnRatePct": 19.7,
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 22358,
-        "dwellSec": 19
+        "sessions": 20777,
+        "dwellSec": 20
       },
       {
         "path": "/manifesto/",
-        "sessions": 15523,
-        "dwellSec": 26
+        "sessions": 14924,
+        "dwellSec": 27
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 1108,
-        "dwellSec": 29
+        "sessions": 1073,
+        "dwellSec": 31
       },
       {
         "path": "/manifesto/leaderboard/",
@@ -33,13 +33,13 @@
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 352,
-        "dwellSec": 5
+        "sessions": 340,
+        "dwellSec": 4
       }
     ],
     "trends": {
       "engagementRate": {
-        "pct": 23,
+        "pct": 15,
         "dir": "up",
         "sentiment": "good"
       },
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 95689,
-    "clicked": 5290,
-    "ctrPct": 5.53,
+    "delivered": 96867,
+    "clicked": 5348,
+    "ctrPct": 5.52,
     "broadcastCtrPct": 1.1,
-    "note": "Click-through on the nurture series (workflow emails, 95,689 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.1% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 96,867 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.1% for contrast."
   },
   "retargeting": {
     "status": "live",

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-28T16:02:10.154Z",
+  "generatedAt": "2026-08-28T20:01:56.809Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-28T16:02:10.154Z",
-    "sessions": 41655,
-    "engagedSessions": 16814,
+    "asOf": "2026-08-28T20:01:56.809Z",
+    "sessions": 41677,
+    "engagedSessions": 16825,
     "engagementRatePct": 40.4,
     "avgEngagementSec": 88,
     "pagesPerSession": 1.22,
@@ -13,27 +13,27 @@
     "manifestoLanding": [
       {
         "path": "/manifesto/bridge/",
-        "sessions": 19823,
+        "sessions": 19827,
         "dwellSec": 20
       },
       {
         "path": "/manifesto/",
-        "sessions": 14033,
+        "sessions": 14052,
         "dwellSec": 27
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 1029,
+        "sessions": 1030,
         "dwellSec": 31
       },
       {
         "path": "/manifesto/leaderboard/",
-        "sessions": 373,
+        "sessions": 374,
         "dwellSec": 23
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 331,
+        "sessions": 332,
         "dwellSec": 4
       }
     ],
@@ -44,7 +44,7 @@
         "sentiment": "good"
       },
       "avgEngagement": {
-        "pct": -18,
+        "pct": -17,
         "dir": "down",
         "sentiment": "bad"
       },
@@ -58,17 +58,17 @@
   "nurture": {
     "status": "needs-audit",
     "total": 466,
-    "active": 326,
+    "active": 325,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 91982,
-    "clicked": 4838,
+    "delivered": 91985,
+    "clicked": 4843,
     "ctrPct": 5.26,
     "broadcastCtrPct": 1.1,
-    "note": "Click-through on the nurture series (workflow emails, 91,982 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.1% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 91,985 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.1% for contrast."
   },
   "retargeting": {
     "status": "live",

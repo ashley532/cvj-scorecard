@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-31T20:02:22.925Z",
+  "generatedAt": "2026-09-01T00:03:08.892Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-08-31T20:02:22.925Z",
+    "asOf": "2026-09-01T00:03:08.892Z",
     "sessions": 37466,
     "engagedSessions": 14492,
     "engagementRatePct": 38.7,
@@ -57,23 +57,23 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 469,
-    "active": 323,
+    "total": 470,
+    "active": 324,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 127450,
-    "clicked": 4979,
-    "ctrPct": 3.91,
-    "broadcastCtrPct": 1.59,
-    "note": "Click-through on the nurture series (workflow emails, 127,450 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.59% for contrast."
+    "delivered": 126234,
+    "clicked": 4876,
+    "ctrPct": 3.86,
+    "broadcastCtrPct": 1.6,
+    "note": "Click-through on the nurture series (workflow emails, 126,234 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.6% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 4505,
-    "frequency": 4.71,
+    "reach": 4321,
+    "frequency": 4.7,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

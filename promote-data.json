@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-09-02T17:02:40.303Z",
+  "stage": "Promote",
+  "affiliateOptins": {
+    "status": "live",
+    "pulled": 4005,
+    "reported": 4005,
+    "contacts30": 1726,
+    "aff30": 1325,
+    "affPct30": 76.8,
+    "contacts90": 4005,
+    "aff90": 1796,
+    "affPct90": 44.8,
+    "contactsPrior60": 2279,
+    "affPrior60": 471,
+    "affPctPrior60": 20.7,
+    "codes90": 52,
+    "codesActive30": 38,
+    "top": [
+      {
+        "code": "brian3917",
+        "leads90": 231,
+        "leads30": 228,
+        "last": "2026-08-30"
+      },
+      {
+        "code": "ebenpagan1230",
+        "leads90": 171,
+        "leads30": 169,
+        "last": "2026-09-01"
+      },
+      {
+        "code": "chris4081",
+        "leads90": 140,
+        "leads30": 140,
+        "last": "2026-09-02"
+      },
+      {
+        "code": "glenledwell6353",
+        "leads90": 134,
+        "leads30": 134,
+        "last": "2026-09-02"
+      },
+      {
+        "code": "molly3018",
+        "leads90": 119,
+        "leads30": 11,
+        "last": "2026-09-01"
+      },
+      {
+        "code": "reedfloren614",
+        "leads90": 105,
+        "leads30": 53,
+        "last": "2026-08-31"
+      },
+      {
+        "code": "gauher",
+        "leads90": 80,
+        "leads30": 79,
+        "last": "2026-09-01"
+      },
+      {
+        "code": "stefan7904",
+        "leads90": 75,
+        "leads30": 72,
+        "last": "2026-08-25"
+      },
+      {
+        "code": "jonbenson9403",
+        "leads90": 72,
+        "leads30": 2,
+        "last": "2026-08-05"
+      },
+      {
+        "code": "karla4191",
+        "leads90": 70,
+        "leads30": 70,
+        "last": "2026-08-07"
+      }
+    ],
+    "zmosCheckoutAttributed90": 1,
+    "ctdAffiliateAttributed90": 9,
+    "note": "Share of new GHL contacts carrying the \"Referred By Affiliate\" code. 30d covers the Aug 11-13 challenge window; the prior-60d figure is the true between-launch baseline. Full pull verified against the reported total — never reported off a partial page."
+  },
+  "eventDriven": {
+    "status": "needs-work",
+    "launchPct": 76.8,
+    "baselinePct": 20.7,
+    "note": "Launch engine, not an always-on channel: 76.8% of new contacts during the August challenge window vs 20.7% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+  },
+  "affiliateRevenue": {
+    "status": "needs-work",
+    "zmosAttributed": 1,
+    "ctdAttributed": 9,
+    "note": "NOT MEASURABLE YET — attribution is captured cleanly at the opt-in and lost at the sale. \"Affiliate ZMOS Checkout Step 1\" is populated on 2 contacts in 90 days; \"ctd affiliate\" on 9. A published \"Affiliate Tracking - Stripe Sales\" workflow exists and is populating ~2 records a quarter. Until the checkout carries the code through to Stripe, nobody can say what any partner earned SP."
+  },
+  "jvCalendar": {
+    "status": "live",
+    "windows": 13,
+    "from": "2026-08-19",
+    "to": "2026-09-26",
+    "partners": [
+      "Eben Pagan",
+      "Mind Movies",
+      "Botbuilders",
+      "Knowledge Source",
+      "Stefan (LinkedIn Summit)",
+      "Cary Richards",
+      "Jon Schumacher",
+      "Rob Kosberg (x2)",
+      "Allison Maslan",
+      "Dan Wardrope",
+      "Andrew Pudrum",
+      "William Souza"
+    ],
+    "note": "Partner promo windows on the Rich Affiliate calendar, Aug 19 - Sep 26. Several names also appear on the opt-in leaderboard. NOTE: 4 of the 13 are no longer ahead of us — William Souza (Aug 19-22) and Eben Pagan (Aug 20-22) have finished, and Mind Movies and Stefan's LinkedIn Summit open today."
+  },
+  "customerReferral": {
+    "status": "needs-work",
+    "exists": false,
+    "builtNotPublished": "Create Affiliate on Zenith Blueprint Purchase (draft since 2025-10-13)",
+    "note": "BUILT, NEVER PUBLISHED. The workflow \"Create Affiliate on Zenith Blueprint Purchase\" — which turns a buyer into an affiliate — has been in DRAFT since 2025-10-13, with a matching tag. Nothing live across 49 forms, 462 published workflows, 462 tags, 13 surveys, 964 email templates or 495 campaigns. So zero customers can refer today, but the build is done: this is a switch-flip plus a decision on the reward, not a build from scratch. Same defect as the First Imprint buyer workflows in Excite."
+  },
+  "blockers": {
+    "status": "needs-work",
+    "commissionOpenSince": "2026-06-02",
+    "dormantPartners": 163,
+    "dormantLtv": 6800000,
+    "note": "From the 2026-08-12 full audit, still open and NOT re-derived this session: commission structure OPEN since 2 June, which blocks making partner promotion evergreen; and 163 dormant partners representing $6.8M of lifetime value, un-worked. Neither is reflected in the opt-in figures above."
+  },
+  "producing": {
+    "status": "pending",
+    "note": "The 2026-08-12 audit recorded \"~30 recruited / 4 producing\". That has NOT been disproven — affiliate→sale cannot be measured today, so production is unexamined. This is the gap that decides the stage's real grade."
+  },
+  "grade": "C",
+  "priorGrade": "D (2026-08-12)",
+  "gradeNote": "Two-notch reversal — but August graded PRODUCTION (\"4 producing\"), this measures OPT-IN volume and breadth. Since affiliate→sale is still unmeasurable, \"4 producing\" is unexamined, not disproven. Ashley's call: accept C, or hold at D until testable on August's own metric."
+}

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-09-02T17:02:07.256Z",
+  "stage": "Excite",
+  "refunds": {
+    "status": "live",
+    "rate30DollarPct": 4.13,
+    "rate30CountPct": 5.1,
+    "rate90DollarPct": 3.46,
+    "rate90CountPct": 6.53,
+    "count30": 23,
+    "amount30": 9612.21,
+    "count90": 52,
+    "amount90": 20267.23,
+    "charges90": 796,
+    "chargeAmount90": 585158.25,
+    "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
+  },
+  "disputes": {
+    "status": "live",
+    "count90": 3,
+    "amount90": 2597,
+    "ratePct": 0.377,
+    "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
+  },
+  "frontEndOnboarding": {
+    "status": "needs-work",
+    "note": "The published First Imprint workflows are the SELLING ones (Close Cart E01-E10, Close Cart SMS 01-11, Replay Emails). Every buyer-side workflow — VIP Purchase, VIP Confirmation E01-E05, Non-VIP Confirmation, Tech Call Purchase, Tech Call Booked, Replay Offer Purchase, Challenge Lifetime Access — is in DRAFT. Verified in GHL, 2026-08-23."
+  },
+  "moneyPathTest": {
+    "status": "needs-work",
+    "sampled": 60,
+    "received": 56,
+    "note": "Tested, not assumed: 56 of 60 sampled (the first 60 of the deduped buyer list — a convenience sample, indicative not a measured rate): First Imprint buyers DID receive email after the challenge ended (Aug 14+). The problem is the content — the high-volume subjects (38-56 recipients) are replay urgency and the ZenithMind Elite pitch. The only welcome subjects (\"Welcome to ZenithMind OS\", \"ZenithMind Elite Membership Approved\") reached 2-3 people each — only those who ascended."
+  },
+  "frontEndVolume": {
+    "status": "live",
+    "units": 5,
+    "revenue": 514,
+    "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
+  },
+  "satisfaction": {
+    "status": "needs-work",
+    "daysSinceLast": 72,
+    "eliteFmResponses": 56,
+    "ctdResponses": 11,
+    "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."
+  },
+  "nps": {
+    "status": "needs-work",
+    "note": "Not found anywhere in GoHighLevel — searched and paginated to the reported total across 13 surveys, 49 forms, 462 workflows, 462 tags, 186 custom fields, 964 email templates and 495 email campaigns. What does exist is a lapsed rhythm: Force Multiplier ran daily Feedback campaigns (Days 3-10) plus \"FM Feedback — Quick Question (Rich)\". SP has done this before; it stopped."
+  },
+  "onboardingEngagement": {
+    "status": "pending",
+    "note": "NOT MEASURABLE YET. Mailgun carries only the generic et_workflow tag across all 324 published workflows, so the onboarding sequence cannot be separated from every other automated email. Needs its own tag (Ben)."
+  },
+  "memberActivation": {
+    "status": "pending",
+    "note": "NOT MEASURABLE YET — no membership/activation endpoint on the GHL v2 API for this location. Not yet attempted against the ZenithPro portal or Whop, so this is \"not reached\" rather than \"unreachable\"."
+  },
+  "zmCompletion": {
+    "status": "pending",
+    "note": "Ashley's 2026-08-17 ruling makes the ZenithMind guarantee conditional on completing all four lessons AND submitting results. That makes completion the number that says whether the product landed — and it is not instrumented anywhere yet."
+  },
+  "buyerTagging": {
+    "status": "needs-work",
+    "tagged": 100,
+    "stripeUnits": 174,
+    "tagged90d": 71,
+    "charges90d": 885,
+    "note": "GHL cannot tell you who bought. 100 contacts carry \"buyer: first imprint challenge reg\" against 174 Stripe registration units this month; across 90d only 71 new contacts (of every contact added in that window) carry ANY buyer tag while Stripe recorded 885 successful charges. Tested for a row cap first — the same query returns 2,472 rows on the manifesto tag, so this is missing data, not truncation."
+  },
+  "grade": "C-",
+  "priorGrade": "C (2026-08-12)"
+}

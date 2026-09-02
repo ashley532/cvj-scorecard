@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-02T17:00:52.221Z",
+  "stage": "Ascend",
+  "status": "partial",
+  "scope": "Cross-offer ascension visibility assembled from Convert and CTD snapshots. This is not a customer-level cohort join.",
+  "challengeToZenithMind": {
+    "status": "live",
+    "buyers": 19,
+    "revenue": 34720,
+    "fullPay": 10,
+    "twoPay": 9,
+    "source": "convert-data.json",
+    "note": "First Imprint Challenge to ZenithMind Day-3 offer. The cohort conversion denominator is not available in this snapshot."
+  },
+  "ctd": {
+    "status": "partial",
+    "regularSeats": 4,
+    "regularSeatDollars": 15000,
+    "jaySeatsExcluded": 11,
+    "pipelineRecords": 48,
+    "pipelineClosed": 11,
+    "pipelineWon": 1,
+    "roadmapHeld": 19,
+    "source": "ctd-fill-data.json generated 2026-09-02T17:00:52.221Z",
+    "note": "Stripe, GHL pipeline, roadmap sessions, and Collin's authoritative roster are not joined. Jay Abraham seats are a separate JV and excluded from regular seats."
+  },
+  "frontEndToCtd": {
+    "status": "unavailable",
+    "source": "convert-data.json",
+    "note": "No verified customer-level front-end-to-CTD cohort join. No operating rate is presented."
+  },
+  "customerLevelJoin": {
+    "status": "pending",
+    "owner": "Analytics + Collin + Finance",
+    "note": "Join buyer identity, first purchase, ZenithMind purchase, CTD deposit, refunds, and cohort roster before publishing conversion rates."
+  },
+  "grade": "INCOMPLETE"
+}

@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-09-02T17:02:39.521Z",
+  "stage": "Advocate",
+  "nature": "Proof-inventory audit, not a live-metric pull. Counts below are read from the vault inventories and labelled as such.",
+  "proofPoints": {
+    "status": "inventory",
+    "count": 353,
+    "members": 82,
+    "transcripts": 114,
+    "asOf": "2026-04-14",
+    "note": "ZenithMind Proof Point Library — 353 proof points from 82 members across 114 transcripts. A real asset."
+  },
+  "testimonials": {
+    "status": "inventory",
+    "submissions": 115,
+    "submissionsIsFloor": true,
+    "transcriptEntries": 118,
+    "uniquePeople": 92,
+    "cohortWeeks": 6,
+    "asOf": "2026-04-14",
+    "note": "ZenithMind Master Testimonial Inventory — 115 contest-form submissions across 6 tracked cohort-weeks, from ~92 unique individuals. A FLOOR: three further cohort-weeks have transcripts but no spreadsheet. (A separate figure, 118, counts transcript entries and double-counts repeat submitters — it is not a submission count.) Captured by a manual cohort CONTEST, not a standing ask."
+  },
+  "fmCtdProof": {
+    "status": "inventory",
+    "asOf": "2026-06-24",
+    "note": "FM + CTD master compilation — CTD Cohorts 1-2, FM post-program clips, Pearl Lockwood, Tain Nix and Jeremy Flanagan at full-transcript depth."
+  },
+  "permission": {
+    "status": "partial",
+    "withPermissionCited": 51,
+    "note": "Tracked ad hoc, per asset — not as an inventory field. The Decisions Ledger records Rich's own \"51 video testimonials with permission\" and Ashley's clearance of Laura / Bryan / Dr. Bill for the reg page. Defensible per asset, unusable as a filter."
+  },
+  "freshness": {
+    "status": "needs-work",
+    "newestInventory": "2026-07-16",
+    "note": "Newest inventory 2026-07-16; the two ZenithMind proof libraries were last modified 2026-04-13/14, over four months ago. These are FILE MODIFICATION dates — neither library carries an internal date — so \"last updated in April\" is an inference from the filesystem. Copy risks being written from stale proof."
+  },
+  "ctdCoverage": {
+    "status": "needs-work",
+    "note": "Source, verbatim: \"No CTD compilation has been made since March. Cohorts 2-5 are not in any compilation yet.\" Five months of CTD wins sit uncut."
+  },
+  "captureMechanism": {
+    "status": "needs-work",
+    "exists": false,
+    "formsTotal": 49,
+    "workflowsTotal": 471,
+    "tagsTotal": 466,
+    "note": "Nothing running. Not found across 49 forms, 471 workflows and 466 tags (plus 13 surveys, 186 custom fields, 964 email templates and 495 campaigns, each paginated to its reported total). IMPORTANT: those object types all sit inside GoHighLevel — the mechanism that actually produced SP's 115 testimonials was OUTSIDE it, a cohort contest form run by hand, which lapsed after the spring cohorts. The finding is \"it stopped\", not \"it never existed\". Re-checked live every refresh, so this flips by itself the day an in-platform one is built. THE CONSTRAINT."
+  },
+  "frontEndAsk": {
+    "status": "needs-work",
+    "buyers": 168,
+    "note": "168 unique contacts across the four First Imprint buyer tags (100+67+7+4 rows, deduped by email), and not one was asked how it went. Sits below Stripe's 174 registration units — that gap is the buyer-tagging defect, not a different population. The largest buyer group SP has is never asked."
+  },
+  "emergingMechanism": {
+    "status": "partial",
+    "note": "Ashley's 2026-08-17 guarantee ruling accidentally built what this stage is missing: to qualify, a ZenithMind buyer must complete all four lessons AND SUBMIT RESULTS — a documented win, from a named customer, at the moment they are most pleased. ZenithMind-only, and the submission channel is owned (Camilla) but not built. Widening it to the front end is the cheapest Advocate fix available."
+  },
+  "testimonialsPerMonth": {
+    "status": "pending",
+    "note": "NOT MEASURABLE YET — there is no capture event to count. Becomes measurable the moment a standing ask exists."
+  },
+  "grade": "D+",
+  "priorGrade": "D+ (2026-08-12) — unchanged"
+}

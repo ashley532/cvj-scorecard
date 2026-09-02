@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-02T13:02:00.849Z",
+  "generatedAt": "2026-09-02T17:01:51.637Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-02T13:02:00.849Z",
+    "asOf": "2026-09-02T17:01:51.637Z",
     "sessions": 36718,
     "engagedSessions": 14170,
     "engagementRatePct": 38.6,
@@ -64,16 +64,18 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 138409,
-    "clicked": 4930,
-    "ctrPct": 3.56,
-    "broadcastCtrPct": 1.63,
-    "note": "Click-through on the nurture series (workflow emails, 138,409 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.63% for contrast."
+    "delivered": 138419,
+    "clicked": 4936,
+    "ctrPct": 3.57,
+    "broadcastCtrPct": 1.64,
+    "note": "Click-through on the nurture series (workflow emails, 138,419 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.64% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 0,
-    "note": "no warm/retargeting campaign in window (intermittent)"
+    "reach": 4097,
+    "frequency": 4.62,
+    "campaigns": 2,
+    "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },
   "gated": {
     "manifestoReadDepth": {

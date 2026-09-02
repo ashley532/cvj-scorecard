@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-02T13:00:56.052Z",
+  "generatedAt": "2026-09-02T17:00:41.176Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-02T13:00:56.052Z",
+    "asOf": "2026-09-02T17:00:41.176Z",
     "window": "2026-08-03..2026-09-02",
     "priorWindow": "2026-07-04..2026-08-03",
-    "spend30d": 5352,
-    "impressions": 194221,
-    "reach": 102592,
+    "spend30d": 5368,
+    "impressions": 194572,
+    "reach": 102688,
     "coldManifestoCPL": 16.44,
     "retargetingCPL": 49.11,
-    "blendedCPL": 37.43,
+    "blendedCPL": 37.02,
     "challengeRoas": 2.09,
     "challengeRev": 3370,
     "challengeSpend": 1612,
@@ -45,7 +45,7 @@
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": 278,
+        "pct": 274,
         "dir": "up",
         "sentiment": "bad"
       },
@@ -53,14 +53,14 @@
     }
   },
   "optins": {
-    "value": 3028,
+    "value": 3035,
     "status": "live",
-    "asOf": "2026-09-02T13:00:56.052Z",
+    "asOf": "2026-09-02T17:00:41.176Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 162,
-    "prevWk": 413,
-    "trendPct": -61,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3028 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 142,
+    "prevWk": 437,
+    "trendPct": -68,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3035 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -79,15 +79,15 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 194221,
-      "paidReach30d": 102592,
+      "paidImpressions30d": 194572,
+      "paidReach30d": 102688,
       "manifestoSessions30d": 27904,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12726,
+      "igFollowers": 12728,
       "igPosts": 654,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
@@ -136,7 +136,7 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-02T13:00:56.052Z",
+      "asOf": "2026-09-02T17:00:41.176Z",
       "avgEngagementSec": 76,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
@@ -655,6 +655,15 @@
       "impressions": 194221,
       "reach": 102592,
       "blendedCPL": 37.43,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-02T17:00:41.176Z",
+      "velocityWk": 142,
+      "spend": 5368,
+      "impressions": 194572,
+      "reach": 102688,
+      "blendedCPL": 37.02,
       "aeo": 0
     }
   ]

@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-03T13:00:52.842Z",
+  "generatedAt": "2026-09-03T17:00:40.147Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-03T13:00:52.842Z",
+    "asOf": "2026-09-03T17:00:40.147Z",
     "window": "2026-08-04..2026-09-03",
     "priorWindow": "2026-07-05..2026-08-04",
-    "spend30d": 5319,
-    "impressions": 188024,
+    "spend30d": 5339,
+    "impressions": 188411,
     "reach": 99685,
     "coldManifestoCPL": 17.15,
     "retargetingCPL": 41.91,
-    "blendedCPL": 38.54,
+    "blendedCPL": 38.41,
     "challengeRoas": 2.09,
     "challengeRev": 3370,
     "challengeSpend": 1612,
@@ -45,7 +45,7 @@
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": 272,
+        "pct": 271,
         "dir": "up",
         "sentiment": "bad"
       },
@@ -53,14 +53,14 @@
     }
   },
   "optins": {
-    "value": 3044,
+    "value": 3079,
     "status": "live",
-    "asOf": "2026-09-03T13:00:52.842Z",
+    "asOf": "2026-09-03T17:00:40.147Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 119,
-    "prevWk": 460,
-    "trendPct": -74,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3044 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 145,
+    "prevWk": 452,
+    "trendPct": -68,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3079 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -79,15 +79,15 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 188024,
+      "paidImpressions30d": 188411,
       "paidReach30d": 99685,
-      "manifestoSessions30d": 27667,
+      "manifestoSessions30d": 27685,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12728,
+      "igFollowers": 12727,
       "igPosts": 655,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
@@ -136,12 +136,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-03T13:00:52.842Z",
+      "asOf": "2026-09-03T17:00:40.147Z",
       "avgEngagementSec": 76,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 30482,
-      "manifestoSessions30d": 27667,
+      "manifestoPageviews30d": 30490,
+      "manifestoSessions30d": 27685,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -682,6 +682,15 @@
       "impressions": 188024,
       "reach": 99685,
       "blendedCPL": 38.54,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-03T17:00:40.147Z",
+      "velocityWk": 145,
+      "spend": 5339,
+      "impressions": 188411,
+      "reach": 99685,
+      "blendedCPL": 38.41,
       "aeo": 0
     }
   ]

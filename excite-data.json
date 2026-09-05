@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-04T21:02:38.003Z",
+  "generatedAt": "2026-09-05T13:02:37.749Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 4.32,
-    "rate30CountPct": 5.52,
+    "rate30DollarPct": 4.2,
+    "rate30CountPct": 5.38,
     "rate90DollarPct": 3.56,
-    "rate90CountPct": 6.49,
-    "count30": 25,
-    "amount30": 9856.21,
+    "rate90CountPct": 6.56,
+    "count30": 24,
+    "amount30": 9359.21,
     "count90": 51,
     "amount90": 20120.23,
-    "charges90": 786,
-    "chargeAmount90": 565674.25,
+    "charges90": 777,
+    "chargeAmount90": 564649.25,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.382,
+    "ratePct": 0.386,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,13 +34,13 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 8,
-    "revenue": 757,
+    "units": 9,
+    "revenue": 1054,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 74,
+    "daysSinceLast": 75,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

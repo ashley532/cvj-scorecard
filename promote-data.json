@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-04T21:03:09.567Z",
+  "generatedAt": "2026-09-05T13:03:15.073Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4112,
-    "reported": 4112,
-    "contacts30": 1584,
-    "aff30": 1180,
-    "affPct30": 74.5,
-    "contacts90": 4112,
-    "aff90": 1903,
-    "affPct90": 46.3,
-    "contactsPrior60": 2528,
-    "affPrior60": 723,
-    "affPctPrior60": 28.6,
+    "pulled": 4133,
+    "reported": 4133,
+    "contacts30": 1529,
+    "aff30": 1126,
+    "affPct30": 73.6,
+    "contacts90": 4133,
+    "aff90": 1922,
+    "affPct90": 46.5,
+    "contactsPrior60": 2604,
+    "affPrior60": 796,
+    "affPctPrior60": 30.6,
     "codes90": 52,
     "codesActive30": 32,
     "top": [
       {
         "code": "brian3917",
         "leads90": 230,
-        "leads30": 71,
+        "leads30": 30,
         "last": "2026-08-30"
       },
       {
         "code": "ebenpagan1230",
-        "leads90": 173,
-        "leads30": 170,
-        "last": "2026-09-04"
+        "leads90": 175,
+        "leads30": 172,
+        "last": "2026-09-05"
       },
       {
         "code": "chris4081",
         "leads90": 142,
-        "leads30": 103,
+        "leads30": 75,
         "last": "2026-09-04"
       },
       {
@@ -48,16 +48,16 @@
         "last": "2026-09-03"
       },
       {
+        "code": "danwardrope1542",
+        "leads90": 114,
+        "leads30": 114,
+        "last": "2026-09-05"
+      },
+      {
         "code": "reedfloren614",
         "leads90": 105,
         "leads30": 51,
         "last": "2026-08-31"
-      },
-      {
-        "code": "danwardrope1542",
-        "leads90": 98,
-        "leads30": 98,
-        "last": "2026-09-04"
       },
       {
         "code": "gauher",
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 74.5,
-    "baselinePct": 28.6,
-    "note": "Launch engine, not an always-on channel: 74.5% of new contacts during the August challenge window vs 28.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 73.6,
+    "baselinePct": 30.6,
+    "note": "Launch engine, not an always-on channel: 73.6% of new contacts during the August challenge window vs 30.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

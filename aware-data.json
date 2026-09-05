@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-05T17:01:06.396Z",
+  "generatedAt": "2026-09-05T21:00:48.951Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-05T17:01:06.396Z",
+    "asOf": "2026-09-05T21:00:48.951Z",
     "window": "2026-08-06..2026-09-05",
     "priorWindow": "2026-07-07..2026-08-06",
-    "spend30d": 5293,
-    "impressions": 178847,
-    "reach": 92434,
+    "spend30d": 5338,
+    "impressions": 179849,
+    "reach": 92511,
     "coldManifestoCPL": 16.59,
     "retargetingCPL": 53.81,
-    "blendedCPL": 38.08,
+    "blendedCPL": 37.59,
     "challengeRoas": 2.09,
     "challengeRev": 3370,
     "challengeSpend": 1612,
@@ -20,7 +20,7 @@
     "activeAds": 13,
     "trends": {
       "spend": {
-        "pct": 9,
+        "pct": 10,
         "dir": "up",
         "sentiment": "neutral"
       },
@@ -45,7 +45,7 @@
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": 228,
+        "pct": 223,
         "dir": "up",
         "sentiment": "bad"
       },
@@ -53,14 +53,14 @@
     }
   },
   "optins": {
-    "value": 3237,
+    "value": 3247,
     "status": "live",
-    "asOf": "2026-09-05T17:01:06.396Z",
+    "asOf": "2026-09-05T21:00:48.951Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 275,
-    "prevWk": 413,
-    "trendPct": -33,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3237 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 280,
+    "prevWk": 405,
+    "trendPct": -31,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3247 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -79,16 +79,16 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 178847,
-      "paidReach30d": 92434,
+      "paidImpressions30d": 179849,
+      "paidReach30d": 92511,
       "manifestoSessions30d": 26252,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12729,
-      "igPosts": 658,
+      "igFollowers": 12730,
+      "igPosts": 659,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
         "status": "partial",
@@ -96,25 +96,25 @@
         "shares": 35,
         "comments": 58,
         "likes": 553,
-        "posts": 116,
+        "posts": 119,
         "byChannel": {
-          "linkedin": {
-            "shares": 0,
-            "comments": 0,
-            "likes": 0,
-            "posts": 19
-          },
           "instagram": {
             "shares": 0,
             "comments": 16,
             "likes": 200,
-            "posts": 16
+            "posts": 17
+          },
+          "linkedin": {
+            "shares": 0,
+            "comments": 0,
+            "likes": 0,
+            "posts": 20
           },
           "facebook": {
             "shares": 35,
             "comments": 42,
             "likes": 353,
-            "posts": 20
+            "posts": 21
           },
           "community": {
             "shares": 0,
@@ -136,11 +136,11 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-05T17:01:06.396Z",
+      "asOf": "2026-09-05T21:00:48.951Z",
       "avgEngagementSec": 76,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 28313,
+      "manifestoPageviews30d": 28319,
       "manifestoSessions30d": 26252,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
@@ -745,6 +745,15 @@
       "impressions": 178847,
       "reach": 92434,
       "blendedCPL": 38.08,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-05T21:00:48.951Z",
+      "velocityWk": 280,
+      "spend": 5338,
+      "impressions": 179849,
+      "reach": 92511,
+      "blendedCPL": 37.59,
       "aeo": 0
     }
   ]

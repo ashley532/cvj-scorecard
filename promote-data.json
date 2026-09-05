@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-05T17:03:04.267Z",
+  "generatedAt": "2026-09-05T21:03:04.394Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4166,
-    "reported": 4166,
-    "contacts30": 1535,
-    "aff30": 1135,
-    "affPct30": 73.9,
-    "contacts90": 4166,
-    "aff90": 1953,
+    "pulled": 4175,
+    "reported": 4175,
+    "contacts30": 1532,
+    "aff30": 1130,
+    "affPct30": 73.8,
+    "contacts90": 4175,
+    "aff90": 1958,
     "affPct90": 46.9,
-    "contactsPrior60": 2631,
-    "affPrior60": 818,
-    "affPctPrior60": 31.1,
+    "contactsPrior60": 2643,
+    "affPrior60": 828,
+    "affPctPrior60": 31.3,
     "codes90": 52,
     "codesActive30": 32,
     "top": [
       {
         "code": "brian3917",
         "leads90": 230,
-        "leads30": 25,
+        "leads30": 23,
         "last": "2026-08-30"
       },
       {
@@ -31,14 +31,14 @@
       },
       {
         "code": "danwardrope1542",
-        "leads90": 145,
-        "leads30": 144,
+        "leads90": 149,
+        "leads30": 148,
         "last": "2026-09-05"
       },
       {
         "code": "chris4081",
         "leads90": 142,
-        "leads30": 66,
+        "leads30": 63,
         "last": "2026-09-04"
       },
       {
@@ -56,7 +56,7 @@
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 50,
+        "leads30": 48,
         "last": "2026-08-31"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 73.9,
-    "baselinePct": 31.1,
-    "note": "Launch engine, not an always-on channel: 73.9% of new contacts during the August challenge window vs 31.1% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 73.8,
+    "baselinePct": 31.3,
+    "note": "Launch engine, not an always-on channel: 73.8% of new contacts during the August challenge window vs 31.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

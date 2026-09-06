@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-09-06T17:02:47.124Z",
+  "generatedAt": "2026-09-06T21:02:44.602Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4214,
-    "reported": 4214,
-    "contacts30": 1464,
-    "aff30": 1082,
-    "affPct30": 73.9,
-    "contacts90": 4214,
-    "aff90": 1989,
+    "pulled": 4218,
+    "reported": 4218,
+    "contacts30": 1371,
+    "aff30": 992,
+    "affPct30": 72.4,
+    "contacts90": 4218,
+    "aff90": 1992,
     "affPct90": 47.2,
-    "contactsPrior60": 2750,
-    "affPrior60": 907,
-    "affPctPrior60": 33,
+    "contactsPrior60": 2847,
+    "affPrior60": 1000,
+    "affPctPrior60": 35.1,
     "codes90": 52,
-    "codesActive30": 30,
+    "codesActive30": 29,
     "top": [
       {
         "code": "brian3917",
         "leads90": 230,
-        "leads30": 19,
+        "leads30": 18,
         "last": "2026-08-30"
       },
       {
         "code": "danwardrope1542",
-        "leads90": 178,
-        "leads30": 176,
+        "leads90": 181,
+        "leads30": 179,
         "last": "2026-09-06"
       },
       {
@@ -56,19 +56,19 @@
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 38,
+        "leads30": 32,
         "last": "2026-08-31"
       },
       {
         "code": "gauher",
         "leads90": 80,
-        "leads30": 60,
+        "leads30": 53,
         "last": "2026-09-01"
       },
       {
         "code": "stefan7904",
         "leads90": 75,
-        "leads30": 43,
+        "leads30": 38,
         "last": "2026-08-25"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 73.9,
-    "baselinePct": 33,
-    "note": "Launch engine, not an always-on channel: 73.9% of new contacts during the August challenge window vs 33% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 72.4,
+    "baselinePct": 35.1,
+    "note": "Launch engine, not an always-on channel: 72.4% of new contacts during the August challenge window vs 35.1% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

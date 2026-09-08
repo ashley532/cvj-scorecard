@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-08T17:03:21.023Z",
+  "generatedAt": "2026-09-08T22:25:43.164Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4254,
-    "reported": 4254,
-    "contacts30": 1305,
-    "aff30": 919,
-    "affPct30": 70.4,
-    "contacts90": 4254,
-    "aff90": 2015,
-    "affPct90": 47.4,
-    "contactsPrior60": 2949,
-    "affPrior60": 1096,
-    "affPctPrior60": 37.2,
+    "pulled": 4265,
+    "reported": 4265,
+    "contacts30": 1308,
+    "aff30": 915,
+    "affPct30": 70,
+    "contacts90": 4265,
+    "aff90": 2017,
+    "affPct90": 47.3,
+    "contactsPrior60": 2957,
+    "affPrior60": 1102,
+    "affPctPrior60": 37.3,
     "codes90": 52,
     "codesActive30": 28,
     "top": [
@@ -25,8 +25,8 @@
       },
       {
         "code": "danwardrope1542",
-        "leads90": 198,
-        "leads30": 196,
+        "leads90": 199,
+        "leads30": 197,
         "last": "2026-09-08"
       },
       {
@@ -38,7 +38,7 @@
       {
         "code": "chris4081",
         "leads90": 142,
-        "leads30": 17,
+        "leads30": 14,
         "last": "2026-09-04"
       },
       {
@@ -56,7 +56,7 @@
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 20,
+        "leads30": 18,
         "last": "2026-08-31"
       },
       {
@@ -68,7 +68,7 @@
       {
         "code": "stefan7904",
         "leads90": 75,
-        "leads30": 28,
+        "leads30": 27,
         "last": "2026-08-25"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 70.4,
-    "baselinePct": 37.2,
-    "note": "Launch engine, not an always-on channel: 70.4% of new contacts during the August challenge window vs 37.2% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 70,
+    "baselinePct": 37.3,
+    "note": "Launch engine, not an always-on channel: 70% of new contacts during the August challenge window vs 37.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

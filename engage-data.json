@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-09T13:02:30.316Z",
+  "generatedAt": "2026-09-09T17:02:44.267Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-09T13:02:30.316Z",
-    "sessions": 31319,
-    "engagedSessions": 10754,
-    "engagementRatePct": 34.3,
+    "asOf": "2026-09-09T17:02:44.267Z",
+    "sessions": 31366,
+    "engagedSessions": 10777,
+    "engagementRatePct": 34.4,
     "avgEngagementSec": 102,
     "pagesPerSession": 1.15,
     "returnRatePct": 19,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 12243,
+        "sessions": 12255,
         "dwellSec": 29
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 10021,
+        "sessions": 10022,
         "dwellSec": 23
       },
       {
@@ -28,12 +28,12 @@
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 340,
+        "sessions": 343,
         "dwellSec": 8
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 182,
+        "sessions": 183,
         "dwellSec": 7
       }
     ],
@@ -57,18 +57,18 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 483,
-    "active": 322,
+    "total": 484,
+    "active": 323,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 179241,
-    "clicked": 4164,
-    "ctrPct": 2.32,
-    "broadcastCtrPct": 1.91,
-    "note": "Click-through on the nurture series (workflow emails, 179,241 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.91% for contrast."
+    "delivered": 180177,
+    "clicked": 4192,
+    "ctrPct": 2.33,
+    "broadcastCtrPct": 1.93,
+    "note": "Click-through on the nurture series (workflow emails, 180,177 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.93% for contrast."
   },
   "retargeting": {
     "status": "live",

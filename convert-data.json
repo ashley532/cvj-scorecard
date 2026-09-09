@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T22:25:06.297Z",
+  "generatedAt": "2026-09-09T13:02:44.247Z",
   "stage": "Convert",
   "frontEndOffer": {
     "name": "$97 PAIOS / Operator OS",
@@ -30,8 +30,8 @@
   },
   "mtdRevenue": {
     "status": "live",
-    "combined": 30693,
-    "stripe": 30693,
+    "combined": 37651,
+    "stripe": 37651,
     "whop": 0,
     "note": "TOTAL revenue this month (Stripe+Whop, rich-peer). Mostly back-end/ascension — NOT front-end. Here for context, not a Convert metric."
   },

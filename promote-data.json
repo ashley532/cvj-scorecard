@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-08T22:25:43.164Z",
+  "generatedAt": "2026-09-09T13:03:19.777Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4265,
-    "reported": 4265,
-    "contacts30": 1308,
-    "aff30": 915,
-    "affPct30": 70,
-    "contacts90": 4265,
-    "aff90": 2017,
-    "affPct90": 47.3,
-    "contactsPrior60": 2957,
-    "affPrior60": 1102,
-    "affPctPrior60": 37.3,
+    "pulled": 4279,
+    "reported": 4279,
+    "contacts30": 1295,
+    "aff30": 895,
+    "affPct30": 69.1,
+    "contacts90": 4279,
+    "aff90": 2020,
+    "affPct90": 47.2,
+    "contactsPrior60": 2984,
+    "affPrior60": 1125,
+    "affPctPrior60": 37.7,
     "codes90": 52,
-    "codesActive30": 28,
+    "codesActive30": 27,
     "top": [
       {
         "code": "brian3917",
-        "leads90": 230,
+        "leads90": 232,
         "leads30": 11,
-        "last": "2026-08-30"
+        "last": "2026-09-09"
       },
       {
         "code": "danwardrope1542",
-        "leads90": 199,
-        "leads30": 197,
-        "last": "2026-09-08"
+        "leads90": 200,
+        "leads30": 198,
+        "last": "2026-09-09"
       },
       {
         "code": "ebenpagan1230",
@@ -38,7 +38,7 @@
       {
         "code": "chris4081",
         "leads90": 142,
-        "leads30": 14,
+        "leads30": 9,
         "last": "2026-09-04"
       },
       {
@@ -56,19 +56,19 @@
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 18,
+        "leads30": 13,
         "last": "2026-08-31"
       },
       {
         "code": "gauher",
         "leads90": 80,
-        "leads30": 33,
+        "leads30": 31,
         "last": "2026-09-01"
       },
       {
         "code": "stefan7904",
         "leads90": 75,
-        "leads30": 27,
+        "leads30": 25,
         "last": "2026-08-25"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 70,
-    "baselinePct": 37.3,
-    "note": "Launch engine, not an always-on channel: 70% of new contacts during the August challenge window vs 37.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 69.1,
+    "baselinePct": 37.7,
+    "note": "Launch engine, not an always-on channel: 69.1% of new contacts during the August challenge window vs 37.7% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

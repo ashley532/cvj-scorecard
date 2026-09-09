@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-09-08T22:24:58.178Z",
+  "generatedAt": "2026-09-09T13:02:30.316Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-08T22:24:58.178Z",
-    "sessions": 33522,
-    "engagedSessions": 11693,
-    "engagementRatePct": 34.9,
-    "avgEngagementSec": 98,
-    "pagesPerSession": 1.14,
-    "returnRatePct": 17.8,
+    "asOf": "2026-09-09T13:02:30.316Z",
+    "sessions": 31319,
+    "engagedSessions": 10754,
+    "engagementRatePct": 34.3,
+    "avgEngagementSec": 102,
+    "pagesPerSession": 1.15,
+    "returnRatePct": 19,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 12422,
+        "sessions": 12243,
         "dwellSec": 29
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 11877,
-        "dwellSec": 22
+        "sessions": 10021,
+        "dwellSec": 23
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 826,
-        "dwellSec": 28
+        "sessions": 796,
+        "dwellSec": 29
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 306,
-        "dwellSec": 5
+        "sessions": 340,
+        "dwellSec": 8
       },
       {
-        "path": "/manifesto/leaderboard/",
-        "sessions": 194,
-        "dwellSec": 24
+        "path": "/manifesto/affiliate-kit/",
+        "sessions": 182,
+        "dwellSec": 7
       }
     ],
     "trends": {
       "engagementRate": {
-        "pct": -13,
+        "pct": -15,
         "dir": "down",
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 1,
+        "pct": 11,
         "dir": "up",
         "sentiment": "good"
       },
       "pagesPerSession": {
-        "pct": -14,
+        "pct": -12,
         "dir": "down",
         "sentiment": "bad"
       }
@@ -64,16 +64,16 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 207614,
-    "clicked": 4616,
-    "ctrPct": 2.22,
-    "broadcastCtrPct": 1.9,
-    "note": "Click-through on the nurture series (workflow emails, 207,614 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.9% for contrast."
+    "delivered": 179241,
+    "clicked": 4164,
+    "ctrPct": 2.32,
+    "broadcastCtrPct": 1.91,
+    "note": "Click-through on the nurture series (workflow emails, 179,241 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.91% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 1948,
-    "frequency": 4.1,
+    "reach": 1712,
+    "frequency": 3.94,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

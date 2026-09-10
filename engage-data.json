@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-10T17:02:49.947Z",
+  "generatedAt": "2026-09-10T21:05:42.954Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-10T17:02:49.947Z",
+    "asOf": "2026-09-10T21:05:42.954Z",
     "sessions": 27586,
     "engagedSessions": 8649,
     "engagementRatePct": 31.4,
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 203421,
-    "clicked": 4104,
-    "ctrPct": 2.02,
+    "delivered": 208111,
+    "clicked": 4233,
+    "ctrPct": 2.03,
     "broadcastCtrPct": 1.94,
-    "note": "Click-through on the nurture series (workflow emails, 203,421 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.94% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 208,111 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.94% for contrast."
   },
   "retargeting": {
     "status": "live",

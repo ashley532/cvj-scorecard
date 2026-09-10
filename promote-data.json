@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-10T17:03:46.265Z",
+  "generatedAt": "2026-09-10T21:11:09.194Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4302,
-    "reported": 4302,
-    "contacts30": 1240,
-    "aff30": 838,
-    "affPct30": 67.6,
-    "contacts90": 4302,
-    "aff90": 2023,
-    "affPct90": 47,
-    "contactsPrior60": 3062,
-    "affPrior60": 1185,
-    "affPctPrior60": 38.7,
+    "pulled": 4312,
+    "reported": 4312,
+    "contacts30": 1245,
+    "aff30": 833,
+    "affPct30": 66.9,
+    "contacts90": 4312,
+    "aff90": 2024,
+    "affPct90": 46.9,
+    "contactsPrior60": 3067,
+    "affPrior60": 1191,
+    "affPctPrior60": 38.8,
     "codes90": 52,
     "codesActive30": 23,
     "top": [
       {
         "code": "brian3917",
         "leads90": 232,
-        "leads30": 9,
+        "leads30": 8,
         "last": "2026-09-09"
       },
       {
@@ -49,14 +49,14 @@
       },
       {
         "code": "molly3018",
-        "leads90": 121,
-        "leads30": 5,
-        "last": "2026-09-03"
+        "leads90": 122,
+        "leads30": 6,
+        "last": "2026-09-10"
       },
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 6,
+        "leads30": 5,
         "last": "2026-08-31"
       },
       {
@@ -68,7 +68,7 @@
       {
         "code": "stefan7904",
         "leads90": 75,
-        "leads30": 18,
+        "leads30": 17,
         "last": "2026-08-25"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 67.6,
-    "baselinePct": 38.7,
-    "note": "Launch engine, not an always-on channel: 67.6% of new contacts during the August challenge window vs 38.7% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 66.9,
+    "baselinePct": 38.8,
+    "note": "Launch engine, not an always-on channel: 66.9% of new contacts during the August challenge window vs 38.8% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

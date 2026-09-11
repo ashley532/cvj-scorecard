@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-11T17:20:01.118Z",
+  "generatedAt": "2026-09-11T21:03:18.177Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4327,
-    "reported": 4327,
-    "contacts30": 1233,
-    "aff30": 814,
+    "pulled": 4331,
+    "reported": 4331,
+    "contacts30": 1235,
+    "aff30": 815,
     "affPct30": 66,
-    "contacts90": 4327,
-    "aff90": 2030,
+    "contacts90": 4331,
+    "aff90": 2033,
     "affPct90": 46.9,
-    "contactsPrior60": 3094,
-    "affPrior60": 1216,
+    "contactsPrior60": 3096,
+    "affPrior60": 1218,
     "affPctPrior60": 39.3,
-    "codes90": 52,
-    "codesActive30": 23,
+    "codes90": 53,
+    "codesActive30": 24,
     "top": [
       {
         "code": "brian3917",
@@ -38,7 +38,7 @@
       {
         "code": "chris4081",
         "leads90": 142,
-        "leads30": 6,
+        "leads30": 5,
         "last": "2026-09-04"
       },
       {

@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-09-10T21:05:42.954Z",
+  "generatedAt": "2026-09-11T13:02:39.200Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-10T21:05:42.954Z",
-    "sessions": 27586,
-    "engagedSessions": 8649,
-    "engagementRatePct": 31.4,
+    "asOf": "2026-09-11T13:02:39.200Z",
+    "sessions": 26602,
+    "engagedSessions": 8290,
+    "engagementRatePct": 31.2,
     "avgEngagementSec": 112,
-    "pagesPerSession": 1.17,
+    "pagesPerSession": 1.16,
     "returnRatePct": 21,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 11728,
-        "dwellSec": 29
+        "sessions": 11187,
+        "dwellSec": 30
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 6987,
+        "sessions": 6683,
         "dwellSec": 27
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 743,
+        "sessions": 697,
         "dwellSec": 29
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 385,
-        "dwellSec": 9
+        "sessions": 383,
+        "dwellSec": 10
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 165,
+        "sessions": 154,
         "dwellSec": 7
       }
     ],
@@ -49,7 +49,7 @@
         "sentiment": "good"
       },
       "pagesPerSession": {
-        "pct": -10,
+        "pct": -11,
         "dir": "down",
         "sentiment": "bad"
       }
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 208111,
-    "clicked": 4233,
-    "ctrPct": 2.03,
+    "delivered": 208110,
+    "clicked": 4145,
+    "ctrPct": 1.99,
     "broadcastCtrPct": 1.94,
-    "note": "Click-through on the nurture series (workflow emails, 208,111 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.94% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 208,110 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.94% for contrast."
   },
   "retargeting": {
     "status": "live",

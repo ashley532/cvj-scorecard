@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-11T21:02:38.938Z",
+  "generatedAt": "2026-09-12T13:02:38.552Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 4.84,
-    "rate30CountPct": 6.11,
-    "rate90DollarPct": 3.37,
-    "rate90CountPct": 5.79,
-    "count30": 14,
-    "amount30": 8583,
+    "rate30DollarPct": 4.27,
+    "rate30CountPct": 5.96,
+    "rate90DollarPct": 3.31,
+    "rate90CountPct": 5.81,
+    "count30": 13,
+    "amount30": 7586,
     "count90": 49,
     "amount90": 18473.23,
-    "charges90": 847,
-    "chargeAmount90": 548383.25,
+    "charges90": 844,
+    "chargeAmount90": 557480.25,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.354,
+    "ratePct": 0.355,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,13 +34,13 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 46,
-    "revenue": 4595,
+    "units": 47,
+    "revenue": 4692,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 81,
+    "daysSinceLast": 82,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

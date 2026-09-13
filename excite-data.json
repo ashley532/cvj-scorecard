@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-13T17:02:59.656Z",
+  "generatedAt": "2026-09-13T21:07:28.655Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
     "rate30DollarPct": 2.87,
-    "rate30CountPct": 4.21,
+    "rate30CountPct": 4.17,
     "rate90DollarPct": 3.33,
-    "rate90CountPct": 5.72,
+    "rate90CountPct": 5.71,
     "count30": 9,
     "amount30": 4865,
     "count90": 49,
     "amount90": 18473.23,
-    "charges90": 856,
-    "chargeAmount90": 555102.25,
+    "charges90": 858,
+    "chargeAmount90": 555296.25,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
@@ -34,8 +34,8 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 56,
-    "revenue": 5565,
+    "units": 58,
+    "revenue": 5759,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {

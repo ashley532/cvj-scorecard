@@ -1,59 +1,9 @@
 {
-  "generatedAt": "2026-09-13T17:02:49.416Z",
+  "generatedAt": "2026-09-13T21:06:29.585Z",
   "stage": "Engage",
   "ga4": {
-    "status": "live",
-    "asOf": "2026-09-13T17:02:49.416Z",
-    "sessions": 26981,
-    "engagedSessions": 8990,
-    "engagementRatePct": 33.3,
-    "avgEngagementSec": 111,
-    "pagesPerSession": 1.17,
-    "returnRatePct": 19.9,
-    "manifestoLanding": [
-      {
-        "path": "/manifesto/",
-        "sessions": 10891,
-        "dwellSec": 31
-      },
-      {
-        "path": "/manifesto/bridge/",
-        "sessions": 7659,
-        "dwellSec": 25
-      },
-      {
-        "path": "/manifesto/training.html",
-        "sessions": 676,
-        "dwellSec": 30
-      },
-      {
-        "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 447,
-        "dwellSec": 15
-      },
-      {
-        "path": "/manifesto/affiliate-kit/",
-        "sessions": 134,
-        "dwellSec": 8
-      }
-    ],
-    "trends": {
-      "engagementRate": {
-        "pct": -21,
-        "dir": "down",
-        "sentiment": "bad"
-      },
-      "avgEngagement": {
-        "pct": 29,
-        "dir": "up",
-        "sentiment": "good"
-      },
-      "pagesPerSession": {
-        "pct": -9,
-        "dir": "down",
-        "sentiment": "bad"
-      }
-    }
+    "status": "error",
+    "note": "0th request: f1::BAD_REQUEST_ERROR: http://go/f1error/scheduler_errors_with_preferred_exec_cell.md Failed to schedule query when `preferred_exec_cell` is specified. PreferredExecCell: oa, Error: f1::SYSTEM_SERVER_BUSY: http://go/f1error/scheduler_worker_not_available_for_distributed_work.md No F1 workers available for scheduling distributed work on pool {f1-worker} [f1.ErrorDetail] { scheduling_detail { pool_name: \"f1-worker\" error_type: POOL_NOT_FOUND } }."
   },
   "nurture": {
     "status": "needs-audit",
@@ -64,11 +14,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 233177,
-    "clicked": 4361,
-    "ctrPct": 1.87,
+    "delivered": 244353,
+    "clicked": 4468,
+    "ctrPct": 1.83,
     "broadcastCtrPct": 1.59,
-    "note": "Click-through on the nurture series (workflow emails, 233,177 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.59% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 244,353 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.59% for contrast."
   },
   "retargeting": {
     "status": "live",

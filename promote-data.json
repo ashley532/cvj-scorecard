@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-13T21:08:08.398Z",
+  "generatedAt": "2026-09-14T13:03:21.959Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4400,
-    "reported": 4400,
-    "contacts30": 1264,
-    "aff30": 808,
-    "affPct30": 63.9,
-    "contacts90": 4400,
-    "aff90": 2049,
-    "affPct90": 46.6,
-    "contactsPrior60": 3136,
-    "affPrior60": 1241,
-    "affPctPrior60": 39.6,
+    "pulled": 4425,
+    "reported": 4425,
+    "contacts30": 1281,
+    "aff30": 803,
+    "affPct30": 62.7,
+    "contacts90": 4425,
+    "aff90": 2051,
+    "affPct90": 46.4,
+    "contactsPrior60": 3144,
+    "affPrior60": 1248,
+    "affPctPrior60": 39.7,
     "codes90": 53,
     "codesActive30": 23,
     "top": [
@@ -43,9 +43,9 @@
       },
       {
         "code": "glenledwell6353",
-        "leads90": 139,
-        "leads30": 138,
-        "last": "2026-09-12"
+        "leads90": 140,
+        "leads30": 139,
+        "last": "2026-09-14"
       },
       {
         "code": "molly3018",
@@ -62,13 +62,13 @@
       {
         "code": "gauher",
         "leads90": 80,
-        "leads30": 26,
+        "leads30": 25,
         "last": "2026-09-01"
       },
       {
         "code": "stefan7904",
-        "leads90": 76,
-        "leads30": 5,
+        "leads90": 77,
+        "leads30": 3,
         "last": "2026-09-13"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 63.9,
-    "baselinePct": 39.6,
-    "note": "Launch engine, not an always-on channel: 63.9% of new contacts during the August challenge window vs 39.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 62.7,
+    "baselinePct": 39.7,
+    "note": "Launch engine, not an always-on channel: 62.7% of new contacts during the August challenge window vs 39.7% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

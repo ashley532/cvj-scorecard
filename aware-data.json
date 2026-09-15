@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-14T21:01:53.266Z",
+  "generatedAt": "2026-09-15T13:01:12.591Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-14T21:01:53.266Z",
-    "window": "2026-08-15..2026-09-14",
-    "priorWindow": "2026-07-16..2026-08-15",
-    "spend30d": 5415,
-    "impressions": 158615,
-    "reach": 81856,
-    "coldManifestoCPL": 15.65,
+    "asOf": "2026-09-15T13:01:12.591Z",
+    "window": "2026-08-16..2026-09-15",
+    "priorWindow": "2026-07-17..2026-08-16",
+    "spend30d": 5575,
+    "impressions": 158817,
+    "reach": 81195,
+    "coldManifestoCPL": 15.14,
     "retargetingCPL": null,
-    "blendedCPL": 26.28,
+    "blendedCPL": 25.69,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
     "challengePurch": 0,
     "challengeCPP": null,
-    "activeAds": 15,
+    "activeAds": 12,
     "trends": {
       "spend": {
-        "pct": -10,
+        "pct": -8,
         "dir": "down",
         "sentiment": "neutral"
       },
@@ -35,13 +35,13 @@
         "sentiment": "bad"
       },
       "coldManifestoCPL": {
-        "pct": 13,
+        "pct": 5,
         "dir": "up",
         "sentiment": "bad"
       },
       "retargetingCPL": null,
       "blendedCPL": {
-        "pct": 20,
+        "pct": 11,
         "dir": "up",
         "sentiment": "bad"
       },
@@ -49,14 +49,14 @@
     }
   },
   "optins": {
-    "value": 3386,
+    "value": 3387,
     "status": "live",
-    "asOf": "2026-09-14T21:01:53.266Z",
+    "asOf": "2026-09-15T13:01:12.591Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 58,
-    "prevWk": 307,
-    "trendPct": -81,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3386 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 50,
+    "prevWk": 290,
+    "trendPct": -83,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3387 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -75,36 +75,36 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 158615,
-      "paidReach30d": 81856,
-      "manifestoSessions30d": 17215,
+      "paidImpressions30d": 158817,
+      "paidReach30d": 81195,
+      "manifestoSessions30d": 17043,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12814,
-      "igPosts": 664,
+      "igFollowers": 12817,
+      "igPosts": 665,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
         "status": "partial",
         "window": "30d",
         "shares": 35,
-        "comments": 63,
-        "likes": 578,
-        "posts": 83,
+        "comments": 64,
+        "likes": 583,
+        "posts": 85,
         "byChannel": {
           "linkedin": {
             "shares": 0,
             "comments": 0,
             "likes": 0,
-            "posts": 16
+            "posts": 17
           },
           "instagram": {
             "shares": 0,
-            "comments": 16,
-            "likes": 206,
-            "posts": 16
+            "comments": 17,
+            "likes": 211,
+            "posts": 17
           },
           "facebook": {
             "shares": 35,
@@ -132,32 +132,23 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-14T21:01:53.266Z",
+      "asOf": "2026-09-15T13:01:12.591Z",
       "avgEngagementSec": 86,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 18402,
-      "manifestoSessions30d": 17215,
+      "manifestoPageviews30d": 18272,
+      "manifestoSessions30d": 17043,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
     "retargeting": {
       "cpl": null,
-      "activeAds": 15,
+      "activeAds": 12,
       "status": "live",
       "label": "Grow retargeting lists"
     }
   },
   "history": [
-    {
-      "t": "2026-08-13T20:39:17.347Z",
-      "velocityWk": 463,
-      "spend": 5967,
-      "impressions": 271438,
-      "reach": 133669,
-      "blendedCPL": 5.95,
-      "aeo": 0
-    },
     {
       "t": "2026-08-13T21:19:42.098Z",
       "velocityWk": 460,
@@ -957,6 +948,15 @@
       "impressions": 158615,
       "reach": 81856,
       "blendedCPL": 26.28,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-15T13:01:12.591Z",
+      "velocityWk": 50,
+      "spend": 5575,
+      "impressions": 158817,
+      "reach": 81195,
+      "blendedCPL": 25.69,
       "aeo": 0
     }
   ]

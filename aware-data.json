@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-20T17:01:47.103Z",
+  "generatedAt": "2026-09-20T21:01:10.238Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-20T17:01:47.103Z",
+    "asOf": "2026-09-20T21:01:10.238Z",
     "window": "2026-08-21..2026-09-20",
     "priorWindow": "2026-07-22..2026-08-21",
-    "spend30d": 4959,
-    "impressions": 149749,
-    "reach": 78543,
+    "spend30d": 4961,
+    "impressions": 150308,
+    "reach": 78735,
     "coldManifestoCPL": 12.43,
     "retargetingCPL": null,
-    "blendedCPL": 22.34,
+    "blendedCPL": 22.35,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
@@ -51,11 +51,11 @@
   "optins": {
     "value": 3441,
     "status": "live",
-    "asOf": "2026-09-20T17:01:47.103Z",
+    "asOf": "2026-09-20T21:01:10.238Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 39,
-    "prevWk": 76,
-    "trendPct": -49,
+    "velocityWk": 36,
+    "prevWk": 75,
+    "trendPct": -52,
     "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3441 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
@@ -75,9 +75,9 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 149749,
-      "paidReach30d": 78543,
-      "manifestoSessions30d": 15278,
+      "paidImpressions30d": 150308,
+      "paidReach30d": 78735,
+      "manifestoSessions30d": 15308,
       "status": "live",
       "label": "Reach & Impressions"
     },
@@ -132,12 +132,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-20T17:01:47.103Z",
+      "asOf": "2026-09-20T21:01:10.238Z",
       "avgEngagementSec": 96,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 16262,
-      "manifestoSessions30d": 15278,
+      "manifestoPageviews30d": 16294,
+      "manifestoSessions30d": 15308,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -149,15 +149,6 @@
     }
   },
   "history": [
-    {
-      "t": "2026-08-18T00:00:55.982Z",
-      "velocityWk": 161,
-      "spend": 6175,
-      "impressions": 260089,
-      "reach": 129526,
-      "blendedCPL": 24.6,
-      "aeo": 0
-    },
     {
       "t": "2026-08-18T16:00:55.640Z",
       "velocityWk": 165,
@@ -957,6 +948,15 @@
       "impressions": 149749,
       "reach": 78543,
       "blendedCPL": 22.34,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-20T21:01:10.238Z",
+      "velocityWk": 36,
+      "spend": 4961,
+      "impressions": 150308,
+      "reach": 78735,
+      "blendedCPL": 22.35,
       "aeo": 0
     }
   ]

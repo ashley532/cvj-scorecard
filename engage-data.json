@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-09-20T17:02:51.260Z",
+  "generatedAt": "2026-09-20T21:02:22.476Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-20T17:02:51.260Z",
-    "sessions": 28819,
-    "engagedSessions": 10121,
-    "engagementRatePct": 35.1,
-    "avgEngagementSec": 176,
+    "asOf": "2026-09-20T21:02:22.476Z",
+    "sessions": 29109,
+    "engagedSessions": 10201,
+    "engagementRatePct": 35,
+    "avgEngagementSec": 175,
     "pagesPerSession": 1.26,
-    "returnRatePct": 28.9,
+    "returnRatePct": 29,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 9751,
+        "sessions": 9772,
         "dwellSec": 31
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 5820,
+        "sessions": 5827,
         "dwellSec": 26
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 986,
+        "sessions": 990,
         "dwellSec": 28
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 621,
+        "sessions": 623,
         "dwellSec": 38
       },
       {
@@ -44,7 +44,7 @@
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 122,
+        "pct": 121,
         "dir": "up",
         "sentiment": "good"
       },
@@ -58,17 +58,17 @@
   "nurture": {
     "status": "needs-audit",
     "total": 513,
-    "active": 329,
+    "active": 330,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 329431,
-    "clicked": 6655,
-    "ctrPct": 2.02,
+    "delivered": 330347,
+    "clicked": 6733,
+    "ctrPct": 2.04,
     "broadcastCtrPct": 1.75,
-    "note": "Click-through on the nurture series (workflow emails, 329,431 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.75% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 330,347 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.75% for contrast."
   },
   "retargeting": {
     "status": "live",

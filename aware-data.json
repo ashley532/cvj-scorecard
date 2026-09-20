@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-09-16T21:53:27.237Z",
+  "generatedAt": "2026-09-20T17:01:47.103Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-09-16T21:53:27.237Z",
-    "window": "2026-08-17..2026-09-16",
-    "priorWindow": "2026-07-18..2026-08-17",
-    "spend30d": 5684,
-    "impressions": 161232,
-    "reach": 82601,
-    "coldManifestoCPL": 14.1,
+    "asOf": "2026-09-20T17:01:47.103Z",
+    "window": "2026-08-21..2026-09-20",
+    "priorWindow": "2026-07-22..2026-08-21",
+    "spend30d": 4959,
+    "impressions": 149749,
+    "reach": 78543,
+    "coldManifestoCPL": 12.43,
     "retargetingCPL": null,
-    "blendedCPL": 24.19,
+    "blendedCPL": 22.34,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
     "challengePurch": 0,
     "challengeCPP": null,
-    "activeAds": 7,
+    "activeAds": 5,
     "trends": {
       "spend": {
-        "pct": -11,
+        "pct": -29,
         "dir": "down",
         "sentiment": "neutral"
       },
       "impressions": {
-        "pct": -40,
+        "pct": -44,
         "dir": "down",
         "sentiment": "bad"
       },
       "reach": {
-        "pct": -38,
+        "pct": -41,
         "dir": "down",
         "sentiment": "bad"
       },
       "coldManifestoCPL": {
-        "pct": -4,
+        "pct": -17,
         "dir": "down",
         "sentiment": "good"
       },
       "retargetingCPL": null,
       "blendedCPL": {
-        "pct": -3,
+        "pct": -14,
         "dir": "down",
         "sentiment": "good"
       },
@@ -49,14 +49,14 @@
     }
   },
   "optins": {
-    "value": 3407,
+    "value": 3441,
     "status": "live",
-    "asOf": "2026-09-16T21:53:27.237Z",
+    "asOf": "2026-09-20T17:01:47.103Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 46,
-    "prevWk": 261,
-    "trendPct": -82,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3407 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 39,
+    "prevWk": 76,
+    "trendPct": -49,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3441 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -75,30 +75,30 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 161232,
-      "paidReach30d": 82601,
-      "manifestoSessions30d": 17314,
+      "paidImpressions30d": 149749,
+      "paidReach30d": 78543,
+      "manifestoSessions30d": 15278,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12813,
+      "igFollowers": 12820,
       "igPosts": 666,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
         "status": "partial",
         "window": "30d",
-        "shares": 34,
+        "shares": 35,
         "comments": 68,
-        "likes": 610,
-        "posts": 96,
+        "likes": 619,
+        "posts": 89,
         "byChannel": {
           "community": {
             "shares": 0,
             "comments": 0,
             "likes": 0,
-            "posts": 42
+            "posts": 35
           },
           "linkedin": {
             "shares": 0,
@@ -109,13 +109,13 @@
           "instagram": {
             "shares": 0,
             "comments": 18,
-            "likes": 225,
+            "likes": 236,
             "posts": 18
           },
           "facebook": {
-            "shares": 34,
+            "shares": 35,
             "comments": 50,
-            "likes": 385,
+            "likes": 383,
             "posts": 16
           },
           "youtube": {
@@ -132,122 +132,23 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-09-16T21:53:27.237Z",
-      "avgEngagementSec": 87,
+      "asOf": "2026-09-20T17:01:47.103Z",
+      "avgEngagementSec": 96,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 18495,
-      "manifestoSessions30d": 17314,
+      "manifestoPageviews30d": 16262,
+      "manifestoSessions30d": 15278,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
     "retargeting": {
       "cpl": null,
-      "activeAds": 7,
+      "activeAds": 5,
       "status": "live",
       "label": "Grow retargeting lists"
     }
   },
   "history": [
-    {
-      "t": "2026-08-14T16:50:40.711Z",
-      "velocityWk": 382,
-      "spend": 5950,
-      "impressions": 267990,
-      "reach": 132358,
-      "blendedCPL": 20.45,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-14T20:04:07.796Z",
-      "velocityWk": 323,
-      "spend": 5958,
-      "impressions": 268538,
-      "reach": 132903,
-      "blendedCPL": 20.4,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-15T16:01:04.935Z",
-      "velocityWk": 257,
-      "spend": 5964,
-      "impressions": 265510,
-      "reach": 131929,
-      "blendedCPL": 21.69,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-15T20:00:49.046Z",
-      "velocityWk": 236,
-      "spend": 5983,
-      "impressions": 266154,
-      "reach": 132002,
-      "blendedCPL": 21.76,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-16T00:00:51.900Z",
-      "velocityWk": 222,
-      "spend": 5939,
-      "impressions": 260365,
-      "reach": 129883,
-      "blendedCPL": 22.84,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-16T16:00:55.250Z",
-      "velocityWk": 196,
-      "spend": 6010,
-      "impressions": 263435,
-      "reach": 131010,
-      "blendedCPL": 23.03,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-16T20:00:54.764Z",
-      "velocityWk": 195,
-      "spend": 6029,
-      "impressions": 264332,
-      "reach": 131033,
-      "blendedCPL": 23.1,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-17T00:00:49.506Z",
-      "velocityWk": 194,
-      "spend": 5993,
-      "impressions": 258928,
-      "reach": 129930,
-      "blendedCPL": 24.17,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-17T14:13:21.813Z",
-      "velocityWk": 178,
-      "spend": 6063,
-      "impressions": 262512,
-      "reach": 131688,
-      "blendedCPL": 24.25,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-17T16:00:50.801Z",
-      "velocityWk": 177,
-      "spend": 6073,
-      "impressions": 262915,
-      "reach": 131823,
-      "blendedCPL": 24.19,
-      "aeo": 0
-    },
-    {
-      "t": "2026-08-17T20:00:59.010Z",
-      "velocityWk": 165,
-      "spend": 6135,
-      "impressions": 264089,
-      "reach": 131845,
-      "blendedCPL": 24.44,
-      "aeo": 0
-    },
     {
       "t": "2026-08-18T00:00:55.982Z",
       "velocityWk": 161,
@@ -957,6 +858,105 @@
       "impressions": 161232,
       "reach": 82601,
       "blendedCPL": 24.19,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-17T15:03:40.954Z",
+      "velocityWk": 46,
+      "spend": 5434,
+      "impressions": 156917,
+      "reach": 81407,
+      "blendedCPL": 23.22,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-17T18:15:42.246Z",
+      "velocityWk": 48,
+      "spend": 5447,
+      "impressions": 157415,
+      "reach": 81652,
+      "blendedCPL": 23.28,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-17T21:01:10.388Z",
+      "velocityWk": 46,
+      "spend": 5458,
+      "impressions": 157793,
+      "reach": 82059,
+      "blendedCPL": 23.33,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-18T13:01:28.803Z",
+      "velocityWk": 46,
+      "spend": 5096,
+      "impressions": 151950,
+      "reach": 79397,
+      "blendedCPL": 21.97,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-18T17:01:23.604Z",
+      "velocityWk": 46,
+      "spend": 5163,
+      "impressions": 152992,
+      "reach": 79664,
+      "blendedCPL": 22.16,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-18T21:01:24.796Z",
+      "velocityWk": 43,
+      "spend": 5181,
+      "impressions": 153598,
+      "reach": 79781,
+      "blendedCPL": 22.23,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-19T13:01:06.043Z",
+      "velocityWk": 43,
+      "spend": 5013,
+      "impressions": 149379,
+      "reach": 78669,
+      "blendedCPL": 22.08,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-19T17:01:20.107Z",
+      "velocityWk": 41,
+      "spend": 5031,
+      "impressions": 150054,
+      "reach": 78781,
+      "blendedCPL": 22.16,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-19T21:01:13.590Z",
+      "velocityWk": 40,
+      "spend": 5038,
+      "impressions": 150779,
+      "reach": 79046,
+      "blendedCPL": 22.19,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-20T13:01:12.698Z",
+      "velocityWk": 37,
+      "spend": 4955,
+      "impressions": 149062,
+      "reach": 78340,
+      "blendedCPL": 22.32,
+      "aeo": 0
+    },
+    {
+      "t": "2026-09-20T17:01:47.103Z",
+      "velocityWk": 39,
+      "spend": 4959,
+      "impressions": 149749,
+      "reach": 78543,
+      "blendedCPL": 22.34,
       "aeo": 0
     }
   ]

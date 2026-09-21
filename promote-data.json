@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-20T21:03:09.928Z",
+  "generatedAt": "2026-09-21T13:08:10.919Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4385,
-    "reported": 4385,
-    "contacts30": 1397,
-    "aff30": 715,
+    "pulled": 4381,
+    "reported": 4381,
+    "contacts30": 1395,
+    "aff30": 714,
     "affPct30": 51.2,
-    "contacts90": 4385,
+    "contacts90": 4381,
     "aff90": 2067,
-    "affPct90": 47.1,
-    "contactsPrior60": 2988,
-    "affPrior60": 1352,
-    "affPctPrior60": 45.2,
+    "affPct90": 47.2,
+    "contactsPrior60": 2986,
+    "affPrior60": 1353,
+    "affPctPrior60": 45.3,
     "codes90": 53,
     "codesActive30": 21,
     "top": [
@@ -85,8 +85,8 @@
   "eventDriven": {
     "status": "needs-work",
     "launchPct": 51.2,
-    "baselinePct": 45.2,
-    "note": "Launch engine, not an always-on channel: 51.2% of new contacts during the August challenge window vs 45.2% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "baselinePct": 45.3,
+    "note": "Launch engine, not an always-on channel: 51.2% of new contacts during the August challenge window vs 45.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

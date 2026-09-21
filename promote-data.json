@@ -1,97 +1,17 @@
 {
-  "generatedAt": "2026-09-21T18:31:15.086Z",
+  "generatedAt": "2026-09-21T21:04:02.947Z",
   "stage": "Promote",
   "affiliateOptins": {
-    "status": "live",
-    "pulled": 4380,
-    "reported": 4380,
-    "contacts30": 1357,
-    "aff30": 674,
-    "affPct30": 49.7,
-    "contacts90": 4380,
-    "aff90": 2066,
-    "affPct90": 47.2,
-    "contactsPrior60": 3023,
-    "affPrior60": 1392,
-    "affPctPrior60": 46,
-    "codes90": 53,
-    "codesActive30": 21,
-    "top": [
-      {
-        "code": "brian3917",
-        "leads90": 229,
-        "leads30": 4,
-        "last": "2026-09-09"
-      },
-      {
-        "code": "danwardrope1542",
-        "leads90": 211,
-        "leads30": 208,
-        "last": "2026-09-18"
-      },
-      {
-        "code": "ebenpagan1230",
-        "leads90": 178,
-        "leads30": 136,
-        "last": "2026-09-20"
-      },
-      {
-        "code": "chris4081",
-        "leads90": 142,
-        "leads30": 3,
-        "last": "2026-09-04"
-      },
-      {
-        "code": "glenledwell6353",
-        "leads90": 141,
-        "leads30": 140,
-        "last": "2026-09-16"
-      },
-      {
-        "code": "molly3018",
-        "leads90": 123,
-        "leads30": 6,
-        "last": "2026-09-11"
-      },
-      {
-        "code": "reedfloren614",
-        "leads90": 105,
-        "leads30": 2,
-        "last": "2026-08-31"
-      },
-      {
-        "code": "gauher",
-        "leads90": 80,
-        "leads30": 4,
-        "last": "2026-09-01"
-      },
-      {
-        "code": "stefan7904",
-        "leads90": 77,
-        "leads30": 2,
-        "last": "2026-09-13"
-      },
-      {
-        "code": "jonbenson9403",
-        "leads90": 71,
-        "leads30": 0,
-        "last": "2026-08-05"
-      }
-    ],
-    "zmosCheckoutAttributed90": 0,
-    "ctdAffiliateAttributed90": 9,
-    "note": "Share of new GHL contacts carrying the \"Referred By Affiliate\" code. 30d covers the Aug 11-13 challenge window; the prior-60d figure is the true between-launch baseline. Full pull verified against the reported total — never reported off a partial page."
+    "status": "pending",
+    "note": "GHL pull failed this run: contacts/search HTTP 401"
   },
   "eventDriven": {
-    "status": "needs-work",
-    "launchPct": 49.7,
-    "baselinePct": 46,
-    "note": "Launch engine, not an always-on channel: 49.7% of new contacts during the August challenge window vs 46% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "status": "pending"
   },
   "affiliateRevenue": {
     "status": "needs-work",
-    "zmosAttributed": 0,
-    "ctdAttributed": 9,
+    "zmosAttributed": null,
+    "ctdAttributed": null,
     "note": "NOT MEASURABLE YET — attribution is captured cleanly at the opt-in and lost at the sale. \"Affiliate ZMOS Checkout Step 1\" is populated on 2 contacts in 90 days; \"ctd affiliate\" on 9. A published \"Affiliate Tracking - Stripe Sales\" workflow exists and is populating ~2 records a quarter. Until the checkout carries the code through to Stripe, nobody can say what any partner earned SP."
   },
   "jvCalendar": {

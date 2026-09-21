@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-21T18:30:22.494Z",
+  "generatedAt": "2026-09-21T21:03:17.290Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-21T18:30:22.494Z",
-    "sessions": 28991,
-    "engagedSessions": 10314,
-    "engagementRatePct": 35.6,
+    "asOf": "2026-09-21T21:03:17.290Z",
+    "sessions": 29055,
+    "engagedSessions": 10327,
+    "engagementRatePct": 35.5,
     "avgEngagementSec": 181,
     "pagesPerSession": 1.28,
-    "returnRatePct": 29.8,
+    "returnRatePct": 29.9,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 9609,
+        "sessions": 9617,
         "dwellSec": 31
       },
       {
@@ -23,12 +23,12 @@
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 1015,
+        "sessions": 1016,
         "dwellSec": 28
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 620,
+        "sessions": 625,
         "dwellSec": 36
       },
       {
@@ -44,7 +44,7 @@
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 130,
+        "pct": 129,
         "dir": "up",
         "sentiment": "good"
       },
@@ -64,17 +64,17 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 358277,
-    "clicked": 7383,
-    "ctrPct": 2.06,
+    "delivered": 359319,
+    "clicked": 7460,
+    "ctrPct": 2.08,
     "broadcastCtrPct": 1.77,
-    "note": "Click-through on the nurture series (workflow emails, 358,277 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.77% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 359,319 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.77% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 350,
-    "frequency": 3.18,
-    "campaigns": 1,
+    "reach": 391,
+    "frequency": 2.31,
+    "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },
   "gated": {

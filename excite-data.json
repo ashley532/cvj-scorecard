@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-22T13:03:08.770Z",
+  "generatedAt": "2026-09-22T17:02:45.437Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 3.53,
-    "rate30CountPct": 3.19,
-    "rate90DollarPct": 3.02,
+    "rate30DollarPct": 3.48,
+    "rate30CountPct": 3.18,
+    "rate90DollarPct": 3.01,
     "rate90CountPct": 5.37,
     "count30": 10,
     "amount30": 5161,
     "count90": 51,
     "amount90": 17296.23,
-    "charges90": 949,
-    "chargeAmount90": 572915.22,
+    "charges90": 950,
+    "chargeAmount90": 574915.22,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {

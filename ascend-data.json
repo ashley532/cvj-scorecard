@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:01:27.986Z",
+  "generatedAt": "2026-09-23T19:08:59.888Z",
   "stage": "Ascend",
   "status": "partial",
   "scope": "Cross-offer ascension visibility assembled from Convert and CTD snapshots. This is not a customer-level cohort join.",
@@ -21,7 +21,7 @@
     "pipelineClosed": 11,
     "pipelineWon": 1,
     "roadmapHeld": 0,
-    "source": "ctd-fill-data.json generated 2026-09-23T13:01:27.986Z",
+    "source": "ctd-fill-data.json generated 2026-09-23T19:08:59.888Z",
     "note": "Stripe, GHL pipeline, roadmap sessions, and Collin's authoritative roster are not joined. Jay Abraham seats are a separate JV and excluded from regular seats."
   },
   "frontEndToCtd": {

@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-09-23T13:02:28.026Z",
+  "generatedAt": "2026-09-23T19:10:07.000Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-23T13:02:28.026Z",
-    "sessions": 27832,
-    "engagedSessions": 9611,
+    "asOf": "2026-09-23T19:10:07.000Z",
+    "sessions": 27935,
+    "engagedSessions": 9632,
     "engagementRatePct": 34.5,
-    "avgEngagementSec": 190,
+    "avgEngagementSec": 189,
     "pagesPerSession": 1.31,
-    "returnRatePct": 31.4,
+    "returnRatePct": 31.7,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 8742,
+        "sessions": 8778,
         "dwellSec": 29
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 4687,
-        "dwellSec": 25
+        "sessions": 4704,
+        "dwellSec": 24
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 1045,
-        "dwellSec": 28
+        "sessions": 1051,
+        "dwellSec": 27
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 577,
+        "sessions": 579,
         "dwellSec": 27
       },
       {
@@ -44,7 +44,7 @@
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 132,
+        "pct": 131,
         "dir": "up",
         "sentiment": "good"
       },
@@ -57,23 +57,23 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 520,
-    "active": 332,
+    "total": 524,
+    "active": 333,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 386323,
-    "clicked": 7906,
+    "delivered": 387355,
+    "clicked": 7939,
     "ctrPct": 2.05,
     "broadcastCtrPct": 1.78,
-    "note": "Click-through on the nurture series (workflow emails, 386,323 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.78% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 387,355 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.78% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 770,
-    "frequency": 4.1,
+    "reach": 826,
+    "frequency": 4.46,
     "campaigns": 2,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },

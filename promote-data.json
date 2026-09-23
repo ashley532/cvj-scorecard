@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-22T21:53:02.272Z",
+  "generatedAt": "2026-09-23T13:03:15.803Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4374,
-    "reported": 4374,
-    "contacts30": 1243,
-    "aff30": 565,
-    "affPct30": 45.5,
-    "contacts90": 4374,
-    "aff90": 2069,
-    "affPct90": 47.3,
-    "contactsPrior60": 3131,
-    "affPrior60": 1504,
-    "affPctPrior60": 48,
+    "pulled": 4362,
+    "reported": 4362,
+    "contacts30": 1176,
+    "aff30": 498,
+    "affPct30": 42.3,
+    "contacts90": 4362,
+    "aff90": 2070,
+    "affPct90": 47.5,
+    "contactsPrior60": 3186,
+    "affPrior60": 1572,
+    "affPctPrior60": 49.3,
     "codes90": 53,
-    "codesActive30": 21,
+    "codesActive30": 19,
     "top": [
       {
         "code": "brian3917",
@@ -32,7 +32,7 @@
       {
         "code": "ebenpagan1230",
         "leads90": 178,
-        "leads30": 59,
+        "leads30": 36,
         "last": "2026-09-20"
       },
       {
@@ -44,7 +44,7 @@
       {
         "code": "glenledwell6353",
         "leads90": 141,
-        "leads30": 114,
+        "leads30": 90,
         "last": "2026-09-16"
       },
       {
@@ -62,7 +62,7 @@
       {
         "code": "gauher",
         "leads90": 80,
-        "leads30": 5,
+        "leads30": 4,
         "last": "2026-09-21"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 45.5,
-    "baselinePct": 48,
-    "note": "Launch engine, not an always-on channel: 45.5% of new contacts during the August challenge window vs 48% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 42.3,
+    "baselinePct": 49.3,
+    "note": "Launch engine, not an always-on channel: 42.3% of new contacts during the August challenge window vs 49.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

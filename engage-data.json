@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-09-26T17:02:50.772Z",
+  "generatedAt": "2026-09-26T21:02:47.450Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-26T17:02:50.772Z",
-    "sessions": 26213,
-    "engagedSessions": 8601,
-    "engagementRatePct": 32.8,
-    "avgEngagementSec": 203,
+    "asOf": "2026-09-26T21:02:47.450Z",
+    "sessions": 26354,
+    "engagedSessions": 8664,
+    "engagementRatePct": 32.9,
+    "avgEngagementSec": 202,
     "pagesPerSession": 1.33,
-    "returnRatePct": 33.2,
+    "returnRatePct": 33.3,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 7156,
+        "sessions": 7167,
         "dwellSec": 26
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 3153,
+        "sessions": 3156,
         "dwellSec": 20
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 1092,
+        "sessions": 1094,
         "dwellSec": 27
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 595,
-        "dwellSec": 24
+        "sessions": 600,
+        "dwellSec": 23
       },
       {
         "path": "/manifesto/thank-you/",
@@ -44,7 +44,7 @@
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 145,
+        "pct": 144,
         "dir": "up",
         "sentiment": "good"
       },
@@ -57,18 +57,18 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 524,
+    "total": 526,
     "active": 336,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 423793,
-    "clicked": 8279,
+    "delivered": 426552,
+    "clicked": 8331,
     "ctrPct": 1.95,
     "broadcastCtrPct": 1.8,
-    "note": "Click-through on the nurture series (workflow emails, 423,793 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.8% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 426,552 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.8% for contrast."
   },
   "retargeting": {
     "status": "live",

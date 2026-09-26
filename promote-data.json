@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-25T21:03:27.939Z",
+  "generatedAt": "2026-09-26T13:03:32.470Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4477,
-    "reported": 4477,
-    "contacts30": 1169,
-    "aff30": 328,
-    "affPct30": 28.1,
-    "contacts90": 4477,
-    "aff90": 2076,
-    "affPct90": 46.4,
-    "contactsPrior60": 3308,
-    "affPrior60": 1748,
-    "affPctPrior60": 52.8,
+    "pulled": 4475,
+    "reported": 4475,
+    "contacts30": 1162,
+    "aff30": 318,
+    "affPct30": 27.4,
+    "contacts90": 4475,
+    "aff90": 2079,
+    "affPct90": 46.5,
+    "contactsPrior60": 3313,
+    "affPrior60": 1761,
+    "affPctPrior60": 53.2,
     "codes90": 53,
     "codesActive30": 20,
     "top": [
@@ -25,9 +25,9 @@
       },
       {
         "code": "danwardrope1542",
-        "leads90": 212,
-        "leads30": 209,
-        "last": "2026-09-22"
+        "leads90": 213,
+        "leads30": 210,
+        "last": "2026-09-25"
       },
       {
         "code": "ebenpagan1230",
@@ -37,9 +37,9 @@
       },
       {
         "code": "glenledwell6353",
-        "leads90": 142,
-        "leads30": 16,
-        "last": "2026-09-24"
+        "leads90": 144,
+        "leads30": 18,
+        "last": "2026-09-26"
       },
       {
         "code": "chris4081",
@@ -56,7 +56,7 @@
       {
         "code": "reedfloren614",
         "leads90": 105,
-        "leads30": 2,
+        "leads30": 1,
         "last": "2026-08-31"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 28.1,
-    "baselinePct": 52.8,
-    "note": "Launch engine, not an always-on channel: 28.1% of new contacts during the August challenge window vs 52.8% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 27.4,
+    "baselinePct": 53.2,
+    "note": "Launch engine, not an always-on channel: 27.4% of new contacts during the August challenge window vs 53.2% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

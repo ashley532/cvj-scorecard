@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-26T13:02:52.539Z",
+  "generatedAt": "2026-09-26T17:02:59.786Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 1.72,
-    "rate30CountPct": 2.35,
-    "rate90DollarPct": 2.72,
-    "rate90CountPct": 5.21,
+    "rate30DollarPct": 1.67,
+    "rate30CountPct": 2.31,
+    "rate90DollarPct": 2.7,
+    "rate90CountPct": 5.19,
     "count30": 8,
     "amount30": 3161,
     "count90": 51,
     "amount90": 16793.23,
-    "charges90": 978,
-    "chargeAmount90": 617055.78,
+    "charges90": 983,
+    "chargeAmount90": 622093.78,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.307,
+    "ratePct": 0.305,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {

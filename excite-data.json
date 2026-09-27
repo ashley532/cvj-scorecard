@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-26T21:02:56.669Z",
+  "generatedAt": "2026-09-27T13:02:45.476Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
     "rate30DollarPct": 1.66,
     "rate30CountPct": 2.31,
-    "rate90DollarPct": 2.7,
-    "rate90CountPct": 5.18,
+    "rate90DollarPct": 2.71,
+    "rate90CountPct": 5.2,
     "count30": 8,
     "amount30": 3161,
     "count90": 51,
     "amount90": 16793.23,
-    "charges90": 984,
-    "chargeAmount90": 623093.78,
+    "charges90": 980,
+    "chargeAmount90": 618553.78,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.305,
+    "ratePct": 0.306,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -40,7 +40,7 @@
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 96,
+    "daysSinceLast": 97,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

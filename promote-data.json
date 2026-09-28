@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T17:03:28.577Z",
+  "generatedAt": "2026-09-28T21:03:19.557Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4444,
-    "reported": 4444,
-    "contacts30": 1162,
-    "aff30": 312,
-    "affPct30": 26.9,
-    "contacts90": 4444,
+    "pulled": 4447,
+    "reported": 4447,
+    "contacts30": 1163,
+    "aff30": 309,
+    "affPct30": 26.6,
+    "contacts90": 4447,
     "aff90": 2082,
     "affPct90": 46.8,
-    "contactsPrior60": 3282,
-    "affPrior60": 1770,
-    "affPctPrior60": 53.9,
+    "contactsPrior60": 3284,
+    "affPrior60": 1773,
+    "affPctPrior60": 54,
     "codes90": 52,
     "codesActive30": 20,
     "top": [
@@ -38,7 +38,7 @@
       {
         "code": "glenledwell6353",
         "leads90": 144,
-        "leads30": 15,
+        "leads30": 14,
         "last": "2026-09-26"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 26.9,
-    "baselinePct": 53.9,
-    "note": "Launch engine, not an always-on channel: 26.9% of new contacts during the August challenge window vs 53.9% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 26.6,
+    "baselinePct": 54,
+    "note": "Launch engine, not an always-on channel: 26.6% of new contacts during the August challenge window vs 54% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

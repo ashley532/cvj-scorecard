@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-28T21:02:30.716Z",
+  "generatedAt": "2026-09-29T13:02:24.496Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-09-28T21:02:30.716Z",
-    "sessions": 26315,
-    "engagedSessions": 8488,
-    "engagementRatePct": 32.3,
-    "avgEngagementSec": 188,
-    "pagesPerSession": 1.32,
-    "returnRatePct": 33.5,
+    "asOf": "2026-09-29T13:02:24.496Z",
+    "sessions": 26176,
+    "engagedSessions": 8441,
+    "engagementRatePct": 32.2,
+    "avgEngagementSec": 191,
+    "pagesPerSession": 1.31,
+    "returnRatePct": 33.6,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 6731,
+        "sessions": 6542,
         "dwellSec": 26
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 2957,
-        "dwellSec": 20
+        "sessions": 2824,
+        "dwellSec": 21
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 1099,
+        "sessions": 1101,
         "dwellSec": 27
       },
       {
@@ -39,17 +39,17 @@
     ],
     "trends": {
       "engagementRate": {
-        "pct": -19,
+        "pct": -18,
         "dir": "down",
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 116,
+        "pct": 117,
         "dir": "up",
         "sentiment": "good"
       },
       "pagesPerSession": {
-        "pct": 9,
+        "pct": 10,
         "dir": "up",
         "sentiment": "good"
       }
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 413869,
-    "clicked": 8238,
-    "ctrPct": 1.99,
-    "broadcastCtrPct": 1.66,
-    "note": "Click-through on the nurture series (workflow emails, 413,869 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.66% for contrast."
+    "delivered": 401139,
+    "clicked": 8102,
+    "ctrPct": 2.02,
+    "broadcastCtrPct": 1.58,
+    "note": "Click-through on the nurture series (workflow emails, 401,139 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.58% for contrast."
   },
   "retargeting": {
     "status": "live",

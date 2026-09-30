@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-30T17:02:57.578Z",
+  "generatedAt": "2026-09-30T21:02:56.104Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 3.72,
-    "rate30CountPct": 2.54,
+    "rate30DollarPct": 3.71,
+    "rate30CountPct": 2.52,
     "rate90DollarPct": 3.56,
-    "rate90CountPct": 5.3,
+    "rate90CountPct": 5.29,
     "count30": 9,
     "amount30": 7161,
     "count90": 50,
     "amount90": 20599.23,
-    "charges90": 944,
-    "chargeAmount90": 578591.78,
+    "charges90": 946,
+    "chargeAmount90": 578835.78,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.318,
+    "ratePct": 0.317,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,8 +34,8 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 159,
-    "revenue": 20816,
+    "units": 160,
+    "revenue": 20913,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {

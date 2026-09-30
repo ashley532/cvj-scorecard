@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-29T21:03:05.196Z",
+  "generatedAt": "2026-09-30T13:03:19.717Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 1.66,
-    "rate30CountPct": 2.29,
-    "rate90DollarPct": 2.79,
-    "rate90CountPct": 5.23,
+    "rate30DollarPct": 1.64,
+    "rate30CountPct": 2.26,
+    "rate90DollarPct": 2.87,
+    "rate90CountPct": 5.2,
     "count30": 8,
     "amount30": 3161,
-    "count90": 50,
-    "amount90": 16696.23,
-    "charges90": 956,
-    "chargeAmount90": 598458.78,
+    "count90": 49,
+    "amount90": 16599.23,
+    "charges90": 943,
+    "chargeAmount90": 578344.78,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.314,
+    "ratePct": 0.318,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,13 +34,13 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 151,
-    "revenue": 18986,
+    "units": 158,
+    "revenue": 20569,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 99,
+    "daysSinceLast": 100,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

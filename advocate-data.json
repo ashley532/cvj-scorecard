@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:03:39.490Z",
+  "generatedAt": "2026-10-01T17:03:24.088Z",
   "stage": "Advocate",
   "nature": "Proof-inventory audit, not a live-metric pull. Counts below are read from the vault inventories and labelled as such.",
   "proofPoints": {
@@ -44,8 +44,8 @@
     "exists": false,
     "formsTotal": 49,
     "workflowsTotal": 536,
-    "tagsTotal": 507,
-    "note": "Nothing running. Not found across 49 forms, 536 workflows and 507 tags (plus 13 surveys, 186 custom fields, 964 email templates and 495 campaigns, each paginated to its reported total). IMPORTANT: those object types all sit inside GoHighLevel — the mechanism that actually produced SP's 115 testimonials was OUTSIDE it, a cohort contest form run by hand, which lapsed after the spring cohorts. The finding is \"it stopped\", not \"it never existed\". Re-checked live every refresh, so this flips by itself the day an in-platform one is built. THE CONSTRAINT."
+    "tagsTotal": 508,
+    "note": "Nothing running. Not found across 49 forms, 536 workflows and 508 tags (plus 13 surveys, 186 custom fields, 964 email templates and 495 campaigns, each paginated to its reported total). IMPORTANT: those object types all sit inside GoHighLevel — the mechanism that actually produced SP's 115 testimonials was OUTSIDE it, a cohort contest form run by hand, which lapsed after the spring cohorts. The finding is \"it stopped\", not \"it never existed\". Re-checked live every refresh, so this flips by itself the day an in-platform one is built. THE CONSTRAINT."
   },
   "frontEndAsk": {
     "status": "needs-work",

@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-30T21:02:56.104Z",
+  "generatedAt": "2026-10-01T13:02:59.596Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 3.71,
-    "rate30CountPct": 2.52,
-    "rate90DollarPct": 3.56,
-    "rate90CountPct": 5.29,
-    "count30": 9,
-    "amount30": 7161,
-    "count90": 50,
-    "amount90": 20599.23,
-    "charges90": 946,
-    "chargeAmount90": 578835.78,
+    "rate30DollarPct": 3.89,
+    "rate30CountPct": 3.23,
+    "rate90DollarPct": 3.63,
+    "rate90CountPct": 5.53,
+    "count30": 12,
+    "amount30": 7552,
+    "count90": 53,
+    "amount90": 20990.23,
+    "charges90": 958,
+    "chargeAmount90": 578144.78,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 3,
     "amount90": 2597,
-    "ratePct": 0.317,
+    "ratePct": 0.313,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,13 +34,13 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 160,
-    "revenue": 20913,
+    "units": 4,
+    "revenue": 592,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 100,
+    "daysSinceLast": 101,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

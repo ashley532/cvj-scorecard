@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-02T13:00:54.999Z",
+  "generatedAt": "2026-10-02T17:00:59.733Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-10-02T13:00:54.999Z",
+    "asOf": "2026-10-02T17:00:59.733Z",
     "window": "2026-09-02..2026-10-02",
     "priorWindow": "2026-08-03..2026-09-02",
-    "spend30d": 5330,
-    "impressions": 166401,
-    "reach": 87876,
+    "spend30d": 5370,
+    "impressions": 167485,
+    "reach": 88516,
     "coldManifestoCPL": null,
     "retargetingCPL": 406.58,
-    "blendedCPL": 25.75,
+    "blendedCPL": 25.09,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
@@ -30,7 +30,7 @@
         "sentiment": "bad"
       },
       "reach": {
-        "pct": -15,
+        "pct": -14,
         "dir": "down",
         "sentiment": "bad"
       },
@@ -41,7 +41,7 @@
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": -32,
+        "pct": -33,
         "dir": "down",
         "sentiment": "good"
       },
@@ -49,14 +49,14 @@
     }
   },
   "optins": {
-    "value": 3708,
+    "value": 3709,
     "status": "live",
-    "asOf": "2026-10-02T13:00:54.999Z",
+    "asOf": "2026-10-02T17:00:59.733Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 39,
-    "prevWk": 202,
-    "trendPct": -81,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3708 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 36,
+    "prevWk": 204,
+    "trendPct": -82,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3709 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -75,15 +75,15 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 166401,
-      "paidReach30d": 87876,
-      "manifestoSessions30d": 8840,
+      "paidImpressions30d": 167485,
+      "paidReach30d": 88516,
+      "manifestoSessions30d": 8841,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12836,
+      "igFollowers": 12837,
       "igPosts": 672,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
@@ -132,12 +132,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-10-02T13:00:54.999Z",
+      "asOf": "2026-10-02T17:00:59.733Z",
       "avgEngagementSec": 100,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 9025,
-      "manifestoSessions30d": 8840,
+      "manifestoPageviews30d": 9028,
+      "manifestoSessions30d": 8841,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -149,15 +149,6 @@
     }
   },
   "history": [
-    {
-      "t": "2026-08-31T20:01:23.573Z",
-      "velocityWk": 177,
-      "spend": 5763,
-      "impressions": 212390,
-      "reach": 111114,
-      "blendedCPL": 36.94,
-      "aeo": 0
-    },
     {
       "t": "2026-09-01T00:00:59.159Z",
       "velocityWk": 167,
@@ -957,6 +948,15 @@
       "impressions": 166401,
       "reach": 87876,
       "blendedCPL": 25.75,
+      "aeo": 0
+    },
+    {
+      "t": "2026-10-02T17:00:59.733Z",
+      "velocityWk": 36,
+      "spend": 5370,
+      "impressions": 167485,
+      "reach": 88516,
+      "blendedCPL": 25.09,
       "aeo": 0
     }
   ]

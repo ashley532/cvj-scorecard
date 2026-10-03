@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-02T21:00:58.011Z",
+  "generatedAt": "2026-10-03T13:00:50.593Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-10-02T21:00:58.011Z",
-    "window": "2026-09-02..2026-10-02",
-    "priorWindow": "2026-08-03..2026-09-02",
-    "spend30d": 5400,
-    "impressions": 168362,
-    "reach": 88740,
+    "asOf": "2026-10-03T13:00:50.593Z",
+    "window": "2026-09-03..2026-10-03",
+    "priorWindow": "2026-08-04..2026-09-03",
+    "spend30d": 5330,
+    "impressions": 169183,
+    "reach": 89628,
     "coldManifestoCPL": null,
     "retargetingCPL": 406.58,
-    "blendedCPL": 25.12,
+    "blendedCPL": 24.79,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
@@ -25,23 +25,23 @@
         "sentiment": "neutral"
       },
       "impressions": {
-        "pct": -14,
+        "pct": -11,
         "dir": "down",
         "sentiment": "bad"
       },
       "reach": {
-        "pct": -14,
+        "pct": -10,
         "dir": "down",
         "sentiment": "bad"
       },
       "coldManifestoCPL": null,
       "retargetingCPL": {
-        "pct": 728,
+        "pct": 870,
         "dir": "up",
         "sentiment": "bad"
       },
       "blendedCPL": {
-        "pct": -33,
+        "pct": -36,
         "dir": "down",
         "sentiment": "good"
       },
@@ -49,14 +49,14 @@
     }
   },
   "optins": {
-    "value": 3710,
+    "value": 3713,
     "status": "live",
-    "asOf": "2026-10-02T21:00:58.011Z",
+    "asOf": "2026-10-03T13:00:50.593Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 36,
-    "prevWk": 204,
-    "trendPct": -82,
-    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3710 = lifetime on this tag (deduped North-Star ≈2,281)."
+    "velocityWk": 32,
+    "prevWk": 203,
+    "trendPct": -84,
+    "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3713 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
     "brandAwareness": {
@@ -75,9 +75,9 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 168362,
-      "paidReach30d": 88740,
-      "manifestoSessions30d": 8845,
+      "paidImpressions30d": 169183,
+      "paidReach30d": 89628,
+      "manifestoSessions30d": 8348,
       "status": "live",
       "label": "Reach & Impressions"
     },
@@ -90,9 +90,9 @@
         "status": "partial",
         "window": "30d",
         "shares": 1,
-        "comments": 40,
-        "likes": 280,
-        "posts": 86,
+        "comments": 35,
+        "likes": 267,
+        "posts": 83,
         "byChannel": {
           "community": {
             "shares": 0,
@@ -102,21 +102,21 @@
           },
           "instagram": {
             "shares": 0,
-            "comments": 11,
-            "likes": 183,
-            "posts": 16
+            "comments": 10,
+            "likes": 176,
+            "posts": 15
           },
           "linkedin": {
             "shares": 0,
             "comments": 0,
             "likes": 0,
-            "posts": 16
+            "posts": 15
           },
           "facebook": {
             "shares": 1,
-            "comments": 29,
-            "likes": 97,
-            "posts": 14
+            "comments": 25,
+            "likes": 91,
+            "posts": 13
           },
           "youtube": {
             "shares": 0,
@@ -132,12 +132,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-10-02T21:00:58.011Z",
-      "avgEngagementSec": 100,
+      "asOf": "2026-10-03T13:00:50.593Z",
+      "avgEngagementSec": 113,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 9037,
-      "manifestoSessions30d": 8845,
+      "manifestoPageviews30d": 8633,
+      "manifestoSessions30d": 8348,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -149,15 +149,6 @@
     }
   },
   "history": [
-    {
-      "t": "2026-09-01T17:02:29.818Z",
-      "velocityWk": 157,
-      "spend": 5522,
-      "impressions": 203557,
-      "reach": 107400,
-      "blendedCPL": 37.82,
-      "aeo": 0
-    },
     {
       "t": "2026-09-01T21:00:47.660Z",
       "velocityWk": 159,
@@ -957,6 +948,15 @@
       "impressions": 168362,
       "reach": 88740,
       "blendedCPL": 25.12,
+      "aeo": 0
+    },
+    {
+      "t": "2026-10-03T13:00:50.593Z",
+      "velocityWk": 32,
+      "spend": 5330,
+      "impressions": 169183,
+      "reach": 89628,
+      "blendedCPL": 24.79,
       "aeo": 0
     }
   ]

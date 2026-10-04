@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-04T17:02:20.265Z",
+  "generatedAt": "2026-10-04T21:02:06.812Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-10-04T17:02:20.265Z",
-    "sessions": 23688,
-    "engagedSessions": 8030,
+    "asOf": "2026-10-04T21:02:06.812Z",
+    "sessions": 23634,
+    "engagedSessions": 8022,
     "engagementRatePct": 33.9,
-    "avgEngagementSec": 208,
-    "pagesPerSession": 1.36,
-    "returnRatePct": 36.5,
+    "avgEngagementSec": 209,
+    "pagesPerSession": 1.37,
+    "returnRatePct": 36.3,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 4185,
-        "dwellSec": 29
+        "sessions": 4173,
+        "dwellSec": 30
       },
       {
         "path": "/manifesto/bridge/",
@@ -44,12 +44,12 @@
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 128,
+        "pct": 129,
         "dir": "up",
         "sentiment": "good"
       },
       "pagesPerSession": {
-        "pct": 16,
+        "pct": 17,
         "dir": "up",
         "sentiment": "good"
       }
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 323618,
-    "clicked": 7492,
+    "delivered": 323657,
+    "clicked": 7505,
     "ctrPct": 2.32,
     "broadcastCtrPct": 1.54,
-    "note": "Click-through on the nurture series (workflow emails, 323,618 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.54% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 323,657 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~1.54% for contrast."
   },
   "retargeting": {
     "status": "live",

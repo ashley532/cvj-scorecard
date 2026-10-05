@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-05T13:03:03.481Z",
+  "generatedAt": "2026-10-05T17:03:23.919Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4382,
-    "reported": 4382,
-    "contacts30": 943,
-    "aff30": 172,
-    "affPct30": 18.2,
-    "contacts90": 4382,
+    "pulled": 4380,
+    "reported": 4380,
+    "contacts30": 911,
+    "aff30": 144,
+    "affPct30": 15.8,
+    "contacts90": 4380,
     "aff90": 2084,
     "affPct90": 47.6,
-    "contactsPrior60": 3439,
-    "affPrior60": 1912,
-    "affPctPrior60": 55.6,
+    "contactsPrior60": 3469,
+    "affPrior60": 1940,
+    "affPctPrior60": 55.9,
     "codes90": 52,
     "codesActive30": 19,
     "top": [
@@ -26,7 +26,7 @@
       {
         "code": "danwardrope1542",
         "leads90": 215,
-        "leads30": 101,
+        "leads30": 73,
         "last": "2026-10-01"
       },
       {
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 18.2,
-    "baselinePct": 55.6,
-    "note": "Launch engine, not an always-on channel: 18.2% of new contacts during the August challenge window vs 55.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 15.8,
+    "baselinePct": 55.9,
+    "note": "Launch engine, not an always-on channel: 15.8% of new contacts during the August challenge window vs 55.9% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

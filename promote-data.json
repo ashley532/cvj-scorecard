@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-06T21:03:01.282Z",
+  "generatedAt": "2026-10-07T13:03:15.908Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 4238,
-    "reported": 4238,
-    "contacts30": 864,
-    "aff30": 104,
-    "affPct30": 12,
-    "contacts90": 4238,
-    "aff90": 2082,
-    "affPct90": 49.1,
-    "contactsPrior60": 3374,
-    "affPrior60": 1978,
-    "affPctPrior60": 58.6,
+    "pulled": 4145,
+    "reported": 4145,
+    "contacts30": 855,
+    "aff30": 96,
+    "affPct30": 11.2,
+    "contacts90": 4145,
+    "aff90": 2081,
+    "affPct90": 50.2,
+    "contactsPrior60": 3290,
+    "affPrior60": 1985,
+    "affPctPrior60": 60.3,
     "codes90": 51,
-    "codesActive30": 19,
+    "codesActive30": 20,
     "top": [
       {
         "code": "brian3917",
@@ -26,19 +26,19 @@
       {
         "code": "danwardrope1542",
         "leads90": 215,
-        "leads30": 35,
+        "leads30": 29,
         "last": "2026-10-01"
       },
       {
         "code": "ebenpagan1230",
         "leads90": 179,
-        "leads30": 4,
+        "leads30": 3,
         "last": "2026-10-05"
       },
       {
         "code": "glenledwell6353",
         "leads90": 144,
-        "leads30": 8,
+        "leads30": 7,
         "last": "2026-09-26"
       },
       {
@@ -72,10 +72,10 @@
         "last": "2026-09-13"
       },
       {
-        "code": "jonbenson9403",
-        "leads90": 71,
+        "code": "karla4191",
+        "leads90": 70,
         "leads30": 0,
-        "last": "2026-08-05"
+        "last": "2026-08-07"
       }
     ],
     "zmosCheckoutAttributed90": 0,
@@ -84,9 +84,9 @@
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 12,
-    "baselinePct": 58.6,
-    "note": "Launch engine, not an always-on channel: 12% of new contacts during the August challenge window vs 58.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 11.2,
+    "baselinePct": 60.3,
+    "note": "Launch engine, not an always-on channel: 11.2% of new contacts during the August challenge window vs 60.3% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",

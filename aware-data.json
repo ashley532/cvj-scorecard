@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-08T17:01:00.229Z",
+  "generatedAt": "2026-10-08T21:00:57.788Z",
   "stage": "Aware",
   "paid": {
     "status": "live",
-    "asOf": "2026-10-08T17:01:00.229Z",
+    "asOf": "2026-10-08T21:00:57.788Z",
     "window": "2026-09-08..2026-10-08",
     "priorWindow": "2026-08-09..2026-09-08",
-    "spend30d": 5431,
-    "impressions": 175227,
-    "reach": 95826,
+    "spend30d": 5477,
+    "impressions": 176467,
+    "reach": 96039,
     "coldManifestoCPL": null,
     "retargetingCPL": 406.58,
-    "blendedCPL": 26.75,
+    "blendedCPL": 26.85,
     "challengeRoas": null,
     "challengeRev": 0,
     "challengeSpend": 0,
@@ -20,7 +20,7 @@
     "activeAds": 26,
     "trends": {
       "spend": {
-        "pct": 7,
+        "pct": 8,
         "dir": "up",
         "sentiment": "neutral"
       },
@@ -47,11 +47,11 @@
   "optins": {
     "value": 3735,
     "status": "live",
-    "asOf": "2026-10-08T17:01:00.229Z",
+    "asOf": "2026-10-08T21:00:57.788Z",
     "source": "GHL tag: manifesto bonus vids",
-    "velocityWk": 25,
-    "prevWk": 45,
-    "trendPct": -44,
+    "velocityWk": 23,
+    "prevWk": 43,
+    "trendPct": -47,
     "note": "velocity = opt-ins in the last 7 days (rolling); trend vs prior 7 days. Cumulative 3735 = lifetime on this tag (deduped North-Star ≈2,281)."
   },
   "goals": {
@@ -71,15 +71,15 @@
       "label": "AI-citation (AEO)"
     },
     "impressions": {
-      "paidImpressions30d": 175227,
-      "paidReach30d": 95826,
-      "manifestoSessions30d": 6202,
+      "paidImpressions30d": 176467,
+      "paidReach30d": 96039,
+      "manifestoSessions30d": 6215,
       "status": "live",
       "label": "Reach & Impressions"
     },
     "applause": {
       "status": "partial",
-      "igFollowers": 12833,
+      "igFollowers": 12830,
       "igPosts": 677,
       "note": "IG followers live; per-post engagement (likes/comments/reach) gated by Meta app perms",
       "eng": {
@@ -122,12 +122,12 @@
     },
     "timeCommitment": {
       "status": "live",
-      "asOf": "2026-10-08T17:01:00.229Z",
-      "avgEngagementSec": 138,
+      "asOf": "2026-10-08T21:00:57.788Z",
+      "avgEngagementSec": 137,
       "scroll90Events": 0,
       "scrollDepthPct": 0,
-      "manifestoPageviews30d": 6327,
-      "manifestoSessions30d": 6202,
+      "manifestoPageviews30d": 6336,
+      "manifestoSessions30d": 6215,
       "note": "GA4 scroll (90%) + avg engagement on /manifesto*; deeper read-depth = Microsoft Clarity on the web page (Ben/Donnie), not FlippingBook",
       "label": "Time commitment"
     },
@@ -139,15 +139,6 @@
     }
   },
   "history": [
-    {
-      "t": "2026-09-08T13:33:51.467Z",
-      "velocityWk": 289,
-      "spend": 4789,
-      "impressions": 156795,
-      "reach": 76891,
-      "blendedCPL": 31.09,
-      "aeo": 0
-    },
     {
       "t": "2026-09-08T17:01:01.201Z",
       "velocityWk": 287,
@@ -947,6 +938,15 @@
       "impressions": 175227,
       "reach": 95826,
       "blendedCPL": 26.75,
+      "aeo": 0
+    },
+    {
+      "t": "2026-10-08T21:00:57.788Z",
+      "velocityWk": 23,
+      "spend": 5477,
+      "impressions": 176467,
+      "reach": 96039,
+      "blendedCPL": 26.85,
       "aeo": 0
     }
   ]

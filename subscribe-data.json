@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-08T17:02:26.493Z",
+  "generatedAt": "2026-10-08T21:02:47.116Z",
   "stage": "Subscribe",
   "optins": {
     "status": "live",
-    "asOf": "2026-10-08T17:02:26.493Z",
+    "asOf": "2026-10-08T21:02:47.116Z",
     "cumulative": 3735,
-    "last30": 328,
-    "prev30": 1122,
-    "velocityWk": 25,
-    "prevWk": 45,
+    "last30": 325,
+    "prev30": 1120,
+    "velocityWk": 23,
+    "prevWk": 43,
     "velocityTrend": {
-      "pct": -44,
+      "pct": -47,
       "dir": "down",
       "sentiment": "bad"
     },
@@ -20,10 +20,10 @@
       "sentiment": "bad"
     },
     "listSize": 42194,
-    "listNew30": 831,
-    "listPrev30": 1303,
+    "listNew30": 824,
+    "listPrev30": 1304,
     "listGrowthTrend": {
-      "pct": -36,
+      "pct": -37,
       "dir": "down",
       "sentiment": "bad"
     },
@@ -41,14 +41,14 @@
   },
   "conversion": {
     "status": "live",
-    "manifestoSessions30d": 6202,
-    "optins30d": 328,
-    "ratePct": 5.29,
+    "manifestoSessions30d": 6215,
+    "optins30d": 325,
+    "ratePct": 5.23,
     "note": "Clean manifesto opt-in rate = deduped manifesto opt-ins ÷ manifesto-page sessions (30d). Manifesto is GATELESS (Rich red line), which caps the rate."
   },
   "deliverability": {
     "status": "live",
-    "delivered": 369280,
+    "delivered": 369306,
     "failed": 3965,
     "ratePct": 98.9,
     "note": "Mailgun 30d delivered ÷ (delivered+failed)."

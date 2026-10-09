@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-09T13:02:47.468Z",
+  "generatedAt": "2026-10-09T17:12:32.376Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-10-09T13:02:47.468Z",
-    "sessions": 20944,
-    "engagedSessions": 6927,
+    "asOf": "2026-10-09T17:12:32.376Z",
+    "sessions": 20966,
+    "engagedSessions": 6933,
     "engagementRatePct": 33.1,
     "avgEngagementSec": 221,
     "pagesPerSession": 1.41,
@@ -13,7 +13,7 @@
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 2928,
+        "sessions": 2932,
         "dwellSec": 24
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 452,
+        "sessions": 453,
         "dwellSec": 17
       },
       {
@@ -57,18 +57,18 @@
   },
   "nurture": {
     "status": "needs-audit",
-    "total": 542,
+    "total": 543,
     "active": 337,
     "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 249445,
-    "clicked": 6514,
+    "delivered": 249471,
+    "clicked": 6517,
     "ctrPct": 2.61,
     "broadcastCtrPct": 26.28,
-    "note": "Click-through on the nurture series (workflow emails, 249,445 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~26.28% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 249,471 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~26.28% for contrast."
   },
   "retargeting": {
     "status": "live",

@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-09T22:18:24.580Z",
+  "generatedAt": "2026-10-10T13:08:29.522Z",
   "stage": "Excite",
   "refunds": {
     "status": "live",
-    "rate30DollarPct": 5.16,
-    "rate30CountPct": 4.22,
-    "rate90DollarPct": 4.01,
-    "rate90CountPct": 5.36,
-    "count30": 16,
-    "amount30": 10820,
+    "rate30DollarPct": 5.13,
+    "rate30CountPct": 3.95,
+    "rate90DollarPct": 3.99,
+    "rate90CountPct": 5.31,
+    "count30": 15,
+    "amount30": 10723,
     "count90": 53,
     "amount90": 23702.71,
-    "charges90": 988,
-    "chargeAmount90": 591465.26,
+    "charges90": 998,
+    "chargeAmount90": 593642.26,
     "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
     "status": "live",
     "count90": 2,
     "amount90": 1347,
-    "ratePct": 0.202,
+    "ratePct": 0.2,
     "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
@@ -34,13 +34,13 @@
   },
   "frontEndVolume": {
     "status": "live",
-    "units": 33,
-    "revenue": 5161,
+    "units": 36,
+    "revenue": 5804,
     "note": "First-purchase units this month — the buyers arriving with no welcome sequence built to greet them. The per-offer breakdown is a top-N view, not a full decomposition, so its rows do not sum to the total."
   },
   "satisfaction": {
     "status": "needs-work",
-    "daysSinceLast": 109,
+    "daysSinceLast": 110,
     "eliteFmResponses": 56,
     "ctdResponses": 11,
     "note": "The only satisfaction instrument SP owns: Post-Support Survey (Elite & FM) 56 responses 2026-05-04→05-19, Post-Support (CTD) 11 responses 2026-04-24→06-22. Nothing collected since 2026-06-22. Verified by paginating all 1,396 survey submissions with a widened date window (the default window hides everything older than ~30 days)."

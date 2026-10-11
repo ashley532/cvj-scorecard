@@ -1,78 +1,29 @@
 {
-  "generatedAt": "2026-10-11T13:05:59.270Z",
+  "generatedAt": "2026-10-11T17:07:39.905Z",
   "stage": "Engage",
   "ga4": {
-    "status": "live",
-    "asOf": "2026-10-11T13:05:59.270Z",
-    "sessions": 20652,
-    "engagedSessions": 6666,
-    "engagementRatePct": 32.3,
-    "avgEngagementSec": 221,
-    "pagesPerSession": 1.4,
-    "returnRatePct": 38.3,
-    "manifestoLanding": [
-      {
-        "path": "/manifesto/",
-        "sessions": 2709,
-        "dwellSec": 24
-      },
-      {
-        "path": "/manifesto/bridge/",
-        "sessions": 1586,
-        "dwellSec": 15
-      },
-      {
-        "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 893,
-        "dwellSec": 29
-      },
-      {
-        "path": "/manifesto/training.html",
-        "sessions": 442,
-        "dwellSec": 17
-      },
-      {
-        "path": "/manifesto/affiliate-kit/",
-        "sessions": 51,
-        "dwellSec": 6
-      }
-    ],
-    "trends": {
-      "engagementRate": {
-        "pct": 4,
-        "dir": "up",
-        "sentiment": "good"
-      },
-      "avgEngagement": {
-        "pct": 97,
-        "dir": "up",
-        "sentiment": "good"
-      },
-      "pagesPerSession": {
-        "pct": 21,
-        "dir": "up",
-        "sentiment": "good"
-      }
-    }
+    "status": "error",
+    "note": "request to https://oauth2.googleapis.com/token failed, reason: "
   },
   "nurture": {
-    "status": "needs-audit",
-    "total": 545,
-    "active": 339,
-    "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
+    "status": "error",
+    "note": "fetch failed"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 221423,
-    "clicked": 5983,
+    "delivered": 221431,
+    "clicked": 5986,
     "ctrPct": 2.7,
     "broadcastCtrPct": 24.49,
-    "note": "Click-through on the nurture series (workflow emails, 221,423 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~24.49% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 221,431 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~24.49% for contrast."
   },
   "retargeting": {
-    "status": "error",
-    "note": "fetch failed"
+    "status": "live",
+    "reach": 78234,
+    "frequency": 4.07,
+    "campaigns": 3,
+    "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },
   "gated": {
     "manifestoReadDepth": {

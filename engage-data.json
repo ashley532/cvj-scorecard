@@ -1,26 +1,28 @@
 {
-  "generatedAt": "2026-10-11T17:07:39.905Z",
+  "generatedAt": "2026-10-11T21:03:39.640Z",
   "stage": "Engage",
   "ga4": {
     "status": "error",
     "note": "request to https://oauth2.googleapis.com/token failed, reason: "
   },
   "nurture": {
-    "status": "error",
-    "note": "fetch failed"
+    "status": "needs-audit",
+    "total": 545,
+    "active": 339,
+    "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 221431,
-    "clicked": 5986,
-    "ctrPct": 2.7,
+    "delivered": 221435,
+    "clicked": 5996,
+    "ctrPct": 2.71,
     "broadcastCtrPct": 24.49,
-    "note": "Click-through on the nurture series (workflow emails, 221,431 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~24.49% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 221,435 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~24.49% for contrast."
   },
   "retargeting": {
     "status": "live",
-    "reach": 78234,
+    "reach": 78378,
     "frequency": 4.07,
     "campaigns": 3,
     "note": "warm/retargeting reach 30d; intermittent — verify always-on"

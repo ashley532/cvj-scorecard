@@ -1,21 +1,81 @@
 {
-  "generatedAt": "2026-10-12T14:22:03.148Z",
+  "generatedAt": "2026-10-12T17:14:15.056Z",
   "stage": "Engage",
   "ga4": {
-    "status": "error",
-    "note": "request to https://oauth2.googleapis.com/token failed, reason: getaddrinfo ENOTFOUND oauth2.googleapis.com"
+    "status": "live",
+    "asOf": "2026-10-12T17:14:15.056Z",
+    "sessions": 19517,
+    "engagedSessions": 6003,
+    "engagementRatePct": 30.8,
+    "avgEngagementSec": 230,
+    "pagesPerSession": 1.41,
+    "returnRatePct": 40.7,
+    "manifestoLanding": [
+      {
+        "path": "/manifesto/",
+        "sessions": 2623,
+        "dwellSec": 24
+      },
+      {
+        "path": "/manifesto/ai-calibration-prompts/",
+        "sessions": 871,
+        "dwellSec": 29
+      },
+      {
+        "path": "/manifesto/bridge/",
+        "sessions": 527,
+        "dwellSec": 20
+      },
+      {
+        "path": "/manifesto/training.html",
+        "sessions": 437,
+        "dwellSec": 17
+      },
+      {
+        "path": "/manifesto/affiliate-kit/",
+        "sessions": 51,
+        "dwellSec": 6
+      }
+    ],
+    "trends": {
+      "engagementRate": {
+        "pct": -6,
+        "dir": "down",
+        "sentiment": "bad"
+      },
+      "avgEngagement": {
+        "pct": 108,
+        "dir": "up",
+        "sentiment": "good"
+      },
+      "pagesPerSession": {
+        "pct": 21,
+        "dir": "up",
+        "sentiment": "good"
+      }
+    }
   },
   "nurture": {
-    "status": "error",
-    "note": "fetch failed"
+    "status": "needs-audit",
+    "total": 549,
+    "active": 342,
+    "note": "count only — which route engaged→offer is UNAUDITED (to-do)"
   },
   "nurtureEngagement": {
-    "status": "error",
-    "error": "fetch failed"
+    "status": "live",
+    "window": "30d",
+    "delivered": 207840,
+    "clicked": 5840,
+    "ctrPct": 2.81,
+    "broadcastCtrPct": 24.23,
+    "note": "Click-through on the nurture series (workflow emails, 207,840 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~24.23% for contrast."
   },
   "retargeting": {
-    "status": "error",
-    "note": "fetch failed"
+    "status": "live",
+    "reach": 78460,
+    "frequency": 4.07,
+    "campaigns": 3,
+    "note": "warm/retargeting reach 30d; intermittent — verify always-on"
   },
   "gated": {
     "manifestoReadDepth": {

@@ -1,12 +1,26 @@
 {
-  "generatedAt": "2026-10-12T14:22:04.789Z",
+  "generatedAt": "2026-10-12T17:14:23.441Z",
   "stage": "Excite",
   "refunds": {
-    "status": "pending",
-    "note": "rich-peer unreachable this run — Stripe refund pull skipped"
+    "status": "live",
+    "rate30DollarPct": 5.07,
+    "rate30CountPct": 4.08,
+    "rate90DollarPct": 3.92,
+    "rate90CountPct": 4.89,
+    "count30": 15,
+    "amount30": 10723,
+    "count90": 50,
+    "amount90": 23411.71,
+    "charges90": 1023,
+    "chargeAmount90": 596902.26,
+    "note": "Stripe only (Whop not included — Whop is a small share of SP revenue). The cleanest \"did they regret it\" signal. Healthy — see rate90DollarPct on this same object for the current figure. Note CTD carries a no-refunds policy, which sits inside this denominator."
   },
   "disputes": {
-    "status": "pending"
+    "status": "live",
+    "count90": 2,
+    "amount90": 1347,
+    "ratePct": 0.196,
+    "note": "Chargebacks as a share of successful charges, 90d. Well under the ~0.75% card-network danger line."
   },
   "frontEndOnboarding": {
     "status": "needs-work",

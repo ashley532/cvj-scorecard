@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-10-13T13:02:41.872Z",
+  "generatedAt": "2026-10-13T17:02:38.029Z",
   "stage": "Engage",
   "ga4": {
     "status": "live",
-    "asOf": "2026-10-13T13:02:41.872Z",
-    "sessions": 19094,
-    "engagedSessions": 5893,
-    "engagementRatePct": 30.9,
-    "avgEngagementSec": 234,
+    "asOf": "2026-10-13T17:02:38.029Z",
+    "sessions": 19350,
+    "engagedSessions": 5906,
+    "engagementRatePct": 30.5,
+    "avgEngagementSec": 232,
     "pagesPerSession": 1.42,
     "returnRatePct": 40.9,
     "manifestoLanding": [
       {
         "path": "/manifesto/",
-        "sessions": 2522,
+        "sessions": 2567,
         "dwellSec": 24
       },
       {
         "path": "/manifesto/ai-calibration-prompts/",
-        "sessions": 852,
+        "sessions": 859,
         "dwellSec": 29
       },
       {
         "path": "/manifesto/bridge/",
-        "sessions": 490,
+        "sessions": 495,
         "dwellSec": 20
       },
       {
         "path": "/manifesto/training.html",
-        "sessions": 433,
+        "sessions": 434,
         "dwellSec": 17
       },
       {
         "path": "/manifesto/affiliate-kit/",
-        "sessions": 50,
+        "sessions": 51,
         "dwellSec": 6
       }
     ],
     "trends": {
       "engagementRate": {
-        "pct": -7,
+        "pct": -8,
         "dir": "down",
         "sentiment": "bad"
       },
       "avgEngagement": {
-        "pct": 111,
+        "pct": 108,
         "dir": "up",
         "sentiment": "good"
       },
@@ -64,11 +64,11 @@
   "nurtureEngagement": {
     "status": "live",
     "window": "30d",
-    "delivered": 194443,
-    "clicked": 5594,
+    "delivered": 194449,
+    "clicked": 5596,
     "ctrPct": 2.88,
     "broadcastCtrPct": 23.47,
-    "note": "Click-through on the nurture series (workflow emails, 194,443 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~23.47% for contrast."
+    "note": "Click-through on the nurture series (workflow emails, 194,449 sent/30d). Opens omitted — MPP-inflated. Broadcasts run ~23.47% for contrast."
   },
   "retargeting": {
     "status": "live",

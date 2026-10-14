@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-14T17:03:56.348Z",
+  "generatedAt": "2026-10-14T21:03:58.634Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 3661,
-    "reported": 3661,
-    "contacts30": 656,
+    "pulled": 3632,
+    "reported": 3632,
+    "contacts30": 607,
     "aff30": 50,
-    "affPct30": 7.6,
-    "contacts90": 3661,
+    "affPct30": 8.2,
+    "contacts90": 3632,
     "aff90": 2050,
-    "affPct90": 56,
-    "contactsPrior60": 3005,
+    "affPct90": 56.4,
+    "contactsPrior60": 3025,
     "affPrior60": 2000,
-    "affPctPrior60": 66.6,
+    "affPctPrior60": 66.1,
     "codes90": 52,
     "codesActive30": 17,
     "top": [
@@ -49,7 +49,7 @@
       },
       {
         "code": "molly3018",
-        "leads90": 123,
+        "leads90": 122,
         "leads30": 0,
         "last": "2026-09-11"
       },
@@ -61,9 +61,9 @@
       },
       {
         "code": "gauher",
-        "leads90": 80,
-        "leads30": 1,
-        "last": "2026-09-21"
+        "leads90": 81,
+        "leads30": 2,
+        "last": "2026-10-14"
       },
       {
         "code": "stefan7904",
@@ -79,19 +79,19 @@
       }
     ],
     "zmosCheckoutAttributed90": 0,
-    "ctdAffiliateAttributed90": 7,
+    "ctdAffiliateAttributed90": 6,
     "note": "Share of new GHL contacts carrying the \"Referred By Affiliate\" code. 30d covers the Aug 11-13 challenge window; the prior-60d figure is the true between-launch baseline. Full pull verified against the reported total — never reported off a partial page."
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 7.6,
-    "baselinePct": 66.6,
-    "note": "Launch engine, not an always-on channel: 7.6% of new contacts during the August challenge window vs 66.6% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 8.2,
+    "baselinePct": 66.1,
+    "note": "Launch engine, not an always-on channel: 8.2% of new contacts during the August challenge window vs 66.1% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",
     "zmosAttributed": 0,
-    "ctdAttributed": 7,
+    "ctdAttributed": 6,
     "note": "NOT MEASURABLE YET — attribution is captured cleanly at the opt-in and lost at the sale. \"Affiliate ZMOS Checkout Step 1\" is populated on 2 contacts in 90 days; \"ctd affiliate\" on 9. A published \"Affiliate Tracking - Stripe Sales\" workflow exists and is populating ~2 records a quarter. Until the checkout carries the code through to Stripe, nobody can say what any partner earned SP."
   },
   "jvCalendar": {

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-15T13:03:31.121Z",
+  "generatedAt": "2026-10-15T17:03:58.404Z",
   "stage": "Promote",
   "affiliateOptins": {
     "status": "live",
-    "pulled": 3599,
-    "reported": 3599,
-    "contacts30": 567,
+    "pulled": 3564,
+    "reported": 3564,
+    "contacts30": 529,
     "aff30": 49,
-    "affPct30": 8.6,
-    "contacts90": 3599,
-    "aff90": 2046,
-    "affPct90": 56.8,
-    "contactsPrior60": 3032,
-    "affPrior60": 1997,
-    "affPctPrior60": 65.9,
+    "affPct30": 9.3,
+    "contacts90": 3564,
+    "aff90": 2044,
+    "affPct90": 57.4,
+    "contactsPrior60": 3035,
+    "affPrior60": 1995,
+    "affPctPrior60": 65.7,
     "codes90": 52,
     "codesActive30": 17,
     "top": [
@@ -79,19 +79,19 @@
       }
     ],
     "zmosCheckoutAttributed90": 0,
-    "ctdAffiliateAttributed90": 6,
+    "ctdAffiliateAttributed90": 5,
     "note": "Share of new GHL contacts carrying the \"Referred By Affiliate\" code. 30d covers the Aug 11-13 challenge window; the prior-60d figure is the true between-launch baseline. Full pull verified against the reported total — never reported off a partial page."
   },
   "eventDriven": {
     "status": "needs-work",
-    "launchPct": 8.6,
-    "baselinePct": 65.9,
-    "note": "Launch engine, not an always-on channel: 8.6% of new contacts during the August challenge window vs 65.9% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
+    "launchPct": 9.3,
+    "baselinePct": 65.7,
+    "note": "Launch engine, not an always-on channel: 9.3% of new contacts during the August challenge window vs 65.7% over the preceding 60 days. Same shape as Subscribe's opt-in velocity and Convert's front end."
   },
   "affiliateRevenue": {
     "status": "needs-work",
     "zmosAttributed": 0,
-    "ctdAttributed": 6,
+    "ctdAttributed": 5,
     "note": "NOT MEASURABLE YET — attribution is captured cleanly at the opt-in and lost at the sale. \"Affiliate ZMOS Checkout Step 1\" is populated on 2 contacts in 90 days; \"ctd affiliate\" on 9. A published \"Affiliate Tracking - Stripe Sales\" workflow exists and is populating ~2 records a quarter. Until the checkout carries the code through to Stripe, nobody can say what any partner earned SP."
   },
   "jvCalendar": {
